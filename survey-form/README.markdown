@@ -1,6 +1,6 @@
 # Survey form by BoCode
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/bojan-c/pen/pojGoxb](https://codepen.io/bojan-c/pen/pojGoxb).
+A Pen created on CodePen.io. Original URL: [https://codepen.io/bojan-c/full/pojGoxb](https://codepen.io/bojan-c/full/pojGoxb).
 
 ## Description of the project 
 <section id='description'>
