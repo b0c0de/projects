@@ -1,0 +1,52 @@
+marked.setOptions({
+  sanitize: true
+});
+
+var AppBox = React.createClass({
+  getInitialState:function() {
+    return {text:''};
+  },
+  textChange:function(e) {
+    this.setState({text:marked(e.target.value)});
+  },
+  render:function() {
+    return (
+      <div className="row">
+        <TextBox text={this.state.text} onTextChange={this.textChange}/>
+        <ResultBox text={this.state.text}/>
+      </div>
+    )
+  }
+})
+
+var TextBox = React.createClass({
+  render:function() {
+    return (
+      <div className="input col-md-6">
+        <h2>Input</h2>
+        <textarea className="form-control" onChange={this.props.onTextChange} placeholder="Type in your text" rows="20">{this.props.text}</textarea>
+      </div>
+    );
+  }
+});
+
+var ResultBox = React.createClass({
+  rawMarkup:function(){
+    return {__html:this.props.text}
+  },
+  render:function() {
+     return (
+       <div className="col-md-6">
+         <h2>Output</h2>
+         <div className="result" dangerouslySetInnerHTML={this.rawMarkup()}>
+         </div>
+       </div>
+     );
+  }
+ 
+})
+        
+ReactDOM.render(
+  <AppBox/>,
+  document.getElementById('previewer')
+);
