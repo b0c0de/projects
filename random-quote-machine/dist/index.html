@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Random Quote Machine by BoCode</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <h3>Random Quote Machine</h3>
+</header>
+<body>
+  <center style="margin: 30px;">
+    <div id="intro"></div><br>
+    <div>
+      <img id="getQuote" src="https://preview.ibb.co/ia7Gqd/quote.jpg" width=10%/>
+    </div>
+    <div id="quote"></div>
+    <a id="twitterQuote" class="icon-link" href="" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true"></i> Share this quote
+    </a>
+    <hr>
+  <div>Enter your own quote. (Max number of characters: 200)<p>
+    <form id="addQuoteForm">
+      <textarea rows="4" cols="70" maxlength="200" name="userQuote"></textarea><br><br>
+      <input type="button" class="btn btn-primary" onclick="insertQuote()" value="Add Quote">
+    </form>
+  </div><br><br>
+  <div id="newQuote"></div> <!--Display the new quote -->
+  </center>
+</body>
+<footer>
+  <center>
+    <p>Coded and designed by: <a href="https://www.linkedin.com/in/bojancvjetkovic/" target="_blank">BoCode</a></p>
+  </center>
+</footer>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
