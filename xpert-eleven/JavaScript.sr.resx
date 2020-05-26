@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sAddIcon" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="sAverageForm" xml:space="preserve">
+    <value>Prosecna forma</value>
+  </data>
+  <data name="sCancel" xml:space="preserve">
+    <value>Ponisti</value>
+  </data>
+  <data name="sClose" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="sConfirmDeleteOwnIcon" xml:space="preserve">
+    <value>Da li ste sigurni da zelite da izbrisete ikonu ?</value>
+  </data>
+  <data name="sCreatedOwnIconSuccess" xml:space="preserve">
+    <value>Ikona je napravljena</value>
+  </data>
+  <data name="sCreateOwnIconLink" xml:space="preserve">
+    <value>Napravite svoju licnu ikonu</value>
+  </data>
+  <data name="sDeletedOwnIcon" xml:space="preserve">
+    <value>Ikona je izbrisana.</value>
+  </data>
+  <data name="sDeleteOwnIcon" xml:space="preserve">
+    <value>Izbrisite svoju ikonu</value>
+  </data>
+  <data name="sEditIcon" xml:space="preserve">
+    <value>Prilagodinu moju ikonicu</value>
+  </data>
+  <data name="sEditOwnIconProperties" xml:space="preserve">
+    <value>Prepravite ikonu</value>
+  </data>
+  <data name="sEditTeamIconBar" xml:space="preserve">
+    <value>Prilagodinu moju ikonicu</value>
+  </data>
+  <data name="sGoneButBackDate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sGoneButBackTomorrow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sHalfInjuredButBackTomorrow" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sHalfInjuredUntil" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sIconToChoose" xml:space="preserve">
+    <value>Slobodne ikonice</value>
+  </data>
+  <data name="sInjuredButBackDate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sLoading" xml:space="preserve">
+    <value>Ucitava se ...</value>
+  </data>
+  <data name="sMatchAverageForm" xml:space="preserve">
+    <value>Iskustvo</value>
+  </data>
+  <data name="sMoveUpIcon" xml:space="preserve">
+    <value>Pomeri gore</value>
+  </data>
+  <data name="sMovingDownIcon" xml:space="preserve">
+    <value>Pomeri dole</value>
+  </data>
+  <data name="sMyIcons" xml:space="preserve">
+    <value>Moje ikone</value>
+  </data>
+  <data name="sNewWindow" xml:space="preserve">
+    <value>Novi prozor</value>
+  </data>
+  <data name="sNoteFor" xml:space="preserve">
+    <value>Obavestenje za</value>
+  </data>
+  <data name="sOpen" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="sPlayerName" xml:space="preserve">
+    <value>Ime:</value>
+  </data>
+  <data name="sPlayerNumber" xml:space="preserve">
+    <value>Broj dresa</value>
+  </data>
+  <data name="sReadMore" xml:space="preserve">
+    <value>Procitaj vise ...</value>
+  </data>
+  <data name="sRemove" xml:space="preserve">
+    <value>Izbrisi</value>
+  </data>
+  <data name="sRemoveIcon" xml:space="preserve">
+    <value>Izbaci</value>
+  </data>
+  <data name="sSave" xml:space="preserve">
+    <value>Sacuvaj</value>
+  </data>
+  <data name="sSaveIcons" xml:space="preserve">
+    <value>Sacuvaj</value>
+  </data>
+  <data name="sSuccessSavedIcons" xml:space="preserve">
+    <value>Ikone su sacuvane</value>
+  </data>
+  <data name="sSuspendedPlayer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sToManyIcons" xml:space="preserve">
+    <value>Izabrali ste previse ikona. Maksimalan broj je 10.</value>
+  </data>
+  <data name="sYellowSuspCount" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sNothingNewToSave" xml:space="preserve">
+    <value>Nema novih dodataka za sacuvanje</value>
+  </data>
+  <data name="sLeavePageWithUnSavedNote" xml:space="preserve">
+    <value>Beleska nije sacuvana. Da li zelite da je sacuvate ?</value>
+  </data>
+  <data name="sMaximize" xml:space="preserve">
+    <value>Povecaj prozor</value>
+  </data>
+  <data name="sMinimize" xml:space="preserve">
+    <value>Smanji prozor</value>
+  </data>
+  <data name="sMyNote" xml:space="preserve">
+    <value>Moje beleske</value>
+  </data>
+  <data name="sNotSavedNote" xml:space="preserve">
+    <value>Promena nije sacuvana i bice izgubljena ako zatvorite ovaj prozor.</value>
+  </data>
+  <data name="sNoSelectedPlayer" xml:space="preserve">
+    <value>Nije izabran igrac</value>
+  </data>
+  <data name="sMoveUp" xml:space="preserve">
+    <value>Pomeri gore</value>
+  </data>
+  <data name="sMoveDown" xml:space="preserve">
+    <value>Pomeri dole</value>
+  </data>
+  <data name="sDevelopmentValue" xml:space="preserve">
+    <value>Razv. vrednost</value>
+  </data>
+</root>

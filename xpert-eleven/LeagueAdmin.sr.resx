@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLeaguePreStart" xml:space="preserve">
+    <value>Da bi poceli sezonu potrbno vam je&lt;br&gt; još [COUNT] timova u ligi.</value>
+  </data>
+  <data name="lblSendAnInvite" xml:space="preserve">
+    <value>Pošalji poziv prijateljima dole!</value>
+  </data>
+  <data name="litWelcomeToLeague" xml:space="preserve">
+    <value>Dobro došli u ligu:</value>
+  </data>
+  <data name="sLeagueStartLogBody" xml:space="preserve">
+    <value>Posle dosta prica, zvanicno je potvrdeno, [LEAGUE] je nova liga o kojoj svi pricaju.
+
+Danas u [TIME] je održana konferencija za štampu i nova liga je pocela. Administator lige [MANAGER] sada ima veliku odgovornost da dovede nove timove u ligu.
+
+Koji ce tim pobediti u prvoj sezoni ?</value>
+  </data>
+  <data name="sLeagueStartLogTitle" xml:space="preserve">
+    <value>Ko ce osvojiti trofej prve sezone u [LEAGUE]?</value>
+  </data>
+  <data name="sLeagueStartMailBody" xml:space="preserve">
+    <value>Cao [MANAGER]!
+
+Posto ste registrovali ligu, sada ste postali zvanicno administrator te lige sto vam daje "moc" da registrujete nove timove, zapocnete sezonu kao i dosta drugih stvari koje ce uciniti tu sezonu zabavnom.
+
+Pre nego sto pocnete sezonu, liga mora da ima minimum 6 timova. Na pocetnoj stranici lige, mozete da pozovete prijatelje preko Fejsbuka ili direktnog linka ka ligi. Kada skupite minimum 6 timova, svaki od menadzera u ligi ce moci da:
+
+* Odradi sponzorske aktivnosti jednom nedeljno sto ce svakom timu dati milion ekona.
+* Prodaje i kupuje igrace na marketu
+* Zakaze prijateljske utakmice
+* Zapocne sezonu
+* I jos dosta toga…
+
+Good luck!</value>
+  </data>
+  <data name="sLeagueStartMailTitle" xml:space="preserve">
+    <value>Ti si gazda, [MANAGER]</value>
+  </data>
+    <data name="btnStartSeason" xml:space="preserve">
+    <value>Start sezone</value>
+  </data>
+    <data name="lblLeagueAdmin" xml:space="preserve">
+    <value>Administrator lige</value>
+  </data>
+    <data name="lblStartLeagueTitle" xml:space="preserve">
+    <value>Spremni za novu sezonu</value>
+  </data>
+    <data name="lblStartLeagueBody" xml:space="preserve">
+    <value>Sada ste u mogucnosti da kreirate sezonu, ali ako hocete još timova, morate da sacekate. Novi timovi ne mogu biti kreirani ako je sezona u toku.</value>
+  </data>
+</root>

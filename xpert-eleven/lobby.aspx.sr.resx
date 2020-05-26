@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgManOfTheWeek.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgManOfTheWeek.ImageUrl" xml:space="preserve">
+    <value>images/startext.gif</value>
+  </data>
+  <data name="imgMowFlag.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgMowFlag.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplManager.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplManager.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplManager.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplManager.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name=".Text" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name=".ToolTip" xml:space="preserve">
+    <value>Izbriši narudžbu</value>
+  </data>
+  <data name=".ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name=".NavigateUrl" xml:space="preserve">
+    <value>url</value>
+  </data>
+  <data name="lblOffNews.Text" xml:space="preserve">
+    <value>Oficijalne vesti</value>
+  </data>
+  <data name="lblOffNews.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArtNews.Text" xml:space="preserve">
+    <value>Članci</value>
+  </data>
+  <data name="lblArtNews.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNews.Text" xml:space="preserve">
+    <value>Vesti</value>
+  </data>
+  <data name="lblNews.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProfile.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplMailUserImg.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplMailUserImg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplMailUserImg.ImageUrl" xml:space="preserve">
+    <value>images/mailUserDimmed.gif</value>
+  </data>
+  <data name="hplMailUserImg.NavigateUrl" xml:space="preserve">
+    <value>mail.aspx?global=1</value>
+  </data>
+  <data name="hplMailUser.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hplMailUser.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplMailUser.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplMailUser.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplGuestBookImg.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplGuestBookImg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplGuestBookImg.ImageUrl" xml:space="preserve">
+    <value>images/guestbookDimmed.gif</value>
+  </data>
+  <data name="hplGuestBookImg.NavigateUrl" xml:space="preserve">
+    <value>guestbook.aspx?UNR=</value>
+  </data>
+  <data name="hplGuestBook.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hplGuestBook.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplGuestBook.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplGuestBook.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplNewForumImg.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplNewForumImg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplNewForumImg.ImageUrl" xml:space="preserve">
+    <value>images/newMessForumDimmed.gif</value>
+  </data>
+  <data name="hplNewForumImg.NavigateUrl" xml:space="preserve">
+    <value>forumprofile.aspx?UNR=</value>
+  </data>
+  <data name="hplNewForum.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hplNewForum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplNewForum.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplNewForum.NavigateUrl" xml:space="preserve">
+    <value>forumprofile.aspx?UNR=</value>
+  </data>
+  <data name="hplVipImg.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplVipImg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplVipImg.ImageUrl" xml:space="preserve">
+    <value>images/vipLobDimmed.gif</value>
+  </data>
+  <data name="hplVipImg.NavigateUrl" xml:space="preserve">
+    <value>vip.aspx</value>
+  </data>
+  <data name="hplVIP.Text" xml:space="preserve">
+    <value>Postanite VIP član!</value>
+  </data>
+  <data name="hplVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplVIP.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplVIP.NavigateUrl" xml:space="preserve">
+    <value>vip.aspx</value>
+  </data>
+  <data name="lblManRankStatic.Text" xml:space="preserve">
+    <value>Menadžerska veština:</value>
+  </data>
+  <data name="lblManRankStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManRank.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManRank.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecStatic.Text" xml:space="preserve">
+    <value>Novajlija</value>
+  </data>
+  <data name="lblRecStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplRec.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplRec.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplRec.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplRec.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRankValueStat.Text" xml:space="preserve">
+    <value>Xpert ocenjivanje:</value>
+  </data>
+  <data name="lblRankValueStat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRankValue.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRankValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKvot.Text" xml:space="preserve">
+    <value>Norma:</value>
+  </data>
+  <data name="lblKvot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedTeams.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedTeams.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTeams.Text" xml:space="preserve">
+    <value> Nemate tim. Možete izabrati jednu od 4 postojeće opcije ispod</value>
+  </data>
+  <data name="lblTeams.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplPreview.Text" xml:space="preserve">
+    <value>Pogledajte kratak pregled kako izgleda biti u ligi ( omogućeno samo privremeno )</value>
+  </data>
+  <data name="hplPreview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplPreview.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplPreview.NavigateUrl" xml:space="preserve">
+    <value>LeagueInvite.aspx?LID=1&amp;dh=2</value>
+  </data>
+  <data name="hplXpertLeague.Text" xml:space="preserve">
+    <value>Dobijte tim u jednoj od oficijalnih liga</value>
+  </data>
+  <data name="hplXpertLeague.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplXpertLeague.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplXpertLeague.NavigateUrl" xml:space="preserve">
+    <value>xpertleagues.aspx</value>
+  </data>
+  <data name="hplSearchLeague.Text" xml:space="preserve">
+    <value>Nađite neku privatnu ligu</value>
+  </data>
+  <data name="hplSearchLeague.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplSearchLeague.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplSearchLeague.NavigateUrl" xml:space="preserve">
+    <value>searchLeague.aspx</value>
+  </data>
+  <data name="hplCreateLeague.Text" xml:space="preserve">
+    <value>Napravite svoju ličnu ligu</value>
+  </data>
+  <data name="hplCreateLeague.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplCreateLeague.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplCreateLeague.NavigateUrl" xml:space="preserve">
+    <value>registerLeague.aspx</value>
+  </data>
+  <data name="hplTranslation.Text" xml:space="preserve">
+    <value>Novi prevodi</value>
+  </data>
+  <data name="hplTranslation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplTranslation.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplTranslation.NavigateUrl" xml:space="preserve">
+    <value>langSupport.aspx</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Aplikacije</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbViewQueueDetails.Text" xml:space="preserve">
+    <value>Pregledajte detalje redosleda</value>
+  </data>
+  <data name="chbViewQueueDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Pozivnice</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Narudžbe koje su u toku u Xpert Shop-u</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <assembly alias="System" name="System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFriendTeamsResource1.Text" xml:space="preserve">
+    <value>Timovi u privatnim ligama</value>
+  </data>
+  <data name="lblOfficialTeamsResource1.Text" xml:space="preserve">
+    <value>Oficijalni timovi</value>
+  </data>
+  <data name="lblGamesResource1.Text" xml:space="preserve">
+    <value>Povezane utakmice</value>
+  </data>
+  <data name="lblNewsResource1.Text" xml:space="preserve">
+    <value>Povezane novosti</value>
+  </data>
+  <data name="lblMonitorForumHeader.Text" xml:space="preserve">
+    <value>Nadgledane teme</value>
+  </data>
+  <data name="lblXpertNextResource1.Text" xml:space="preserve">
+    <value>Sledeća utakmica:</value>
+  </data>
+  <data name="lblFriendNextResource1.Text" xml:space="preserve">
+    <value>Sledeća utakmica:</value>
+  </data>
+  <data name="lblNoXpertMatchResource1.Text" xml:space="preserve">
+    <value>Nema utakmica</value>
+  </data>
+  <data name="lblNoFriendMatchResource1.Text" xml:space="preserve">
+    <value>Nema utakmica</value>
+  </data>
+  <data name="lblInvitations.Text" xml:space="preserve">
+    <value>Pozivnice</value>
+  </data>
+  <data name="Image1.Tooltip" xml:space="preserve">
+    <value>Prijatelji</value>
+  </data>
+  <data name="Image6.Tooltip" xml:space="preserve">
+    <value>Prijatelji</value>
+  </data>
+  <data name="Image8.Tooltip" xml:space="preserve">
+    <value>Prijatelji</value>
+  </data>
+  <data name="Image2.Tooltip" xml:space="preserve">
+    <value>Globalno</value>
+  </data>
+  <data name="Image4.Tooltip" xml:space="preserve">
+    <value>Globalno</value>
+  </data>
+  <data name="Image9.Tooltip" xml:space="preserve">
+    <value>Globalno</value>
+  </data>
+  <data name="btnDeleteInvite.Text" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="btnDeleteInvite.Tooltip" xml:space="preserve">
+    <value>Izbrisi poziv</value>
+  </data>
+</root>

@@ -1,0 +1,1576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbSupportCrew.Text">
+    <value>Podrška - tim</value>
+  </data>
+  <data name="cbSupportCrew.ToolTip">
+    <value />
+  </data>
+  <data name="cbSupport.Text">
+    <value>Podrška</value>
+  </data>
+  <data name="cbSupport.ToolTip">
+    <value />
+  </data>
+  <data name="cbModerator.Text">
+    <value>Moderator</value>
+  </data>
+  <data name="cbModerator.ToolTip">
+    <value />
+  </data>
+  <data name="lbConfirm.Text">
+    <value />
+  </data>
+  <data name="lbConfirm.ToolTip">
+    <value />
+  </data>
+  <data name="lblUser.Text">
+    <value>Traži po korisničkom imenu:</value>
+  </data>
+  <data name="lblUser.ToolTip">
+    <value />
+  </data>
+  <data name="txtUser.ToolTip">
+    <value />
+  </data>
+  <data name="btnSearchMailWithUser.Text">
+    <value>Traži</value>
+  </data>
+  <data name="btnSearchMailWithUser.ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>1</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>1</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="btDelete.Text">
+    <value>Izbriši</value>
+  </data>
+  <data name="btDelete.ToolTip">
+    <value />
+  </data>
+  <data name="btCheckAll.Text">
+    <value>Izaberi sve</value>
+  </data>
+  <data name="btCheckAll.ToolTip">
+    <value />
+  </data>
+  <data name="lblToStatic.Text">
+    <value>Primalac:</value>
+  </data>
+  <data name="lblToStatic.ToolTip">
+    <value />
+  </data>
+  <data name="tbToLeagueUser.ToolTip">
+    <value />
+  </data>
+  <data name="cbTo.Text">
+    <value />
+  </data>
+  <data name="cbTo.ToolTip">
+    <value />
+  </data>
+  <data name="lErrorInLeague.Text">
+    <value />
+  </data>
+  <data name="lErrorInLeague.ToolTip">
+    <value />
+  </data>
+  <data name="chbSave.Text">
+    <value>Sačuvaj u ' Poslatim porukama ' </value>
+  </data>
+  <data name="chbSave.ToolTip">
+    <value />
+  </data>
+  <data name="btSubmit.Text">
+    <value>Pošalji</value>
+  </data>
+  <data name="btSubmit.ToolTip">
+    <value>Pošalji poruku</value>
+  </data>
+  <data name="Label1.Text">
+    <value>Primalac:</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="tbToUser.ToolTip">
+    <value />
+  </data>
+  <data name="Label3.Text">
+    <value>Jezik pisma</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="lModerator.Text">
+    <value>Grupa</value>
+  </data>
+  <data name="lModerator.ToolTip">
+    <value />
+  </data>
+  <data name="lAddThread.Text">
+    <value>Dodaj temu</value>
+  </data>
+  <data name="lAddThread.ToolTip">
+    <value>Selektirajte ovu opciju ako želite da dodate temu ili poruku u vašem pismu. Ovo je jedino moguće ako ste selektovali crveni kvadrat za pismo u diskusijama. </value>
+  </data>
+  <data name="cbIncludeThread.Text">
+    <value />
+  </data>
+  <data name="cbIncludeThread.ToolTip">
+    <value>Selektirajte ovu opciju ako želite da dodate temu ili poruku u vašem pismu. Ovo je jedino moguće ako ste selektovali crveni kvadrat za pismo u diskusijama. </value>
+  </data>
+  <data name="lTemplate.Text">
+    <value>Podloge</value>
+  </data>
+  <data name="lTemplate.ToolTip">
+    <value>Selektirajte ovu opciju ako želite da dodate temu ili poruku u vašem pismu. Ovo je jedino moguće ako ste selektovali crveni kvadrat za pismo u diskusijama. </value>
+  </data>
+  <data name="lError.Text">
+    <value />
+  </data>
+  <data name="lError.ToolTip">
+    <value />
+  </data>
+  <data name="chbSaveGlobal.Text">
+    <value>Sačuvaj u ' Poslatim porukama '</value>
+  </data>
+  <data name="chbSaveGlobal.ToolTip">
+    <value />
+  </data>
+  <data name="btSubmitGlobal.Text">
+    <value>Pošalji</value>
+  </data>
+  <data name="btSubmitGlobal.ToolTip">
+    <value>Pošalji poruku</value>
+  </data>
+  <data name="Label6.Text">
+    <value>Nije dozvoljeno slati menadžerima poruke sa pozivnicama za drugu ligu. </value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="Panel2.ToolTip">
+    <value />
+  </data>
+  <data name="lblSubjectStatic.Text">
+    <value>Predmet:</value>
+  </data>
+  <data name="lblSubjectStatic.ToolTip">
+    <value />
+  </data>
+  <data name="tbSubject.ToolTip">
+    <value />
+  </data>
+  <data name="lblBodyStatic.Text">
+    <value>Poruka:</value>
+  </data>
+  <data name="lblBodyStatic.ToolTip">
+    <value />
+  </data>
+  <data name="tbBody.ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Primalac:</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Sačuvaj u ' Poslatim porukama ' </value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Pošalji</value>
+  </data>
+  <data name=".ToolTip">
+    <value>Pošalji poruku</value>
+  </data>
+  <data name=".Text">
+    <value>Primalac</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Jezik</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Grupa</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Dodaj temu</value>
+  </data>
+  <data name=".ToolTip">
+    <value>Selektirajte ovu opciju ako želite da dodate temu ili poruku u vašem pismu. Ovo je jedino moguće ako ste selektovali crveni kvadrat za pismo u diskusijama. </value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value>Selektirajte ovu opciju ako želite da dodate temu ili poruku u vašem pismu. Ovo je jedino moguće ako ste selektovali crveni kvadrat za pismo u diskusijama. </value>
+  </data>
+  <data name=".Text">
+    <value>Podloge</value>
+  </data>
+  <data name=".ToolTip">
+    <value>Selektirajte ovu opciju ako želite da dodate temu ili poruku u vašem pismu. Ovo je jedino moguće ako ste selektovali crveni kvadrat za pismo u diskusijama. </value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Sačuvaj u ' Poslatim porukama '</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Pošalji</value>
+  </data>
+  <data name=".ToolTip">
+    <value>Pošalji poruku</value>
+  </data>
+  <data name=".Text">
+    <value>Nije dozvoljeno slati menadžerima poruke za poziv u drugu ligu</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Informacije u vezi podrške</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>Možete proslediti email ka timu koji je radi na održavanju ovog sajta ako:&lt;br&gt;&lt;br&gt;&lt;li&gt;U pismu postoje neke greške&lt;/li&gt;&lt;li&gt;Pismo sadrži pitanja u vezi promocija&lt;/li&gt;&lt;br&gt;&lt;br&gt;Ne brišite niti odgovarajte na pisma za koja ne znate odgovor.&lt;br&gt;&lt;br&gt; Ako pismo nije odgovoreno u roku od 2 dana, to pismo će automatski biti poslato tehničkom timu.</value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>Informacije u vezi moderatorskog poštanskog sandučeta</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="Label7.Text">
+    <value>Ako korisnik kontaktira moderatora preko ' Moderator Xpert Eleven ' onda svaki moderator ima pristup toj poruci. &lt;br&gt;&lt;br&gt; Ako moderator kontaktira korisnika onda će on ili ona morati da izaberu moderatorsku grupu i onda će samo moderatori iz te grupe da vide tu prepisku. &lt;br&gt;&lt;br&gt; Prijavljene poruke ili teme su specifične za moderatore i samo moderatori u toj grupi mogu da vide tu prepisku.&lt;br&gt;&lt;br&gt; Ne brišite ni jednu poruku za koju ne možete da odgovorite&lt;br&gt;&lt;br&gt;Ako moderatorska grupa ne odgovori u roku od 2 dana, pismo će se automatski proslediti ka svim moderatorima. </value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Pretraži po korisničkom imenu</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Traži</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Izbriši</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Izaberi sve</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Informacije u vezi podrške</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Možete proslediti email ka timu koji je radi na održavanju ovog sajta ako:&lt;br&gt;&lt;br&gt;&lt;li&gt;U pismu postoje neke greške&lt;/li&gt;&lt;li&gt;Pismo sadrži pitanja u vezi promocija&lt;/li&gt;&lt;br&gt;&lt;br&gt;Ne brišite niti odgovarajte na pisma za koja ne znate odgovor.&lt;br&gt;&lt;br&gt; Ako pismo nije odgovoreno u roku od 2 dana, to pismo će automatski biti poslato tehničkom timu.</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Informacije u vezi moderatorskog poštanskog sandučeta</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Ako korisnik kontaktira moderatora preko ' Moderator Xpert Eleven ' onda svaki moderator ima pristup toj poruci. &lt;br&gt;&lt;br&gt; Ako moderator kontaktira korisnika onda će on ili ona morati da izaberu moderatorsku grupu i onda će samo moderatori iz te grupe da vide tu prepisku. &lt;br&gt;&lt;br&gt; Prijavljene poruke ili teme su specifične za moderatore i samo moderatori u toj grupi mogu da vide tu prepisku.&lt;br&gt;&lt;br&gt; Ne brišite ni jednu poruku za koju ne možete da odgovorite&lt;br&gt;&lt;br&gt;Ako moderatorska grupa ne odgovori u roku od 2 dana, pismo će se automatski proslediti ka svim moderatorima. </value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

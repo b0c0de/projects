@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hlLForum.Text">
+    <value>Liga diskusije</value>
+  </data>
+  <data name="hlLForum.NavigateUrl">
+    <value>viewLeagueForum.aspx</value>
+  </data>
+  <data name="Label1.Text">
+    <value>Clickable smilies</value>
+  </data>
+  <data name="HyperLink3.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink3.ToolTip">
+    <value>:)</value>
+  </data>
+  <data name="HyperLink3.ImageUrl">
+    <value>images/icon1.gif</value>
+  </data>
+  <data name="HyperLink3.NavigateUrl">
+    <value>javascript:setIcon(':)')</value>
+  </data>
+  <data name="HyperLink1.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink1.ToolTip">
+    <value>:d</value>
+  </data>
+  <data name="HyperLink1.ImageUrl">
+    <value>images/icon2.gif</value>
+  </data>
+  <data name="HyperLink1.NavigateUrl">
+    <value>javascript:setIcon(':d')</value>
+  </data>
+  <data name="HyperLink7.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink7.ToolTip">
+    <value>:(</value>
+  </data>
+  <data name="HyperLink7.ImageUrl">
+    <value>images/icon7.gif</value>
+  </data>
+  <data name="HyperLink7.NavigateUrl">
+    <value>javascript:setIcon(':(')</value>
+  </data>
+  <data name="HyperLink4.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink4.ToolTip">
+    <value>(wasntme)</value>
+  </data>
+  <data name="HyperLink4.ImageUrl">
+    <value>images/icon4.gif</value>
+  </data>
+  <data name="HyperLink4.NavigateUrl">
+    <value>javascript:setIcon('(wasntme)')</value>
+  </data>
+  <data name="HyperLink5.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink5.ToolTip">
+    <value>:@</value>
+  </data>
+  <data name="HyperLink5.ImageUrl">
+    <value>images/icon5.gif</value>
+  </data>
+  <data name="HyperLink5.NavigateUrl">
+    <value>javascript:setIcon(':@')</value>
+  </data>
+  <data name="Hyperlink11.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="Hyperlink11.ToolTip">
+    <value>:o</value>
+  </data>
+  <data name="Hyperlink11.ImageUrl">
+    <value>images/icon11.gif</value>
+  </data>
+  <data name="Hyperlink11.NavigateUrl">
+    <value>javascript:setIcon(':o')</value>
+  </data>
+  <data name="HyperLink13.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink13.ToolTip">
+    <value>:8</value>
+  </data>
+  <data name="HyperLink13.ImageUrl">
+    <value>images/icon14.gif</value>
+  </data>
+  <data name="HyperLink13.NavigateUrl">
+    <value>javascript:setIcon(':8')</value>
+  </data>
+  <data name="HyperLink6.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink6.ToolTip">
+    <value>(doh)</value>
+  </data>
+  <data name="HyperLink6.ImageUrl">
+    <value>images/icon6.gif</value>
+  </data>
+  <data name="HyperLink6.NavigateUrl">
+    <value>javascript:setIcon('(doh)')</value>
+  </data>
+  <data name="HyperLink2.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink2.ToolTip">
+    <value>:s</value>
+  </data>
+  <data name="HyperLink2.ImageUrl">
+    <value>images/icon3.gif</value>
+  </data>
+  <data name="HyperLink2.NavigateUrl">
+    <value>javascript:setIcon(':s')</value>
+  </data>
+  <data name="HyperLink8.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink8.ToolTip">
+    <value>:^)</value>
+  </data>
+  <data name="HyperLink8.ImageUrl">
+    <value>images/icon8.gif</value>
+  </data>
+  <data name="HyperLink8.NavigateUrl">
+    <value>javascript:setIcon(':^)')</value>
+  </data>
+  <data name="HyperLink9.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink9.ToolTip">
+    <value>:|</value>
+  </data>
+  <data name="HyperLink9.ImageUrl">
+    <value>images/icon9.gif</value>
+  </data>
+  <data name="HyperLink9.NavigateUrl">
+    <value>javascript:setIcon(':|')</value>
+  </data>
+  <data name="HyperLink10.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink10.ToolTip">
+    <value>;)</value>
+  </data>
+  <data name="HyperLink10.ImageUrl">
+    <value>images/icon10.gif</value>
+  </data>
+  <data name="HyperLink10.NavigateUrl">
+    <value>javascript:setIcon(';)')</value>
+  </data>
+  <data name="Hyperlink12.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="Hyperlink12.ToolTip">
+    <value>:p</value>
+  </data>
+  <data name="Hyperlink12.ImageUrl">
+    <value>images/icon12.gif</value>
+  </data>
+  <data name="Hyperlink12.NavigateUrl">
+    <value>javascript:setIcon(':p')</value>
+  </data>
+  <data name="HyperLink14.Text">
+    <value>HyperLink</value>
+  </data>
+  <data name="HyperLink14.ToolTip">
+    <value>:-*</value>
+  </data>
+  <data name="HyperLink14.ImageUrl">
+    <value>images/icon13.gif</value>
+  </data>
+  <data name="HyperLink14.NavigateUrl">
+    <value>javascript:setIcon(':-*')</value>
+  </data>
+  <data name="Label5.Text">
+    <value>Tekst</value>
+  </data>
+  <data name="HyperLink15.Text">
+    <value>Podebljaj</value>
+  </data>
+  <data name="HyperLink15.ToolTip">
+    <value>Podebljani tekst</value>
+  </data>
+  <data name="HyperLink15.NavigateUrl">
+    <value>javascript:alterText('[B]','[/B]')</value>
+  </data>
+  <data name="HyperLink16.Text">
+    <value>&lt;em&gt;Ukošen&lt;/em&gt;</value>
+  </data>
+  <data name="HyperLink16.ToolTip">
+    <value>Kosi tekst</value>
+  </data>
+  <data name="HyperLink16.ImageUrl">
+    <value />
+  </data>
+  <data name="HyperLink16.NavigateUrl">
+    <value>javascript:alterText('[EM]','[/EM]')</value>
+  </data>
+  <data name="HyperLink17.Text">
+    <value>&lt;u&gt;Podvučen&lt;/u&gt;</value>
+  </data>
+  <data name="HyperLink17.ToolTip">
+    <value>Podvučeni tekst</value>
+  </data>
+  <data name="HyperLink17.NavigateUrl">
+    <value>javascript:alterText('[U]','[/U]')</value>
+  </data>
+  <data name="Label2.Text">
+    <value>(Zameni * sa tekstom) </value>
+  </data>
+  <data name="lForumLang.Text">
+    <value>Izaberite jezik</value>
+  </data>
+  <data name="lbSend.Text">
+    <value>Pošalji</value>
+  </data>
+  <data name="lbSend.ToolTip">
+    <value>Pošalji poruku</value>
+  </data>
+  <data name="cbSign.Text">
+    <value>Potpis</value>
+  </data>
+  <data name="cbSign.ToolTip">
+    <value>Izaberite ovu opciju ako želite da vaš potpis bude okačen uz poruku</value>
+  </data>
+  <data name="rbPoll.Text">
+    <value>Anketa</value>
+  </data>
+  <data name="rbPoll.ToolTip">
+    <value>Napravi anketu</value>
+  </data>
+  <data name="cbTt.Text">
+    <value>Prikuj temu</value>
+  </data>
+  <data name="cbTt.ToolTip">
+    <value>Postavi temu na vrh diskusija</value>
+  </data>
+  <data name="cbLock.Text">
+    <value>Zaključaj temu </value>
+  </data>
+  <data name="cbLock.ToolTip">
+    <value>Zaključavate temu</value>
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

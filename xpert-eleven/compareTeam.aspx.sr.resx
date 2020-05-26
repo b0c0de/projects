@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hplMostMatchesA.ToolTip">
+    <value />
+  </data>
+  <data name="imgLogoA.ImageUrl">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>T:</value>
+  </data>
+  <data name="lblMiscB.ToolTip">
+    <value />
+  </data>
+  <data name="lblYoungestPlayerA.Text">
+    <value />
+  </data>
+  <data name="lblFormLUB.ToolTip">
+    <value />
+  </data>
+  <data name="lblYoungestPlayerAStatic.Text">
+    <value>Najmlađi igrač</value>
+  </data>
+  <data name="lblStrenghtLUStaticB.ToolTip">
+    <value />
+  </data>
+  <data name="hplYoungestPlayerA.ToolTip">
+    <value />
+  </data>
+  <data name="lblManSinceB.Text">
+    <value />
+  </data>
+  <data name="lblAvgAgeStaticB.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerTotB.Text">
+    <value />
+  </data>
+  <data name="hplOldestPlayerA.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblTopScorerSeaA.ToolTip">
+    <value />
+  </data>
+  <data name="lblMiscA.Text">
+    <value>Mešovito</value>
+  </data>
+  <data name="lblTeamValueB.Text">
+    <value />
+  </data>
+  <data name="lblOldestPlayerAStatic.Text">
+    <value>Najstariji igrač</value>
+  </data>
+  <data name="ltlBallPossBarA.Text">
+    <value />
+  </data>
+  <data name="hplOldestPlayerA.ImageUrl">
+    <value />
+  </data>
+  <data name="lblTopScorerTotB.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerSeaA.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamBName.ToolTip">
+    <value />
+  </data>
+  <data name="hplManagerB.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblBallPoss.Text">
+    <value>Držanje lopte</value>
+  </data>
+  <data name="hplYoungestPlayerB.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeStaticA.Text">
+    <value>Prosečna starost</value>
+  </data>
+  <data name="lblTeamB.ToolTip">
+    <value />
+  </data>
+  <data name="lblWinsA.Text">
+    <value />
+  </data>
+  <data name="hplOldestPlayerB.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblBallPoss.ToolTip">
+    <value />
+  </data>
+  <data name="imgLogoA.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.ToolTip">
+    <value>Ukupno</value>
+  </data>
+  <data name="lblYoungestPlayerAStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblGoalDiffStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblTopScorerSeaB.Text">
+    <value />
+  </data>
+  <data name="lblDefenceB.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Menadžer</value>
+  </data>
+  <data name="hplManagerB.Text">
+    <value />
+  </data>
+  <data name="hplManagerA.ImageUrl">
+    <value />
+  </data>
+  <data name="lblRankedA.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeLUA.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerSeaA.ImageUrl">
+    <value />
+  </data>
+  <data name="lblOldestPlayerBStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblTopScorerAStatic.Text">
+    <value>Najbolji strelac</value>
+  </data>
+  <data name="lblTeamBName.Text">
+    <value />
+  </data>
+  <data name="imgShortsA.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeLUStaticA.ToolTip">
+    <value />
+  </data>
+  <data name="lblDefenceA.Text">
+    <value>Odbrana</value>
+  </data>
+  <data name="lblFormImgA.Text">
+    <value />
+  </data>
+  <data name="lblMidfieldB.Text">
+    <value>Sredina terena</value>
+  </data>
+  <data name="lblAvgAgeLUStaticB.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamValueBStatic.Text">
+    <value>Vrednost tima</value>
+  </data>
+  <data name="lblYoungestPlayerA.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerSeaA.Text">
+    <value />
+  </data>
+  <data name="lblOffenceB.Text">
+    <value>Napad</value>
+  </data>
+  <data name="hplTeamB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblStrengthImgB.Text">
+    <value />
+  </data>
+  <data name="hplOldestPlayerA.Text">
+    <value />
+  </data>
+  <data name="lblTeamValueAStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblTotB.Text">
+    <value>Ukupno</value>
+  </data>
+  <data name="lblStrengthImgA.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUB.Text">
+    <value />
+  </data>
+  <data name="imgShortsA.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTopScorerTotA.ToolTip">
+    <value />
+  </data>
+  <data name="ltlBallPossBarB.Text">
+    <value />
+  </data>
+  <data name="lblChancesStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblTopScorerBStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamAName.Text">
+    <value />
+  </data>
+  <data name="lblStrengthImgA.Text">
+    <value />
+  </data>
+  <data name="lblTeamRatingAvg.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>S:</value>
+  </data>
+  <data name="hplTopScorerSeaA.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplTeamA.Text">
+    <value />
+  </data>
+  <data name="hplOldestPlayerB.ToolTip">
+    <value />
+  </data>
+  <data name="hplYoungestPlayerA.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblMidfieldA.ToolTip">
+    <value />
+  </data>
+  <data name="hplManagerB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblManSinceA.Text">
+    <value />
+  </data>
+  <data name="imgLogoB.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerTotB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblBallPossPercB.Text">
+    <value />
+  </data>
+  <data name="hplMostMatchesA.ImageUrl">
+    <value />
+  </data>
+  <data name="lblManSinceB.ToolTip">
+    <value />
+  </data>
+  <data name="lblManSkillA.ToolTip">
+    <value />
+  </data>
+  <data name="lblOldestPlayerA.Text">
+    <value />
+  </data>
+  <data name="lblTopScorerSeaA.Text">
+    <value />
+  </data>
+  <data name="lblManSkillA.Text">
+    <value />
+  </data>
+  <data name="hplOldestPlayerA.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamB.ToolTip">
+    <value />
+  </data>
+  <data name="lblLastLineUpStaticA.Text">
+    <value>Zadnji sastav tima</value>
+  </data>
+  <data name="hplTeamB.NavigateUrl">
+    <value />
+  </data>
+  <data name="imgShortsB.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirtA.ImageUrl">
+    <value />
+  </data>
+  <data name="imgShirtB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblChancesStatic.Text">
+    <value>Šanse</value>
+  </data>
+  <data name="Label7.Text">
+    <value>S:</value>
+  </data>
+  <data name="lblAvgAgeA.Text">
+    <value />
+  </data>
+  <data name="lblFormLUA.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.ToolTip">
+    <value>Ove sezone</value>
+  </data>
+  <data name="lblTopScorerBStatic.Text">
+    <value>Najbolji strelac</value>
+  </data>
+  <data name="lblFormB.ToolTip">
+    <value />
+  </data>
+  <data name="lblWinsB.Text">
+    <value />
+  </data>
+  <data name="lblChances.ToolTip">
+    <value />
+  </data>
+  <data name="hplMostMatchesA.Text">
+    <value />
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="lblGoalDiff.ToolTip">
+    <value />
+  </data>
+  <data name="hplMostMatchesB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblAvgAgeB.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.ToolTip">
+    <value>Ukupno</value>
+  </data>
+  <data name="lblStrengthImgB.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUB.ToolTip">
+    <value />
+  </data>
+  <data name="lblMostMatchesA.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeLUStaticA.Text">
+    <value>Prosečna starost</value>
+  </data>
+  <data name="lblGoalDiff.Text">
+    <value />
+  </data>
+  <data name="lblTotA.Text">
+    <value>Ukupno</value>
+  </data>
+  <data name="lblMostMatchesBStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblMidfieldA.Text">
+    <value>Sredina</value>
+  </data>
+  <data name="lblTeamAName.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeLUB.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUA.Text">
+    <value />
+  </data>
+  <data name="lblDraws.Text">
+    <value />
+  </data>
+  <data name="lblTopScorerTotA.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUStaticA.ToolTip">
+    <value />
+  </data>
+  <data name="lblMostMatchesAStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamA.Text">
+    <value>Tim</value>
+  </data>
+  <data name="hplManagerB.ToolTip">
+    <value />
+  </data>
+  <data name="lblYoungestPlayerB.Text">
+    <value />
+  </data>
+  <data name="hplYoungestPlayerB.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblOldestPlayerA.ToolTip">
+    <value />
+  </data>
+  <data name="lblPastMeetingsStatic.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamA.ImageUrl">
+    <value />
+  </data>
+  <data name="lblMiscB.Text">
+    <value>Mešano</value>
+  </data>
+  <data name="lblFormB.Text">
+    <value>Forma</value>
+  </data>
+  <data name="hplTopScorerTotA.Text">
+    <value />
+  </data>
+  <data name="lblOldestPlayerB.ToolTip">
+    <value />
+  </data>
+  <data name="lblBallPossPercA.Text">
+    <value />
+  </data>
+  <data name="lblTeamB.Text">
+    <value>Tim</value>
+  </data>
+  <data name="lblComingMatchesStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblMatches.ToolTip">
+    <value />
+  </data>
+  <data name="lblSkillA.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="lblAvgAgeA.ToolTip">
+    <value />
+  </data>
+  <data name="lblRankedB.Text">
+    <value />
+  </data>
+  <data name="lblFormImgB.Text">
+    <value />
+  </data>
+  <data name="lblMostMatchesB.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamA.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblFormA.Text">
+    <value>Forma</value>
+  </data>
+  <data name="lblOldestPlayerB.Text">
+    <value />
+  </data>
+  <data name="hplTeamB.Text">
+    <value />
+  </data>
+  <data name="lblTopScorerTotB.Text">
+    <value />
+  </data>
+  <data name="lblAvgAgeB.Text">
+    <value />
+  </data>
+  <data name="hplTopScorerTotB.ToolTip">
+    <value />
+  </data>
+  <data name="lblSkillB.ToolTip">
+    <value />
+  </data>
+  <data name="lblSkillB.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="lblTeamValueA.Text">
+    <value />
+  </data>
+  <data name="lblMidfieldB.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>T:</value>
+  </data>
+  <data name="lblTeamValueAStatic.Text">
+    <value>Timska valuta</value>
+  </data>
+  <data name="Label2.Text">
+    <value>Menadžer</value>
+  </data>
+  <data name="lblMostMatchesA.Text">
+    <value />
+  </data>
+  <data name="lblTeamValueA.ToolTip">
+    <value />
+  </data>
+  <data name="hplManagerA.Text">
+    <value />
+  </data>
+  <data name="lblManSkillB.Text">
+    <value />
+  </data>
+  <data name="lblFormLUStaticA.Text">
+    <value>Forma</value>
+  </data>
+  <data name="hplMostMatchesB.NavigateUrl">
+    <value />
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="lblAvgAgeLUB.Text">
+    <value />
+  </data>
+  <data name="lblComingMatchesStatic.Text">
+    <value>Sledeći mečevi</value>
+  </data>
+  <data name="hplMostMatchesB.Text">
+    <value />
+  </data>
+  <data name="Label7.ToolTip">
+    <value>Ove sezone</value>
+  </data>
+  <data name="lblMiscA.ToolTip">
+    <value />
+  </data>
+  <data name="lblOldestPlayerAStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblDrawsStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblOffenceA.Text">
+    <value>Napad</value>
+  </data>
+  <data name="hplManagerA.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblDefenceA.ToolTip">
+    <value />
+  </data>
+  <data name="lblOffenceA.ToolTip">
+    <value />
+  </data>
+  <data name="hplYoungestPlayerA.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTopScorerSeaB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblFormLUStaticA.ToolTip">
+    <value />
+  </data>
+  <data name="lblChances.Text">
+    <value />
+  </data>
+  <data name="lblFormLUA.Text">
+    <value />
+  </data>
+  <data name="lblFormLUStaticB.ToolTip">
+    <value />
+  </data>
+  <data name="lblMostMatchesB.Text">
+    <value />
+  </data>
+  <data name="lblMostMatchesBStatic.Text">
+    <value>Najiskusniji igrač</value>
+  </data>
+  <data name="lblLastLineUpStaticA.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamValueB.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerSeaB.Text">
+    <value />
+  </data>
+  <data name="hplManagerA.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamA.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamRatingAvg.Text">
+    <value>Prosečna procena tima</value>
+  </data>
+  <data name="lblLastLineUpStaticB.Text">
+    <value>Zadnji sastav tima</value>
+  </data>
+  <data name="lblMatches.Text">
+    <value>Statistike mečeva</value>
+  </data>
+  <data name="hplTopScorerSeaB.ToolTip">
+    <value />
+  </data>
+  <data name="lblTeamValueBStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblRankedA.Text">
+    <value />
+  </data>
+  <data name="lblDraws.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUStaticA.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="lblRankedB.ToolTip">
+    <value />
+  </data>
+  <data name="lblSkillA.ToolTip">
+    <value />
+  </data>
+  <data name="lblTopScorerSeaB.ToolTip">
+    <value />
+  </data>
+  <data name="hplOldestPlayerB.ImageUrl">
+    <value />
+  </data>
+  <data name="imgShirtA.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeLUStaticB.Text">
+    <value>Prosečna starost</value>
+  </data>
+  <data name="lblAvgAgeStaticA.ToolTip">
+    <value />
+  </data>
+  <data name="lblDefenceB.Text">
+    <value>Odbrana</value>
+  </data>
+  <data name="lblFormImgB.ToolTip">
+    <value />
+  </data>
+  <data name="hplYoungestPlayerB.Text">
+    <value />
+  </data>
+  <data name="lblTotA.ToolTip">
+    <value />
+  </data>
+  <data name="hplOldestPlayerB.Text">
+    <value />
+  </data>
+  <data name="imgLogoB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblTotB.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUStaticB.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="lblTopScorerTotA.Text">
+    <value />
+  </data>
+  <data name="lblTopScorerAStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblOffenceB.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerSeaB.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblFormA.ToolTip">
+    <value />
+  </data>
+  <data name="lblYoungestPlayerBStatic.Text">
+    <value>Najmlađi igrač</value>
+  </data>
+  <data name="hplYoungestPlayerB.ImageUrl">
+    <value />
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="lblFormLUStaticB.Text">
+    <value>Forma</value>
+  </data>
+  <data name="lblPastMeetingsStatic.Text">
+    <value>Prošli susreti </value>
+  </data>
+  <data name="lblYoungestPlayerBStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblLastLineUpStaticB.ToolTip">
+    <value />
+  </data>
+  <data name="lblOldestPlayerBStatic.Text">
+    <value>Najstariji igrač</value>
+  </data>
+  <data name="lblDrawsStatic.Text">
+    <value>Nerešene utakmice</value>
+  </data>
+  <data name="imgShortsB.ImageUrl">
+    <value />
+  </data>
+  <data name="lblBallPossPercA.ToolTip">
+    <value />
+  </data>
+  <data name="hplYoungestPlayerA.Text">
+    <value />
+  </data>
+  <data name="hplMostMatchesB.ToolTip">
+    <value />
+  </data>
+  <data name="hplMostMatchesA.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplTopScorerTotA.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblMostMatchesAStatic.Text">
+    <value>Najiskusniji igrač</value>
+  </data>
+  <data name="hplTopScorerTotA.ImageUrl">
+    <value />
+  </data>
+  <data name="lblFormImgA.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopScorerTotB.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblTeamA.ToolTip">
+    <value />
+  </data>
+  <data name="lblFormLUB.Text">
+    <value />
+  </data>
+  <data name="lblAvgAgeStaticB.Text">
+    <value>Prosečna starost</value>
+  </data>
+  <data name="lblGoalDiffStatic.Text">
+    <value>Razlika u golovima</value>
+  </data>
+  <data name="lblWinsA.ToolTip">
+    <value />
+  </data>
+  <data name="lblYoungestPlayerB.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrenghtLUA.ToolTip">
+    <value />
+  </data>
+  <data name="lblWinsB.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirtB.ToolTip">
+    <value />
+  </data>
+  <data name="lblBallPossPercB.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeLUA.Text">
+    <value />
+  </data>
+  <data name="lblManSinceA.ToolTip">
+    <value />
+  </data>
+  <data name="lblManSkillB.ToolTip">
+    <value />
+  </data>
+</root>

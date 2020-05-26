@@ -1,0 +1,1315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imgAvatar.ToolTip">
+    <value />
+  </data>
+  <data name="imgAvatar.ImageUrl">
+    <value />
+  </data>
+  <data name="imgX11Team.Text">
+    <value>Član Xpert Eleven družine</value>
+  </data>
+  <data name="imgX11Team.ToolTip">
+    <value>Član Xpert Eleven družine</value>
+  </data>
+  <data name="imgX11Team.ImageUrl">
+    <value>images/x11team.gif</value>
+  </data>
+  <data name="imgX11Team.NavigateUrl">
+    <value>functionaries.aspx</value>
+  </data>
+  <data name="imgVIP.Text">
+    <value>VIP</value>
+  </data>
+  <data name="imgVIP.ToolTip">
+    <value>VIP</value>
+  </data>
+  <data name="imgVIP.ImageUrl">
+    <value>images/vip_icon.gif</value>
+  </data>
+  <data name="imgVIP.NavigateUrl">
+    <value>vip.aspx</value>
+  </data>
+  <data name="imgManWeek.Text">
+    <value />
+  </data>
+  <data name="imgManWeek.ToolTip">
+    <value>Menadžer nedelje</value>
+  </data>
+  <data name="imgManWeek.ImageUrl">
+    <value>images/star_icon.gif</value>
+  </data>
+  <data name="imgManWeek.NavigateUrl">
+    <value>manoftheweek.aspx</value>
+  </data>
+  <data name="hplHOF.Text">
+    <value>Član kuće slavnih</value>
+  </data>
+  <data name="hplHOF.ToolTip">
+    <value>Član kuće slavnih</value>
+  </data>
+  <data name="hplHOF.ImageUrl">
+    <value>images/hof_icon.gif</value>
+  </data>
+  <data name="hplHOF.NavigateUrl">
+    <value>halloffame.aspx</value>
+  </data>
+  <data name="hplTrans.Text">
+    <value>Prevodioc</value>
+  </data>
+  <data name="hplTrans.ToolTip">
+    <value>Prevodioc</value>
+  </data>
+  <data name="hplTrans.ImageUrl">
+    <value>images/</value>
+  </data>
+  <data name="hplTrans.NavigateUrl">
+    <value>functionaries.aspx</value>
+  </data>
+  <data name="imgModerator.Text">
+    <value>Moderator</value>
+  </data>
+  <data name="imgModerator.ToolTip">
+    <value>Moderator</value>
+  </data>
+  <data name="imgModerator.ImageUrl">
+    <value>images/mod_icon.gif</value>
+  </data>
+  <data name="imgModerator.NavigateUrl">
+    <value>functionaries.aspx</value>
+  </data>
+  <data name="imgEventWriter.Text">
+    <value>Izveštavač</value>
+  </data>
+  <data name="imgEventWriter.ToolTip">
+    <value>Izveštavač</value>
+  </data>
+  <data name="imgEventWriter.ImageUrl">
+    <value>images/event_icon.gif</value>
+  </data>
+  <data name="imgEventWriter.NavigateUrl">
+    <value>functionaries.aspx</value>
+  </data>
+  <data name="hplReporter.Text">
+    <value>Reporter</value>
+  </data>
+  <data name="hplReporter.ToolTip">
+    <value>Reporter</value>
+  </data>
+  <data name="hplReporter.ImageUrl">
+    <value>images/press_icon.gif</value>
+  </data>
+  <data name="hplReporter.NavigateUrl">
+    <value>xpertdaily.aspx?S=5&amp;lang=</value>
+  </data>
+  <data name="imgSupport.Text">
+    <value>Podrška</value>
+  </data>
+  <data name="imgSupport.ToolTip">
+    <value>Podrška</value>
+  </data>
+  <data name="imgSupport.ImageUrl">
+    <value>images/support_icon.gif</value>
+  </data>
+  <data name="imgSupport.NavigateUrl">
+    <value>functionaries.aspx</value>
+  </data>
+  <data name="hlUserName.Text">
+    <value />
+  </data>
+  <data name="hlUserName.ToolTip">
+    <value />
+  </data>
+  <data name="hlUserName.ImageUrl">
+    <value />
+  </data>
+  <data name="hlUserName.NavigateUrl">
+    <value />
+  </data>
+  <data name="imgGender.ToolTip">
+    <value />
+  </data>
+  <data name="imgGender.ImageUrl">
+    <value>images/icon_male_12.gif</value>
+  </data>
+  <data name="hplAddToContacts.Text">
+    <value>Dodaj u kontakte</value>
+  </data>
+  <data name="hplAddToContacts.ToolTip">
+    <value />
+  </data>
+  <data name="hplAddToContacts.ImageUrl">
+    <value>images/userfolder.gif</value>
+  </data>
+  <data name="hplAddToContacts.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplBossMail.Text">
+    <value>Kontaktiraj menadžera</value>
+  </data>
+  <data name="hplBossMail.ToolTip">
+    <value />
+  </data>
+  <data name="hplBossMail.ImageUrl">
+    <value>images/mailFixed.gif</value>
+  </data>
+  <data name="hplBossMail.NavigateUrl">
+    <value>mail.aspx?mailbox=newMail</value>
+  </data>
+  <data name="imgBtnBlockUser.ToolTip">
+    <value>Kliknite ovde ako želite da blokirate ovog korisnika </value>
+  </data>
+  <data name="imgBtnBlockUser.ImageUrl">
+    <value>images/blockeduser.png</value>
+  </data>
+  <data name="Label15.Text">
+    <value>Ime</value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="lblName.Text">
+    <value />
+  </data>
+  <data name="lblName.ToolTip">
+    <value />
+  </data>
+  <data name="Label17.Text">
+    <value>Broj godina:</value>
+  </data>
+  <data name="Label17.ToolTip">
+    <value />
+  </data>
+  <data name="lblAge.Text">
+    <value />
+  </data>
+  <data name="lblAge.ToolTip">
+    <value />
+  </data>
+  <data name="lblManSkillStatic.Text">
+    <value>Veština menadžerstva:</value>
+  </data>
+  <data name="lblManSkillStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblManSkill.Text">
+    <value />
+  </data>
+  <data name="lblManSkill.ToolTip">
+    <value />
+  </data>
+  <data name="lblRankedStatic.Text">
+    <value>Rangiranje:</value>
+  </data>
+  <data name="lblRankedStatic.ToolTip">
+    <value />
+  </data>
+  <data name="imgGlobal.ToolTip">
+    <value />
+  </data>
+  <data name="imgGlobal.ImageUrl">
+    <value />
+  </data>
+  <data name="lblRanked.Text">
+    <value />
+  </data>
+  <data name="lblRanked.ToolTip">
+    <value />
+  </data>
+  <data name="imgNation.ToolTip">
+    <value />
+  </data>
+  <data name="imgNation.ImageUrl">
+    <value />
+  </data>
+  <data name="lblNationRanked.Text">
+    <value />
+  </data>
+  <data name="lblNationRanked.ToolTip">
+    <value />
+  </data>
+  <data name="lblXpertRatingStatic.Text">
+    <value>Xpert rangiranje:</value>
+  </data>
+  <data name="lblXpertRatingStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblXpertRating.Text">
+    <value />
+  </data>
+  <data name="lblXpertRating.ToolTip">
+    <value />
+  </data>
+  <data name="lblLastInlogStatic.Text">
+    <value>Datum zadnje posete:</value>
+  </data>
+  <data name="lblLastInlogStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblLastInlog.Text">
+    <value />
+  </data>
+  <data name="lblLastInlog.ToolTip">
+    <value />
+  </data>
+  <data name="Label13.Text">
+    <value>Član od:</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="lblMemberSince.Text">
+    <value />
+  </data>
+  <data name="lblMemberSince.ToolTip">
+    <value />
+  </data>
+  <data name="lblOriginStatic.Text">
+    <value>Iz:</value>
+  </data>
+  <data name="lblOriginStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeTown.Text">
+    <value />
+  </data>
+  <data name="lblHomeTown.ToolTip">
+    <value />
+  </data>
+  <data name="lblOrigin.Text">
+    <value />
+  </data>
+  <data name="lblOrigin.ToolTip">
+    <value />
+  </data>
+  <data name="lblCountry.Text">
+    <value />
+  </data>
+  <data name="lblCountry.ToolTip">
+    <value />
+  </data>
+  <data name="Label19.Text">
+    <value>Glavna stranica</value>
+  </data>
+  <data name="Label19.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomePage.Text">
+    <value />
+  </data>
+  <data name="hplHomePage.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomePage.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomePage.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label20.Text">
+    <value>Email:</value>
+  </data>
+  <data name="Label20.ToolTip">
+    <value />
+  </data>
+  <data name="hplEmail.Text">
+    <value />
+  </data>
+  <data name="hplEmail.ToolTip">
+    <value />
+  </data>
+  <data name="hplEmail.ImageUrl">
+    <value />
+  </data>
+  <data name="hplEmail.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label21.Text">
+    <value>MSN:</value>
+  </data>
+  <data name="Label21.ToolTip">
+    <value />
+  </data>
+  <data name="lblMSN.Text">
+    <value />
+  </data>
+  <data name="lblMSN.ToolTip">
+    <value />
+  </data>
+  <data name="Label23.Text">
+    <value>ICQ:</value>
+  </data>
+  <data name="Label23.ToolTip">
+    <value />
+  </data>
+  <data name="lblICQ.Text">
+    <value />
+  </data>
+  <data name="lblICQ.ToolTip">
+    <value />
+  </data>
+  <data name="Label24.Text">
+    <value>Preporučuje</value>
+  </data>
+  <data name="Label24.ToolTip">
+    <value />
+  </data>
+  <data name="hplRecommendedSite.Text">
+    <value />
+  </data>
+  <data name="hplRecommendedSite.ToolTip">
+    <value />
+  </data>
+  <data name="hplRecommendedSite.ImageUrl">
+    <value />
+  </data>
+  <data name="hplRecommendedSite.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>Omiljeni igrač:</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="lblFavPlayer.Text">
+    <value />
+  </data>
+  <data name="lblFavPlayer.ToolTip">
+    <value />
+  </data>
+  <data name="Label11.Text">
+    <value>Omiljena pozicija:</value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="lblPosition.Text">
+    <value />
+  </data>
+  <data name="lblPosition.ToolTip">
+    <value />
+  </data>
+  <data name="lblFavTeams.Text">
+    <value>Omiljeni tim(ovi):</value>
+  </data>
+  <data name="lblFavTeams.ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="lblMottoStatic.Text">
+    <value>Moto</value>
+  </data>
+  <data name="lblMottoStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblMotto.Text">
+    <value />
+  </data>
+  <data name="lblMotto.ToolTip">
+    <value />
+  </data>
+  <data name="lblPresStatic.Text">
+    <value>Prezentacije</value>
+  </data>
+  <data name="lblPresStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblPresentation.Text">
+    <value />
+  </data>
+  <data name="lblPresentation.ToolTip">
+    <value />
+  </data>
+  <data name="lblOfficialClubs.Text">
+    <value>Oficijalni timovi</value>
+  </data>
+  <data name="lblOfficialClubs.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoOffTeams.Text">
+    <value>Ovaj menadžer nema oficijalnog tima</value>
+  </data>
+  <data name="lblNoOffTeams.ToolTip">
+    <value />
+  </data>
+  <data name="imgXpertLeague.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirt.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirt.ImageUrl">
+    <value />
+  </data>
+  <data name="imgShorts.ToolTip">
+    <value />
+  </data>
+  <data name="imgShorts.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTeamName.Text">
+    <value />
+  </data>
+  <data name="hplTeamName.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamName.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTeamName.NavigateUrl">
+    <value />
+  </data>
+  <data name="imgTemp.ToolTip">
+    <value />
+  </data>
+  <data name="imgTemp.ImageUrl">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>Glavna stranica</value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamHomePage.Text">
+    <value />
+  </data>
+  <data name="hplTeamHomePage.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamHomePage.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTeamHomePage.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblDivision.Text">
+    <value>Zona</value>
+  </data>
+  <data name="lblDivision.ToolTip">
+    <value />
+  </data>
+  <data name="hplSerie.Text">
+    <value />
+  </data>
+  <data name="hplSerie.ToolTip">
+    <value />
+  </data>
+  <data name="hplSerie.ImageUrl">
+    <value />
+  </data>
+  <data name="hplSerie.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Pozicija</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="lblPlaced.Text">
+    <value />
+  </data>
+  <data name="lblPlaced.ToolTip">
+    <value />
+  </data>
+  <data name="lblStrength.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="lblStrength.ToolTip">
+    <value />
+  </data>
+  <data name="ltlStrength.Text">
+    <value />
+  </data>
+  <data name="lblForm.Text">
+    <value>Forma</value>
+  </data>
+  <data name="lblForm.ToolTip">
+    <value />
+  </data>
+  <data name="ltlForm.Text">
+    <value />
+  </data>
+  <data name="Label27.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="Label27.ToolTip">
+    <value />
+  </data>
+  <data name="imgClubSign.ToolTip">
+    <value />
+  </data>
+  <data name="imgClubSign.ImageUrl">
+    <value />
+  </data>
+  <data name="imgXpertLadies.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirtW.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirtW.ImageUrl">
+    <value />
+  </data>
+  <data name="imgShortsW.ToolTip">
+    <value />
+  </data>
+  <data name="imgShortsW.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTeamNameW.Text">
+    <value />
+  </data>
+  <data name="hplTeamNameW.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamNameW.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTeamNameW.NavigateUrl">
+    <value />
+  </data>
+  <data name="imgTempW.ToolTip">
+    <value />
+  </data>
+  <data name="imgTempW.ImageUrl">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>Glavna stranica</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamHomePageW.Text">
+    <value />
+  </data>
+  <data name="hplTeamHomePageW.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamHomePageW.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTeamHomePageW.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label14.Text">
+    <value>Zona</value>
+  </data>
+  <data name="Label14.ToolTip">
+    <value />
+  </data>
+  <data name="hplSerieW.Text">
+    <value />
+  </data>
+  <data name="hplSerieW.ToolTip">
+    <value />
+  </data>
+  <data name="hplSerieW.ImageUrl">
+    <value />
+  </data>
+  <data name="hplSerieW.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>Pozicija</value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="lblPlacedW.Text">
+    <value />
+  </data>
+  <data name="lblPlacedW.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="ltlStrengthW.Text">
+    <value />
+  </data>
+  <data name="Label9.Text">
+    <value>Forma</value>
+  </data>
+  <data name="Label9.ToolTip">
+    <value />
+  </data>
+  <data name="ltlFormW.Text">
+    <value />
+  </data>
+  <data name="Label28.Text">
+    <value>Jačina</value>
+  </data>
+  <data name="Label28.ToolTip">
+    <value />
+  </data>
+  <data name="imgClubSignW.ToolTip">
+    <value />
+  </data>
+  <data name="imgClubSignW.ImageUrl">
+    <value />
+  </data>
+  <data name="lblPrivateLeagues.Text">
+    <value>Timovi u privatnim ligama</value>
+  </data>
+  <data name="lblPrivateLeagues.ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name="Label25.Text">
+    <value>Timovi u prošlosti</value>
+  </data>
+  <data name="Label25.ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name="lblCloseUsers.Text">
+    <value />
+  </data>
+  <data name="lblCloseUsers.ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value>graphics/obs.gif</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value>graphics/obs.gif</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value>graphics/obs.gif</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value>graphics/obs.gif</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value>graphics/obs.gif</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ImageUrl">
+    <value />
+  </data>
+  <data name=".NavigateUrl">
+    <value>url</value>
+  </data>
+  <data name="hplCloseUser.Text">
+    <value>Ispitaj korisnika</value>
+  </data>
+  <data name="hplCloseUser.ToolTip">
+    <value />
+  </data>
+  <data name="hplCloseUser.ImageUrl">
+    <value />
+  </data>
+  <data name="hplCloseUser.NavigateUrl">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

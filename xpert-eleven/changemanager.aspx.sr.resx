@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblEditProfile.Text">
+    <value />
+  </data>
+  <data name="lblEditProfile.ToolTip">
+    <value />
+  </data>
+  <data name="Label20.Text">
+    <value>Podešavanje korisnika</value>
+  </data>
+  <data name="Label20.ToolTip">
+    <value />
+  </data>
+  <data name="Label21.Text">
+    <value>Članski broj:</value>
+  </data>
+  <data name="Label21.ToolTip">
+    <value />
+  </data>
+  <data name="lblUserNr.Text">
+    <value />
+  </data>
+  <data name="lblUserNr.ToolTip">
+    <value />
+  </data>
+  <data name="Label7.Text">
+    <value>Ime-:</value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name="lblName.Text">
+    <value />
+  </data>
+  <data name="lblName.ToolTip">
+    <value />
+  </data>
+  <data name="chbName.Text">
+    <value>Pokaži</value>
+  </data>
+  <data name="chbName.ToolTip">
+    <value>Prihvatite ovde ako želite da ostali vide vaše pravo ime</value>
+  </data>
+  <data name="Label9.Text">
+    <value>Starost:</value>
+  </data>
+  <data name="Label9.ToolTip">
+    <value />
+  </data>
+  <data name="lblAge.Text">
+    <value />
+  </data>
+  <data name="lblAge.ToolTip">
+    <value />
+  </data>
+  <data name="chbAge.Text">
+    <value>Pokaži</value>
+  </data>
+  <data name="chbAge.ToolTip">
+    <value>Prihvatite ovde ako želite da ostali vide vaše godine</value>
+  </data>
+  <data name="Label22.Text">
+    <value>Datum rođenja:</value>
+  </data>
+  <data name="Label22.ToolTip">
+    <value />
+  </data>
+  <data name="lblBirthDate.Text">
+    <value />
+  </data>
+  <data name="lblBirthDate.ToolTip">
+    <value />
+  </data>
+  <data name="Label24.Text">
+    <value> VIP-status:</value>
+  </data>
+  <data name="Label24.ToolTip">
+    <value />
+  </data>
+  <data name="lblVIP.Text">
+    <value>Niste VIP član</value>
+  </data>
+  <data name="lblVIP.ToolTip">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>Email:</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator6.Text">
+    <value>*</value>
+  </data>
+  <data name="RequiredFieldValidator6.ToolTip">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator6.ErrorMessage">
+    <value>Morate uneti email adresu</value>
+  </data>
+  <data name="txt_email.ToolTip">
+    <value />
+  </data>
+  <data name="txtHiddenEmail.ToolTip">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>Mesto boravka:</value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="txtHomeTown.ToolTip">
+    <value />
+  </data>
+  <data name="lCountry.Text">
+    <value>Zemlja:</value>
+  </data>
+  <data name="lCountry.ToolTip">
+    <value />
+  </data>
+  <data name="lLocation.Text">
+    <value>Regija:</value>
+  </data>
+  <data name="lLocation.ToolTip">
+    <value />
+  </data>
+  <data name="Label23.Text">
+    <value>Jezik:</value>
+  </data>
+  <data name="Label23.ToolTip">
+    <value />
+  </data>
+  <data name="ddLang:0.Text">
+    <value>Svenska</value>
+  </data>
+  <data name="ddLang:1.Text">
+    <value>English</value>
+  </data>
+  <data name="Label16.Text">
+    <value>Prezentacija:</value>
+  </data>
+  <data name="Label16.ToolTip">
+    <value />
+  </data>
+  <data name="txtPresText.ToolTip">
+    <value />
+  </data>
+  <data name="Label15.Text">
+    <value>Moto:</value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="txtMotto.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>Ostale prednosti</value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>Omiljeni igrač:</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="txtFavPlayer.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Omiljena pozicija:</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="Label13.Text">
+    <value>Lična stranica:</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="txtHomePage.ToolTip">
+    <value />
+  </data>
+  <data name="Label14.Text">
+    <value>Predložena stranica:</value>
+  </data>
+  <data name="Label14.ToolTip">
+    <value />
+  </data>
+  <data name="txtRecommendedSite.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>MSN:</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="txtMSN.ToolTip">
+    <value />
+  </data>
+  <data name="Label11.Text">
+    <value>ICQ:</value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="txtICQ.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrorMess.Text">
+    <value />
+  </data>
+  <data name="lblErrorMess.ToolTip">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1.Text">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1.ToolTip">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1.ErrorMessage">
+    <value>Email adresa je nevažeća</value>
+  </data>
+  <data name="btnSave.Text">
+    <value>Sačuvaj profil</value>
+  </data>
+  <data name="btnSave.ToolTip">
+    <value />
+  </data>
+  <data name="Label25.Text">
+    <value>Izabrani jezici za čitanje novina i diskusija</value>
+  </data>
+  <data name="Label25.ToolTip">
+    <value />
+  </data>
+  <data name="lblPRLanguages.Text">
+    <value>Izaberite jezik(e) u kojima želite da se pojave press konferencije. Obaveštavamo vas da ovo postavljanje samo važi za glavne Xpert Lige. Postavke takođe imaju efekta koje teme na diskusijama ćete moći da vidite u Xpert ligama. </value>
+  </data>
+  <data name="lblPRLanguages.ToolTip">
+    <value />
+  </data>
+  <data name="btnSavePRLang.Text">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="btnSavePRLang.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrFlag.Text">
+    <value />
+  </data>
+  <data name="lblErrFlag.ToolTip">
+    <value />
+  </data>
+  <data name="Label26.Text">
+    <value>Omiljeni timovi</value>
+  </data>
+  <data name="Label26.ToolTip">
+    <value />
+  </data>
+  <data name="Label27.Text">
+    <value>Izaberite vaše omiljene timove. Možete izabrati maksimum 5 timova iz celog sveta koji će biti vidljivi na vašoj stranici. </value>
+  </data>
+  <data name="Label27.ToolTip">
+    <value />
+  </data>
+  <data name="btnSaveFavTeams.Text">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="btnSaveFavTeams.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrFavTeam.Text">
+    <value />
+  </data>
+  <data name="lblErrFavTeam.ToolTip">
+    <value />
+  </data>
+  <data name="Label2.Text">
+    <value>Blokirani korisnici</value>
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="Label3.Text">
+    <value>Ovde možete videti koga ste sve blokirali sa liste za slanje pošte kao i iz knjige gostiju</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="btnRemoveBlock.Text">
+    <value>Izbriši blokadu</value>
+  </data>
+  <data name="btnRemoveBlock.ToolTip">
+    <value />
+  </data>
+  <data name="Label18.Text">
+    <value>Vaš potpis na diskusijama</value>
+  </data>
+  <data name="Label18.ToolTip">
+    <value />
+  </data>
+  <data name="Label19.Text">
+    <value>Potpis</value>
+  </data>
+  <data name="Label19.ToolTip">
+    <value />
+  </data>
+  <data name="tbSign.ToolTip">
+    <value />
+  </data>
+  <data name="lblSignInfo.Text">
+    <value>Obaveštavamo vas da je zabranjeno postavljanje ID lige u vašem potpisu</value>
+  </data>
+  <data name="lblSignInfo.ToolTip">
+    <value />
+  </data>
+  <data name="bSign.Text">
+    <value>Sačuvaj potpis na forumu</value>
+  </data>
+  <data name="bSign.ToolTip">
+    <value />
+  </data>
+  <data name="lErrorSign.Text">
+    <value />
+  </data>
+  <data name="lErrorSign.ToolTip">
+    <value />
+  </data>
+  <data name="Label17.Text">
+    <value>Promeni šifru</value>
+  </data>
+  <data name="Label17.ToolTip">
+    <value />
+  </data>
+  <data name="lblOldPass.Text">
+    <value>Prethodna šifra</value>
+  </data>
+  <data name="lblOldPass.ToolTip">
+    <value />
+  </data>
+  <data name="txtOldPass.ToolTip">
+    <value />
+  </data>
+  <data name="lblNewPass.Text">
+    <value>Nova šifra</value>
+  </data>
+  <data name="lblNewPass.ToolTip">
+    <value />
+  </data>
+  <data name="txtNewPass.ToolTip">
+    <value />
+  </data>
+  <data name="lblNewPassAgain.Text">
+    <value>Nova šifra ponovo</value>
+  </data>
+  <data name="lblNewPassAgain.ToolTip">
+    <value />
+  </data>
+  <data name="txtNewPassAgain.ToolTip">
+    <value />
+  </data>
+  <data name="lblPassError.Text">
+    <value />
+  </data>
+  <data name="lblPassError.ToolTip">
+    <value />
+  </data>
+  <data name="btnPassword.Text">
+    <value>Promeni šifru</value>
+  </data>
+  <data name="btnPassword.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnSaveDefLang.Text">
+    <value>Sacuvaj</value>
+  </data>
+</root>

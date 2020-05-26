@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hplAd.ImageUrl">
+    <value />
+  </data>
+  <data name="hplXpertDaily.Text">
+    <value>Novosti</value>
+  </data>
+  <data name="hplBecomeMember.ToolTip">
+    <value />
+  </data>
+  <data name="hplFaq.ToolTip">
+    <value />
+  </data>
+  <data name="hplX11Crew.ToolTip">
+    <value />
+  </data>
+  <data name="hplRules.ToolTip">
+    <value />
+  </data>
+  <data name="hplXpertLeagues.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHallOfFame.NavigateUrl">
+    <value>halloffame.aspx</value>
+  </data>
+  <data name="lblMembersStatic.ToolTip">
+    <value />
+  </data>
+  <data name="hplRules.ImageUrl">
+    <value />
+  </data>
+  <data name="hplRules.NavigateUrl">
+    <value>ruler.aspx?RuleID=34</value>
+  </data>
+  <data name="hplSetup.ImageUrl">
+    <value />
+  </data>
+  <data name="hplNews.Text">
+    <value>Vesti</value>
+  </data>
+  <data name="hplMyPage.ToolTip">
+    <value />
+  </data>
+  <data name="lblToday.ToolTip">
+    <value />
+  </data>
+  <data name="hplXpertDaily.ToolTip">
+    <value />
+  </data>
+  <data name="hplXpertLeagues.Text">
+    <value>Xpert lige</value>
+  </data>
+  <data name="hplRules.Text">
+    <value>Pravila</value>
+  </data>
+  <data name="hplBecomeMember.ImageUrl">
+    <value />
+  </data>
+  <data name="hplBecomeMember.Text">
+    <value>Registruj se</value>
+  </data>
+  <data name="lblMembersStatic.Text">
+    <value>Članovi</value>
+  </data>
+  <data name="lblTotal.ToolTip">
+    <value />
+  </data>
+  <data name="chbStore.Text">
+    <value />
+  </data>
+  <data name="hplBrevlada.ToolTip">
+    <value />
+  </data>
+  <data name="hplNewLeague.Text">
+    <value>Napravi ligu</value>
+  </data>
+  <data name="hplX11Store.Text">
+    <value> Xpert radnja</value>
+  </data>
+  <data name="lnkBtnLogout.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplSetup.ToolTip">
+    <value />
+  </data>
+  <data name="hplResources.Text">
+    <value>Izvori</value>
+  </data>
+  <data name="hplXpertLeagues.ToolTip">
+    <value />
+  </data>
+  <data name="hplResources.ToolTip">
+    <value />
+  </data>
+  <data name="hplMyPage.NavigateUrl">
+    <value>manager.aspx</value>
+  </data>
+  <data name="lblTotal.Text">
+    <value>Ukupno: [VALUE]</value>
+  </data>
+  <data name="hplSearchLeague.NavigateUrl">
+    <value>searchLeague.aspx</value>
+  </data>
+  <data name="hplAd.ToolTip">
+    <value />
+  </data>
+  <data name="hplForum.NavigateUrl">
+    <value>viewGlobalForum.aspx</value>
+  </data>
+  <data name="lblOnline.Text">
+    <value> Trenutno tu: [VALUE]</value>
+  </data>
+  <data name="hplHallOfFame.ToolTip">
+    <value />
+  </data>
+  <data name="lblToday.Text">
+    <value> Danas: [VALUE]</value>
+  </data>
+  <data name="hplXpertDaily.NavigateUrl">
+    <value>xpertdaily.aspx</value>
+  </data>
+  <data name="hplScreenshots.ImageUrl">
+    <value />
+  </data>
+  <data name="hplSetup.Text">
+    <value>Podesavanja</value>
+  </data>
+  <data name="hplSearchLeague.ToolTip">
+    <value />
+  </data>
+  <data name="hplScreenshots.Text">
+    <value>Slike</value>
+  </data>
+  <data name="hplForum.Text">
+    <value>Forum</value>
+  </data>
+  <data name="hplXpertDaily.ImageUrl">
+    <value />
+  </data>
+  <data name="hplBrevlada.NavigateUrl">
+    <value>mail.aspx?global=1&amp;mailBox=inbox</value>
+  </data>
+  <data name="hplKontakt.NavigateUrl">
+    <value>ordermanagement.aspx</value>
+  </data>
+  <data name="hplFaq.Text">
+    <value>Pitanja</value>
+  </data>
+  <data name="hplX11Crew.Text">
+    <value>Funkcije</value>
+  </data>
+  <data name="hplResources.NavigateUrl">
+    <value>xpertResource.aspx</value>
+  </data>
+  <data name="chbStore.ToolTip">
+    <value />
+  </data>
+  <data name="hplScreenshots.ToolTip">
+    <value />
+  </data>
+  <data name="hplNews.ImageUrl">
+    <value />
+  </data>
+  <data name="hplKontakt.ToolTip">
+    <value />
+  </data>
+  <data name="hplForgot.ImageUrl">
+    <value />
+  </data>
+  <data name="hplScreenshots.NavigateUrl">
+    <value>screenshots.aspx</value>
+  </data>
+  <data name="hplNewLeague.NavigateUrl">
+    <value>registerLeague.aspx</value>
+  </data>
+  <data name="hplFaq.ImageUrl">
+    <value />
+  </data>
+  <data name="hplAd.NavigateUrl">
+    <value>advertise.aspx</value>
+  </data>
+  <data name="hplFaq.NavigateUrl">
+    <value>faq.aspx?CatID=1</value>
+  </data>
+  <data name="hplForum.ImageUrl">
+    <value />
+  </data>
+  <data name="hplNews.ToolTip">
+    <value />
+  </data>
+  <data name="hplLobby.NavigateUrl">
+    <value>lobby.aspx</value>
+  </data>
+  <data name="hplForgot.ToolTip">
+    <value />
+  </data>
+  <data name="lblOnline.ToolTip">
+    <value />
+  </data>
+  <data name="hplSetup.NavigateUrl">
+    <value>changemanager.aspx</value>
+  </data>
+  <data name="hplX11Store.ImageUrl">
+    <value />
+  </data>
+  <data name="hplResources.ImageUrl">
+    <value />
+  </data>
+  <data name="hplX11Store.NavigateUrl">
+    <value>x11Store.aspx</value>
+  </data>
+  <data name="lnkBtnLogout.ImageUrl">
+    <value />
+  </data>
+  <data name="hplForgot.NavigateUrl">
+    <value>forgotPass.aspx</value>
+  </data>
+  <data name="hplHallOfFame.Text">
+    <value>Kuća slavnih</value>
+  </data>
+  <data name="hplForgot.Text">
+    <value>Šifra ?</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="imgNerkant.ToolTip">
+    <value />
+  </data>
+  <data name="hplNews.NavigateUrl">
+    <value>xenews.aspx</value>
+  </data>
+  <data name="hplBecomeMember.NavigateUrl">
+    <value>registerUser.aspx</value>
+  </data>
+  <data name="hplKontakt.ImageUrl">
+    <value />
+  </data>
+  <data name="hplForum.ToolTip">
+    <value />
+  </data>
+  <data name="hplNewLeague.ImageUrl">
+    <value />
+  </data>
+  <data name="hplXpertLeagues.NavigateUrl">
+    <value>xpertLeagues.aspx</value>
+  </data>
+  <data name="hplNewLeague.ToolTip">
+    <value />
+  </data>
+  <data name="hplAd.Text">
+    <value>Reklama</value>
+  </data>
+  <data name="hplLobby.ToolTip">
+    <value />
+  </data>
+  <data name="lnkBtnLogout.Text">
+    <value>Odjavi se</value>
+  </data>
+  <data name="hplX11Store.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="hplLobby.Text">
+    <value>Predsoblje</value>
+  </data>
+  <data name="hplMyPage.ImageUrl">
+    <value />
+  </data>
+  <data name="hplBrevlada.Text">
+    <value>Pošta</value>
+  </data>
+  <data name="lnkBtnLogout.ToolTip">
+    <value />
+  </data>
+  <data name="imgNerkant.ImageUrl">
+    <value>menupics/nerkantmeny_new.gif</value>
+  </data>
+  <data name="hplMyPage.Text">
+    <value>Moj profil</value>
+  </data>
+  <data name="hplSearchLeague.Text">
+    <value>Traži</value>
+  </data>
+  <data name="hplX11Crew.NavigateUrl">
+    <value>functionaries.aspx</value>
+  </data>
+  <data name="hplHallOfFame.ImageUrl">
+    <value />
+  </data>
+  <data name="hplSearchLeague.ImageUrl">
+    <value />
+  </data>
+  <data name="hplLobby.ImageUrl">
+    <value />
+  </data>
+  <data name="hplX11Crew.ImageUrl">
+    <value />
+  </data>
+  <data name="lblYesterday.ToolTip">
+    <value />
+  </data>
+  <data name="lblYesterday.Text">
+    <value> Juče: [VALUE]</value>
+  </data>
+  <data name="hplKontakt.Text">
+    <value> Admin</value>
+  </data>
+  <data name="hplBrevlada.ImageUrl">
+    <value />
+  </data>
+</root>

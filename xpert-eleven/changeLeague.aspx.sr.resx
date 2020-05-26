@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLeagueNameBig.Text">
+    <value>Postavke lige</value>
+  </data>
+  <data name="lblLeagueNameBig.ToolTip">
+    <value />
+  </data>
+  <data name="lblLeagueName.Text">
+    <value>Ime lige:</value>
+  </data>
+  <data name="lblLeagueName.ToolTip">
+    <value />
+  </data>
+  <data name="txtNamn.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomePage.Text">
+    <value>Glavna stranica:</value>
+  </data>
+  <data name="lblHomePage.ToolTip">
+    <value />
+  </data>
+  <data name="txtHomePage.ToolTip">
+    <value />
+  </data>
+  <data name="lblDirty.Text">
+    <value>Prljavi trikovi:</value>
+  </data>
+  <data name="lblDirty.ToolTip">
+    <value />
+  </data>
+  <data name="chbDirty.Text">
+    <value>Dozvoli korištenje prljavih trikova u vašoj ligi</value>
+  </data>
+  <data name="chbDirty.ToolTip">
+    <value>Čekirajte kvadrat ako želite prljave trikove u vašoj ligi</value>
+  </data>
+  <data name="Label13.Text">
+    <value>Direktni transferi:</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="chbDT.Text">
+    <value>Dozvoli direktne transfere između VIP članova</value>
+  </data>
+  <data name="chbDT.ToolTip">
+    <value>Izaberite ovde ako želite direktne transfere između VIP članova u ligi.</value>
+  </data>
+  <data name="lblNameChange.Text">
+    <value> Menjanje imena:</value>
+  </data>
+  <data name="lblNameChange.ToolTip">
+    <value />
+  </data>
+  <data name="chbNameChange.Text">
+    <value>Dozvoli VIP članovima da menjaju imena igrača </value>
+  </data>
+  <data name="chbNameChange.ToolTip">
+    <value>Izaberite ovde ako želite da dozvolite promenu imena igrača u ovoj ligi. </value>
+  </data>
+  <data name="lblPrivacyStatic.Text">
+    <value>Privatnost</value>
+  </data>
+  <data name="lblPrivacyStatic.ToolTip">
+    <value />
+  </data>
+  <data name="chbPrivacy.Text">
+    <value>Ne pokazujte prava imena korisnika</value>
+  </data>
+  <data name="chbPrivacy.ToolTip">
+    <value>Izaberite ovde ako ne želite da članovi vide lična imena korisnika</value>
+  </data>
+  <data name="lblPublikStatic.Text">
+    <value>Pristupnost</value>
+  </data>
+  <data name="lblPublikStatic.ToolTip">
+    <value />
+  </data>
+  <data name="chbPrivate.Text">
+    <value>Samo za tvoje prijatelje (zatvorena liga)</value>
+  </data>
+  <data name="chbPrivate.ToolTip">
+    <value>Izaberite ovu opciju ako želite da vaša liga bude otvorena za sve (otvorena liga) ili zatvorena samo za ljude kojima vi pošaljete pozivnicu (zatvorena liga)</value>
+  </data>
+  <data name="chbVIP.Text">
+    <value>VIP</value>
+  </data>
+  <data name="chbVIP.ToolTip">
+    <value>Samo VIP članovi mogu da uđu u vašu ligu ako vašu ligu postavite kao VIP ligu.</value>
+  </data>
+  <data name="lblOffLang.Text">
+    <value>Oficijalni jezik:</value>
+  </data>
+  <data name="lblOffLang.ToolTip">
+    <value />
+  </data>
+  <data name="dpdOffLang:0.Text">
+    <value>Engleski</value>
+  </data>
+  <data name="dpdOffLang:1.Text">
+    <value>Švedski</value>
+  </data>
+  <data name="lblMaxNoTeams.Text">
+    <value>Maks. broj timova:</value>
+  </data>
+  <data name="lblMaxNoTeams.ToolTip">
+    <value />
+  </data>
+  <data name="txtMaxNoTeams.ToolTip">
+    <value />
+  </data>
+  <data name="chbMaxNoTeams.Text">
+    <value>Beskonačan</value>
+  </data>
+  <data name="chbMaxNoTeams.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoRelegatedTeams.Text">
+    <value>Lišeni timovi:</value>
+  </data>
+  <data name="lblNoRelegatedTeams.ToolTip">
+    <value />
+  </data>
+  <data name="lblLeagueDescStatic.Text">
+    <value>Opis lige:</value>
+  </data>
+  <data name="lblLeagueDescStatic.ToolTip">
+    <value />
+  </data>
+  <data name="txtLeagueDesc.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrMess.Text">
+    <value />
+  </data>
+  <data name="lblErrMess.ToolTip">
+    <value />
+  </data>
+  <data name="btnUpdate.Text">
+    <value>Ažuriraj</value>
+  </data>
+  <data name="btnUpdate.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Kriterijum lige</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>Kao administrator lige vi možete dati pristup samo određenim menadžerima da mogu da apliciraju za ulazak u vašu ligu. Ovde možete postaviti vaše kriterijume u vezi xpert eleven ranga, oficijalnog ranga menadžera kao i dužine članstva na ovom sajtu kao kriterijume za članstvo u vašoj ligi.</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="lblMinRatingStatic.Text">
+    <value>Minimalni rang na xpert-u</value>
+  </data>
+  <data name="lblMinRatingStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblMinRankStatic.Text">
+    <value>Minimalni oficijalni rang:</value>
+  </data>
+  <data name="lblMinRankStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblMinTimeStatic.Text">
+    <value>Minimalna dužina članstva na ovom sajtu</value>
+  </data>
+  <data name="lblMinTimeStatic.ToolTip">
+    <value />
+  </data>
+  <data name="btnSendLeagueDemands.Text">
+    <value>Ažuriraj</value>
+  </data>
+  <data name="btnSendLeagueDemands.ToolTip">
+    <value />
+  </data>
+  <data name="Label7.Text">
+    <value>Ime zone</value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name="lblDivisionNames.Text">
+    <value>Kao administrator lige možete izabrati različita imena zona u vašoj ligi. Izaberite bilo koje ime i napišite ga u imenu za zonu.</value>
+  </data>
+  <data name="lblDivisionNames.ToolTip">
+    <value />
+  </data>
+  <data name="lblDivisionName.Text">
+    <value>Promeni ime zone</value>
+  </data>
+  <data name="lblDivisionName.ToolTip">
+    <value />
+  </data>
+  <data name="txtDivisionNames.ToolTip">
+    <value />
+  </data>
+  <data name="btnDivisionNames.Text">
+    <value>Ažuriraj</value>
+  </data>
+  <data name="btnDivisionNames.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrDiv.Text">
+    <value />
+  </data>
+  <data name="lblErrDiv.ToolTip">
+    <value />
+  </data>
+  <data name="lblPreBoughtVIP.Text">
+    <value>Preplaćeno VIP članstvo</value>
+  </data>
+  <data name="lblPreBoughtVIP.ToolTip">
+    <value />
+  </data>
+  <data name="lblPreBoughtInfo1.Text">
+    <value>Kao administrator lige vi možete postaviti nagrade za pobednike lige i kupa. VIP će biti uplaćen osvajačima kada se liga ili kup završe. Stranica za informacije o ligi će vas obavestiti ako liga ima tih nagrada ili ne. </value>
+  </data>
+  <data name="lblPreBoughtInfo1.ToolTip">
+    <value />
+  </data>
+  <data name="lblPreBoughtInfo2.Text">
+    <value>Ako izaberete opciju ' Obični ', moćićete da dajete VIP članstvo u bilo koje vreme bilo kome u vašoj ligi. Ovo bi bila dobra opcija ako imate nagrade pored pobednika lige i kupa kao naprimer nagrade za najbolju napisanu press konferenciju. Administrator lige ne može dati sam sebi VIP članstvo. </value>
+  </data>
+  <data name="lblPreBoughtInfo2.ToolTip">
+    <value />
+  </data>
+  <data name="lblPreBoughtInfo3.Text">
+    <value>Svaka VIP nagrada se mora podeliti u prvih 9 meseci od kupovine. Ovo je samo sigurnost da se VIP nagrada podeli. Ako se kojim slučajem VIP nagrada ne podeli pre isteka, ista nagrada se automatski gubi. </value>
+  </data>
+  <data name="lblPreBoughtInfo3.ToolTip">
+    <value />
+  </data>
+  <data name="lblSetPrize.Text">
+    <value>Postavite cenu za:</value>
+  </data>
+  <data name="lblSetPrize.ToolTip">
+    <value />
+  </data>
+  <data name="txtCustom.ToolTip">
+    <value />
+  </data>
+  <data name="Label15.Text">
+    <value>Postavite VIP cenu</value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="btnSavePrize.Text">
+    <value>Dodaj cenu</value>
+  </data>
+  <data name="btnSavePrize.ToolTip">
+    <value />
+  </data>
+  <data name="lblPrizeErr.Text">
+    <value />
+  </data>
+  <data name="lblPrizeErr.ToolTip">
+    <value />
+  </data>
+  <data name="lblPotGrid.Text">
+    <value>Ostatak nagrade</value>
+  </data>
+  <data name="lblPotGrid.ToolTip">
+    <value />
+  </data>
+  <data name="lblBoughtPrizes.Text">
+    <value>Specifična nagrada</value>
+  </data>
+  <data name="lblBoughtPrizes.ToolTip">
+    <value />
+  </data>
+  <data name="lblHandOutCustom.Text">
+    <value>Dodeljene obične nagrade</value>
+  </data>
+  <data name="lblHandOutCustom.ToolTip">
+    <value />
+  </data>
+  <data name="lblCustomPrize.Text">
+    <value>Obična nagrada</value>
+  </data>
+  <data name="lblCustomPrize.ToolTip">
+    <value />
+  </data>
+  <data name="lblUser.Text">
+    <value>Korisnik:</value>
+  </data>
+  <data name="lblUser.ToolTip">
+    <value />
+  </data>
+  <data name="btnHandOutCustom.Text">
+    <value>Predaj nagrade</value>
+  </data>
+  <data name="btnHandOutCustom.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrHandOut.Text">
+    <value />
+  </data>
+  <data name="lblErrHandOut.ToolTip">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>Zaposli pomoćnike</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>Kao administrator lige možete izabrati asistente koji će vam pomoći u kontrolisanju sobe za Press konferencije kao i u odobravanju imena igrača i imena timova. Pomoćnik ne može da odobri aplikacije ili početak sezone ili bilo koje važnije stvari u vezi lige. </value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="Label11.Text">
+    <value>Izaberi pomoćnika:</value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="txtAssistent.ToolTip">
+    <value />
+  </data>
+  <data name="btnAssignSupport.Text">
+    <value>Pošalji</value>
+  </data>
+  <data name="btnAssignSupport.ToolTip">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>Trenutni pomoćnici:</value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="Label2.Text">
+    <value>Promeni administratora lige</value>
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>Ako zelite da predate ligu drugom menadzeru u ligi mozete to uciniti ovde. Na listi ispod mozete izabrati izmedju clanova lige koji su se logovali u protekloj nedelji. </value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="Label3.Text">
+    <value>Izaberite naslednika:</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="btnChangeBoss.Text">
+    <value>Promeni administratora lige</value>
+  </data>
+  <data name="btnChangeBoss.ToolTip">
+    <value />
+  </data>
+  <data name="lblBossError.Text">
+    <value />
+  </data>
+  <data name="lblBossError.ToolTip">
+    <value />
+  </data>
+  <data name="btnConfirmBoss.Text">
+    <value>Potvrdi promenu administratora lige</value>
+  </data>
+  <data name="btnConfirmBoss.ToolTip">
+    <value />
+  </data>
+  <data name="hplCreateExtLink.Text">
+    <value>Spoljašnja skripta lige</value>
+  </data>
+  <data name="hplCreateExtLink.ToolTip">
+    <value />
+  </data>
+  <data name="hplCreateExtLink.ImageUrl">
+    <value />
+  </data>
+  <data name="hplCreateExtLink.NavigateUrl">
+    <value />
+  </data>
+  <data name="imgTrophy.ToolTip">
+    <value />
+  </data>
+  <data name="imgTrophy.ImageUrl">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Odgodi ligu</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="lblPostponeDone.Text">
+    <value>Kraj!</value>
+  </data>
+  <data name="lblPostponeDone.ToolTip">
+    <value />
+  </data>
+  <data name="Label16.Text">
+    <value>Promeni nacionalnost</value>
+  </data>
+  <data name="Label16.ToolTip">
+    <value />
+  </data>
+  <data name="bntChangeOrigin.Text">
+    <value>Promeni</value>
+  </data>
+  <data name="bntChangeOrigin.ToolTip">
+    <value />
+  </data>
+  <data name="chbTerminate.Text">
+    <value>Potvrdi izbacivanje</value>
+  </data>
+  <data name="chbTerminate.ToolTip">
+    <value />
+  </data>
+  <data name="chbOwner.Text">
+    <value />
+  </data>
+  <data name="chbOwner.ToolTip">
+    <value />
+  </data>
+  <data name="chbPrivat.Text">
+    <value />
+  </data>
+  <data name="chbPrivat.ToolTip">
+    <value />
+  </data>
+  <data name="chbDesc.Text">
+    <value />
+  </data>
+  <data name="chbDesc.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

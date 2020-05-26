@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sBorrowed" xml:space="preserve">
+    <value>Na pozajmici</value>
+  </data>
+  <data name="sDeletedBlockedUser" xml:space="preserve">
+    <value>Korisnik je sada izbacen iz liste blokiranih.</value>
+  </data>
+  <data name="sDeletedPicture" xml:space="preserve">
+    <value>Slika je sada izbrisana.</value>
+  </data>
+  <data name="sDeletedUser" xml:space="preserve">
+    <value>Korisnik je sada izbacen iz liste.</value>
+  </data>
+  <data name="sDeleteSelf" xml:space="preserve">
+    <value>Ne mozete izbrisati samog sebe.</value>
+  </data>
+  <data name="sFloater" xml:space="preserve">
+    <value>On loan to</value>
+  </data>
+  <data name="sHelpers" xml:space="preserve">
+    <value>Pomocnici</value>
+  </data>
+  <data name="sNo" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="sNoUser" xml:space="preserve">
+    <value>Korisnik ne postoji.</value>
+  </data>
+  <data name="sOwned" xml:space="preserve">
+    <value>Kupi</value>
+  </data>
+  <data name="sPermanently" xml:space="preserve">
+    <value>Odmah</value>
+  </data>
+  <data name="sPlayerCreated" xml:space="preserve">
+    <value>Igrac je registrovan.</value>
+  </data>
+  <data name="sPlayerUpdated" xml:space="preserve">
+    <value>Igrac je azuriran.</value>
+  </data>
+  <data name="sResponsible" xml:space="preserve">
+    <value>Odgovoran</value>
+  </data>
+  <data name="sSavedInfo" xml:space="preserve">
+    <value>Informacije su sacuvane.</value>
+  </data>
+  <data name="sStatisticsDeleted" xml:space="preserve">
+    <value>Statistika je izbacena.</value>
+  </data>
+  <data name="sStatisticsSaved" xml:space="preserve">
+    <value>Statistika je sacuvana.</value>
+  </data>
+  <data name="sTemporary" xml:space="preserve">
+    <value>Trenutno</value>
+  </data>
+  <data name="sUserBlocked" xml:space="preserve">
+    <value>Korisnik je sada blokiran od pisanja u forumu ili komentarima.</value>
+  </data>
+  <data name="sUserSaved" xml:space="preserve">
+    <value>Korisnik je sacuvan!</value>
+  </data>
+  <data name="sYes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="sAll" xml:space="preserve">
+    <value>Svi</value>
+  </data>
+  <data name="sAllowTeam" xml:space="preserve">
+    <value>Tim je prihvacen.</value>
+  </data>
+  <data name="sAnswerOn" xml:space="preserve">
+    <value>Odgovori</value>
+  </data>
+  <data name="sAutoSaved" xml:space="preserve">
+    <value>Automatski sacuvano</value>
+  </data>
+  <data name="sCommentFor" xml:space="preserve">
+    <value>Komentari na</value>
+  </data>
+  <data name="sConfirmDeleteArticle" xml:space="preserve">
+    <value>Da li ste sigurno da zelite da izbrisete ovaj clanak ?</value>
+  </data>
+  <data name="sConfirmDeleteUser" xml:space="preserve">
+    <value>Da li ste sigurni da zelite da izbrisete ovog pomocnika ?</value>
+  </data>
+  <data name="sCreatedComment" xml:space="preserve">
+    <value>Komentar je sacuvan.</value>
+  </data>
+  <data name="sCreatedPost" xml:space="preserve">
+    <value>Poruka je napravljena.</value>
+  </data>
+  <data name="sDeletedArticle" xml:space="preserve">
+    <value>Clanak je izbacen.</value>
+  </data>
+  <data name="sDeletedComment" xml:space="preserve">
+    <value>Komentar je izbrisan.</value>
+  </data>
+  <data name="sDeletedPlayer" xml:space="preserve">
+    <value>Igrac je izbrisan.</value>
+  </data>
+  <data name="sDeletedPost" xml:space="preserve">
+    <value>Poruka je izbrisana.</value>
+  </data>
+  <data name="sDenyTeam" xml:space="preserve">
+    <value>Aplikacija za tim je odbijena.</value>
+  </data>
+  <data name="sInterestReportCreated" xml:space="preserve">
+    <value>Aplikacija za tim je napravljena.</value>
+  </data>
+  <data name="sInterestReportNotCreated" xml:space="preserve">
+    <value>Aplikacija nije mogla da se napravi.</value>
+  </data>
+  <data name="sLastAutoSaved" xml:space="preserve">
+    <value>Auto saved</value>
+  </data>
+  <data name="sLeftToCreate" xml:space="preserve">
+    <value>ostalo za kreaciju.</value>
+  </data>
+  <data name="sNewPost" xml:space="preserve">
+    <value>Nova poruka</value>
+  </data>
+  <data name="sNoPageCreated" xml:space="preserve">
+    <value>Ova stranica jos nije napravljena.</value>
+  </data>
+  <data name="sNoPost" xml:space="preserve">
+    <value>Stvar koju trazite ne postoji uopste ili ne pripada ovom klubu.</value>
+  </data>
+  <data name="sNoRightToCreateInTeam" xml:space="preserve">
+    <value>Nemate pravo da napravite nista za trenutni tim.</value>
+  </data>
+  <data name="sNotDoThis" xml:space="preserve">
+    <value>Ne mozete to da radite.</value>
+  </data>
+  <data name="sPageSaved" xml:space="preserve">
+    <value>Stranica je sacuvana.</value>
+  </data>
+  <data name="sPlayerForThisClub" xml:space="preserve">
+    <value>igraca za ovaj klub.</value>
+  </data>
+  <data name="sPublished" xml:space="preserve">
+    <value>Postavljeno</value>
+  </data>
+  <data name="sPublishedArticle" xml:space="preserve">
+    <value>Clanak je postavljen.</value>
+  </data>
+  <data name="sReportFor" xml:space="preserve">
+    <value>Aplikacija za</value>
+  </data>
+  <data name="sSaved" xml:space="preserve">
+    <value>Sacuvan</value>
+  </data>
+  <data name="sSavedArticle" xml:space="preserve">
+    <value>Clanak je sacuvan u radnoj verziji.</value>
+  </data>
+  <data name="sTeamAlreadyRegistered" xml:space="preserve">
+    <value>Ovaj klub je vec registrovan ili postoje aplikacije za taj tim. Ako ste zainteresovani da pomognete, kontaktujte vlasnika</value>
+  </data>
+  <data name="sUpdatedArticle" xml:space="preserve">
+    <value>Clanak je azuriran.</value>
+  </data>
+  <data name="sUpdatedPost" xml:space="preserve">
+    <value>Poruka je azurirana.</value>
+  </data>
+  <data name="sYouCanBeTheHeaderForTheTeam" xml:space="preserve">
+    <value>Saznacete uskoro ako cete postati glavni administrator.</value>
+  </data>
+  <data name="sYouMustCreate" xml:space="preserve">
+    <value>Morate napravite NAJMANJE</value>
+  </data>
+  <data name="sUpdate" xml:space="preserve">
+    <value>Azuriraj</value>
+  </data>
+  <data name="sAllowTeamError" xml:space="preserve">
+    <value>Prihvatanje novog zahteva nije uspelo. Probajte ponovo.</value>
+  </data>
+  <data name="sCreateCommentError" xml:space="preserve">
+    <value>Komentar nije mogao da bude sacuvan.</value>
+  </data>
+  <data name="sCreatedPostError" xml:space="preserve">
+    <value>Poruka nije mogla da se sacuva. Probajte ponovo.</value>
+  </data>
+  <data name="sCreatePlayerError" xml:space="preserve">
+    <value>Igrac nije mogao da bude registrovan. Probajte ponovo.</value>
+  </data>
+  <data name="sDeletedArticleError" xml:space="preserve">
+    <value>Clanak nije mogao da se izbrise. Probajte ponovo.</value>
+  </data>
+  <data name="sDeletedBlockedUserError" xml:space="preserve">
+    <value>Blokada korisnika nije mogla da se izbrise. Probajte ponovo.</value>
+  </data>
+  <data name="sDeletedCommentError" xml:space="preserve">
+    <value>Komentar nije mogao da se izbrise. Probajte ponovo.</value>
+  </data>
+  <data name="sDeletedPictureError" xml:space="preserve">
+    <value>Slika nije izbrisana! Molim Vas probajte ponovo.</value>
+  </data>
+  <data name="sDeletedPlayerError" xml:space="preserve">
+    <value>Igrac nije izbrisan! Molim Vas probajte ponovo.</value>
+  </data>
+  <data name="sDeletedPostError" xml:space="preserve">
+    <value>Post nije izbrisan! Molim Vas probajte ponovo.</value>
+  </data>
+  <data name="sDeletedUserError" xml:space="preserve">
+    <value>Ovaj korisnik nije izbrisan! Molim Vas probajte ponovo.</value>
+  </data>
+  <data name="sDenyTeamError" xml:space="preserve">
+    <value>Odbijanje ovog zahteva je neuspešno! Molim Vas probajte ponovo.</value>
+  </data>
+  <data name="sLocked" xml:space="preserve">
+    <value>Zakljucano</value>
+  </data>
+  <data name="sPageSavedError" xml:space="preserve">
+    <value>Stranica nije sacuvana. Probajte opet.</value>
+  </data>
+  <data name="sPlayerUpdatedError" xml:space="preserve">
+    <value>Igrac nije azuriran. Probajte opet.</value>
+  </data>
+  <data name="sPublishedArticleError" xml:space="preserve">
+    <value>Clanak nije postavljen. Probajte opet.</value>
+  </data>
+  <data name="sSavedArticleError" xml:space="preserve">
+    <value>Clanak nije sacuvan. Probajte opet.</value>
+  </data>
+  <data name="sSavedInfoError" xml:space="preserve">
+    <value>Informacije kluba nisu sacuvane. Probajte opet.</value>
+  </data>
+  <data name="sStatisticsDeletedError" xml:space="preserve">
+    <value>Statistike igraca nisu izbacene. Probajte opet.</value>
+  </data>
+  <data name="sStatisticsSavedError" xml:space="preserve">
+    <value>Statistike igraca nisu sacuvane. Probajte opet.</value>
+  </data>
+  <data name="sUpdatedArticleError" xml:space="preserve">
+    <value>Clanak nije azuriran. Probajte opet.</value>
+  </data>
+  <data name="sUpdatedPostError" xml:space="preserve">
+    <value>Izmena poruke nije odradjena. Probajte opet.</value>
+  </data>
+  <data name="sUserBlockedError" xml:space="preserve">
+    <value>Blokada korisnika nije uspela. Probajte opet.</value>
+  </data>
+  <data name="sUserSavedError" xml:space="preserve">
+    <value>Korisnik ne moze da se registruje. Probajte opet.</value>
+  </data>
+  <data name="sVote" xml:space="preserve">
+    <value>Glasaj</value>
+  </data>
+  <data name="sCanNotVote" xml:space="preserve">
+    <value>Ne mozete ucestvovati u glasanju. Razlog je sto ste mozda vec glasali u ovoj anketi.</value>
+  </data>
+  <data name="sUnitVotes" xml:space="preserve">
+    <value>Broj glasova</value>
+  </data>
+  <data name="sShowVoteResult" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="sBackPage" xml:space="preserve">
+    <value>Nazad</value>
+  </data>
+  <data name="sErrorDeletingPollOption" xml:space="preserve">
+    <value>Ova opcija ne moze da se izbrise.</value>
+  </data>
+  <data name="sCreateOptionError" xml:space="preserve">
+    <value>Opcija ne moze da se sacuva. Probajte opet.</value>
+  </data>
+  <data name="sCreateOptionSuccess" xml:space="preserve">
+    <value>Opcija za anketu je sacuvana.</value>
+  </data>
+  <data name="sDeletedOptionSuccess" xml:space="preserve">
+    <value>Opcija u anketi je izbrisana.</value>
+  </data>
+  <data name="sUpdatedPollError" xml:space="preserve">
+    <value>Anketa nije sacuvana. Probajte opet.</value>
+  </data>
+  <data name="sUpdatedPollSuccess" xml:space="preserve">
+    <value>Anketa azurirana !</value>
+  </data>
+  <data name="sPollCreated" xml:space="preserve">
+    <value>Anketa je napravljena !</value>
+  </data>
+  <data name="sPollCreatedError" xml:space="preserve">
+    <value>Anketa nije napravljena!</value>
+  </data>
+  <data name="sDeletedPoll" xml:space="preserve">
+    <value>Anketa je izbrisana !</value>
+  </data>
+  <data name="sDeletedPollError" xml:space="preserve">
+    <value>Anketa nije izbrisana! Probajte opet.</value>
+  </data>
+  <data name="sOpenInNewWindow" xml:space="preserve">
+    <value>Otvara se u novom prozoru</value>
+  </data>
+  <data name="sCommentIsInactive" xml:space="preserve">
+    <value>Komentari onemoguceni</value>
+  </data>
+  <data name="sArticle" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="sIsLinkNews" xml:space="preserve">
+    <value>Ovo je hiperveza ka drugom clanku</value>
+  </data>
+  <data name="sConfirmDeleteComment" xml:space="preserve">
+    <value>Da li zelite da izbrisete komentar ?</value>
+  </data>
+  <data name="sConfirmDeleteForumPost" xml:space="preserve">
+    <value>Da li zelite da izbrisete poruku?</value>
+  </data>
+  <data name="sPlayerFit" xml:space="preserve">
+    <value>Igrač je spreman za igru</value>
+  </data>
+  <data name="sPlayerIsInjury" xml:space="preserve">
+    <value>Ovaj igrac je trenutno povredjen</value>
+  </data>
+  <data name="sToManyPlayerProperties" xml:space="preserve">
+    <value>Izabrali ste previse opcija za igrace. Maksimum je</value>
+  </data>
+  <data name="sUnitPlayerProperties" xml:space="preserve">
+    <value>Mozete izabrati maksimum [UNIT] opcija</value>
+  </data>
+  <data name="sNoPoll" xml:space="preserve">
+    <value>Nema aktivnih anketa</value>
+  </data>
+  <data name="sCreatedTeamError" xml:space="preserve">
+    <value>Tim nije registrovan.</value>
+  </data>
+  <data name="sCreatedTeamSuccess" xml:space="preserve">
+    <value>Tim je sada registrovan ali mora biti odobren od strane tehnickog tima.</value>
+  </data>
+  <data name="sConfirmAllowTeam" xml:space="preserve">
+    <value>Dozvoli tim</value>
+  </data>
+  <data name="sConfirmDenyTeam" xml:space="preserve">
+    <value>Odbij tim</value>
+  </data>
+  <data name="sAdminWelcomeInfo" xml:space="preserve">
+    <value>Ovo je administratorska strana tima [TEAM]!</value>
+  </data>
+  <data name="sForm" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="sSkill" xml:space="preserve">
+    <value>Veština</value>
+  </data>
+  <data name="sName" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="sAsistedBy" xml:space="preserve">
+    <value>uz asistenciju</value>
+  </data>
+  <data name="sNoActor" xml:space="preserve">
+    <value>Strelac je nedostupan</value>
+  </data>
+  <data name="sOwnGoal" xml:space="preserve">
+    <value>Auto gol</value>
+  </data>
+  <data name="sPlayeDate" xml:space="preserve">
+    <value>Datum utakmice</value>
+  </data>
+  <data name="sVisitors" xml:space="preserve">
+    <value>posetilaca</value>
+  </data>
+  <data name="sMissing" xml:space="preserve">
+    <value>Nedostupan</value>
+  </data>
+  <data name="sAfter" xml:space="preserve">
+    <value>posle</value>
+  </data>
+  <data name="sAnswer" xml:space="preserve">
+    <value>Odgovor</value>
+  </data>
+  <data name="sCanNotCreatePostInThisTopic" xml:space="preserve">
+    <value>Ne mozete postaviti poruku u ovoj temi!</value>
+  </data>
+  <data name="sCite" xml:space="preserve">
+    <value>Citat</value>
+  </data>
+  <data name="sClose" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="sCreateDate" xml:space="preserve">
+    <value>Datum osnivanja</value>
+  </data>
+  <data name="sDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="sDelete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="sEdit" xml:space="preserve">
+    <value>Promeni</value>
+  </data>
+  <data name="sEditPost" xml:space="preserve">
+    <value>Izmeni poruku</value>
+  </data>
+  <data name="sHeader" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="sLoading" xml:space="preserve">
+    <value>Ucitava se</value>
+  </data>
+  <data name="sMessage" xml:space="preserve">
+    <value>Poruka</value>
+  </data>
+  <data name="sNoSearchText" xml:space="preserve">
+    <value>Niste napisali ništa</value>
+  </data>
+  <data name="sRead" xml:space="preserve">
+    <value>Procitano</value>
+  </data>
+  <data name="sSearch" xml:space="preserve">
+    <value>Traži</value>
+  </data>
+  <data name="sSend" xml:space="preserve">
+    <value>Pošalji</value>
+  </data>
+  <data name="sSticky" xml:space="preserve">
+    <value>Sticky</value>
+  </data>
+  <data name="sUser" xml:space="preserve">
+    <value>Korisnik</value>
+  </data>
+  <data name="sConfirmDeletePicture" xml:space="preserve">
+    <value>Izbrisi sliku ?</value>
+  </data>
+  <data name="sAwayTeam" xml:space="preserve">
+    <value>Awayteam</value>
+  </data>
+  <data name="sCancle" xml:space="preserve">
+    <value>Otkazi</value>
+  </data>
+  <data name="sComment" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="sHomeTeam" xml:space="preserve">
+    <value>Hometeam</value>
+  </data>
+  <data name="sMoreInfoAboutGame" xml:space="preserve">
+    <value>Vise informacija o utakmici...</value>
+  </data>
+  <data name="sNoCommentToShow" xml:space="preserve">
+    <value>Nema novih komentara</value>
+  </data>
+  <data name="sNoResultToShow" xml:space="preserve">
+    <value>Nema rezultata za prikazivanje</value>
+  </data>
+  <data name="sNotLogedIn" xml:space="preserve">
+    <value>Morate biti prijavljeni</value>
+  </data>
+  <data name="sNotLogedInComment" xml:space="preserve">
+    <value>Morate biti prijavljeni da bi postavili komentar na clanku</value>
+  </data>
+  <data name="sNotLogedInForum" xml:space="preserve">
+    <value>Morate biti prijavljeni da bi ostavili poruku na forumu.</value>
+  </data>
+  <data name="sOff" xml:space="preserve">
+    <value>off</value>
+  </data>
+  <data name="sPage" xml:space="preserve">
+    <value>stranica</value>
+  </data>
+  <data name="sResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="sSavedComment" xml:space="preserve">
+    <value>Komentar sacuvan</value>
+  </data>
+  <data name="sWriter" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="sDateAlreadyPassed" xml:space="preserve">
+    <value>Jedan od izabranih datuma je vec prosao</value>
+  </data>
+  <data name="sSupporterAss" xml:space="preserve">
+    <value>Asocijacija suportera</value>
+  </data>
+  <data name="sCapacity" xml:space="preserve">
+    <value>Kapacitet</value>
+  </data>
+  <data name="sFounded" xml:space="preserve">
+    <value>Osnovan</value>
+  </data>
+  <data name="sWebsite" xml:space="preserve">
+    <value>Stranica kluba</value>
+  </data>
+  <data name="sHomeGround" xml:space="preserve">
+    <value>Domaci stadion</value>
+  </data>
+  <data name="sFirstName" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="sLastName" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="sBorn" xml:space="preserve">
+    <value>Roden</value>
+  </data>
+  <data name="sSquad" xml:space="preserve">
+    <value>Sastav tima</value>
+  </data>
+  <data name="sStat" xml:space="preserve">
+    <value>Statistika</value>
+  </data>
+  <data name="sWeight" xml:space="preserve">
+    <value>Tezina</value>
+  </data>
+  <data name="sHeight" xml:space="preserve">
+    <value>Visina</value>
+  </data>
+  <data name="sClubInfo" xml:space="preserve">
+    <value>Klubske informacije</value>
+  </data>
+  <data name="sNoHelp" xml:space="preserve">
+    <value>Nema pomoci za ovu sekciju</value>
+  </data>
+  <data name="sNewslink" xml:space="preserve">
+    <value>Link za vesti</value>
+  </data>
+  <data name="sNewPlayer" xml:space="preserve">
+    <value>Novi igrac</value>
+  </data>
+  <data name="sNewPoll" xml:space="preserve">
+    <value>Nova anketa</value>
+  </data>
+  <data name="sCustomizeDesign" xml:space="preserve">
+    <value>Licni dizajn</value>
+  </data>
+  <data name="sNewGame" xml:space="preserve">
+    <value>Nova utakmica</value>
+  </data>
+  <data name="sNewHelper" xml:space="preserve">
+    <value>Novi pomocnik</value>
+  </data>
+  <data name="sNewPages" xml:space="preserve">
+    <value>Nove stranice</value>
+  </data>
+  <data name="sBlockUser" xml:space="preserve">
+    <value>Blokiraj korisnika</value>
+  </data>
+  <data name="sRegisterNewStats" xml:space="preserve">
+    <value>Registrovanje novih podataka</value>
+  </data>
+  <data name="sNotPublished" xml:space="preserve">
+    <value>Nije objavljeno</value>
+  </data>
+  <data name="sColorsMustDiffer" xml:space="preserve">
+    <value>Druga boja tima ne može biti ista kao i prva boja tima.</value>
+  </data>
+  <data name="sShirtNrTaken" xml:space="preserve">
+    <value>Broj dresa je zauzet.</value>
+  </data>
+  <data name="sClubUrl" xml:space="preserve">
+    <value>Napišite url kluba</value>
+  </data>
+  <data name="sClubUrlHelp" xml:space="preserve">
+    <value>Url, postavite za svoj klub navijaca, xperteleven.com/fanclub/xxx gde xxx predstavlja timsko ime (bez velikih slova).</value>
+  </data>
+  <data name="sUrlTaken" xml:space="preserve">
+    <value>Odabrani url je vec u upotrebi</value>
+  </data>
+  <data name="sPlacing" xml:space="preserve">
+    <value>Postavite</value>
+  </data>
+  <data name="sMiddle" xml:space="preserve">
+    <value>Sredinu</value>
+  </data>
+  <data name="sBoth" xml:space="preserve">
+    <value>Oba</value>
+  </data>
+  <data name="sRight" xml:space="preserve">
+    <value>Desno</value>
+  </data>
+  <data name="sFanPageNews" xml:space="preserve">
+    <value>Najnovije vesti sa navijackih strana</value>
+  </data>
+  <data name="sNothingToShow" xml:space="preserve">
+    <value>Nema novosti</value>
+  </data>
+  <data name="sMemberToVote" xml:space="preserve">
+    <value>Morate biti clan da bi glasali</value>
+  </data>
+  <data name="sVoteRegistered" xml:space="preserve">
+    <value>Glas je prihvacen</value>
+  </data>
+  <data name="sPolls" xml:space="preserve">
+    <value>Ankete</value>
+  </data>
+  <data name="sPollResult" xml:space="preserve">
+    <value>Rezultati</value>
+  </data>
+  <data name="sNoOldPolls" xml:space="preserve">
+    <value>Nema starijih poruka</value>
+  </data>
+  <data name="sMemberVotes" xml:space="preserve">
+    <value>Glasovi clanova kluba</value>
+  </data>
+  <data name="sHistory" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="sOldPollWindow" xml:space="preserve">
+    <value>Prikazi stare ankete u novom prozoru</value>
+  </data>
+  <data name="sRegister" xml:space="preserve">
+    <value>Registrovan</value>
+  </data>
+</root>

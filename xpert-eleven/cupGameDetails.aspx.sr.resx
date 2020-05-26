@@ -1,0 +1,1180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imgHomeShirt.ToolTip">
+    <value>Majica je na pranju </value>
+  </data>
+  <data name="imgHomeShirt.ImageUrl">
+    <value />
+  </data>
+  <data name="imgShortsHome.ToolTip">
+    <value />
+  </data>
+  <data name="imgShortsHome.ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>1</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>1</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="Label25.Text">
+    <value>Klasa tima</value>
+  </data>
+  <data name="Label25.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeDefence.Text">
+    <value>Odbrana</value>
+  </data>
+  <data name="lblHomeDefence.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeMidfield.Text">
+    <value>Sredina</value>
+  </data>
+  <data name="lblHomeMidfield.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeOffence.Text">
+    <value>Napad</value>
+  </data>
+  <data name="lblHomeOffence.ToolTip">
+    <value />
+  </data>
+  <data name="lblTightHome.Text">
+    <value>Vrednosti timskog rada</value>
+  </data>
+  <data name="lblTightHome.ToolTip">
+    <value />
+  </data>
+  <data name="Label24.Text">
+    <value>Celi tim</value>
+  </data>
+  <data name="Label24.ToolTip">
+    <value />
+  </data>
+  <data name="Label21.Text">
+    <value>Odbrana</value>
+  </data>
+  <data name="Label21.ToolTip">
+    <value />
+  </data>
+  <data name="Label22.Text">
+    <value>Sredina</value>
+  </data>
+  <data name="Label22.ToolTip">
+    <value />
+  </data>
+  <data name="Label23.Text">
+    <value>Napad</value>
+  </data>
+  <data name="Label23.ToolTip">
+    <value />
+  </data>
+  <data name="lblOmgang.Text">
+    <value>Omgång 3 i</value>
+  </data>
+  <data name="lblOmgang.ToolTip">
+    <value />
+  </data>
+  <data name="hplDivision.Text">
+    <value />
+  </data>
+  <data name="hplDivision.ToolTip">
+    <value />
+  </data>
+  <data name="hplDivision.ImageUrl">
+    <value />
+  </data>
+  <data name="hplDivision.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblSeason.Text">
+    <value />
+  </data>
+  <data name="lblSeason.ToolTip">
+    <value />
+  </data>
+  <data name="hplLeague.Text">
+    <value />
+  </data>
+  <data name="hplLeague.ToolTip">
+    <value />
+  </data>
+  <data name="hplLeague.ImageUrl">
+    <value />
+  </data>
+  <data name="hplLeague.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblArena.Text">
+    <value />
+  </data>
+  <data name="lblArena.ToolTip">
+    <value />
+  </data>
+  <data name="lblMatchDate.Text">
+    <value />
+  </data>
+  <data name="lblMatchDate.ToolTip">
+    <value />
+  </data>
+  <data name="lblReferee.Text">
+    <value />
+  </data>
+  <data name="lblReferee.ToolTip">
+    <value />
+  </data>
+  <data name="lblSponsor.Text">
+    <value>Glavni sponzor meča</value>
+  </data>
+  <data name="lblSponsor.ToolTip">
+    <value />
+  </data>
+  <data name="hplSponsor.Text">
+    <value />
+  </data>
+  <data name="hplSponsor.ToolTip">
+    <value />
+  </data>
+  <data name="hplSponsor.ImageUrl">
+    <value />
+  </data>
+  <data name="hplSponsor.NavigateUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="lblPossStatic.Text">
+    <value>Posedovanje lopte</value>
+  </data>
+  <data name="lblPossStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblPoss.Text">
+    <value />
+  </data>
+  <data name="lblPoss.ToolTip">
+    <value />
+  </data>
+  <data name="lblChanceStatic.Text">
+    <value>Šanse</value>
+  </data>
+  <data name="lblChanceStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblChance.Text">
+    <value />
+  </data>
+  <data name="lblChance.ToolTip">
+    <value />
+  </data>
+  <data name="lblManOfTheMatch.Text">
+    <value>   Domaći tim   -   Igrač utakmice  -  Gostujući tim</value>
+  </data>
+  <data name="lblManOfTheMatch.ToolTip">
+    <value />
+  </data>
+  <data name="hplBestHome.Text">
+    <value />
+  </data>
+  <data name="hplBestHome.ToolTip">
+    <value />
+  </data>
+  <data name="hplBestHome.ImageUrl">
+    <value />
+  </data>
+  <data name="hplBestHome.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplBestAway.Text">
+    <value />
+  </data>
+  <data name="hplBestAway.ToolTip">
+    <value />
+  </data>
+  <data name="hplBestAway.ImageUrl">
+    <value />
+  </data>
+  <data name="hplBestAway.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Taktički izveštaj</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeFormation.Text">
+    <value />
+  </data>
+  <data name="lblHomeFormation.ToolTip">
+    <value />
+  </data>
+  <data name="Label3.Text">
+    <value>&lt;&lt; Formacije &gt;&gt;</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayFormation.Text">
+    <value />
+  </data>
+  <data name="lblAwayFormation.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomePlayStyle.Text">
+    <value />
+  </data>
+  <data name="lblHomePlayStyle.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>&lt;&lt; Stil igre &gt;&gt;</value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayPlayStyle.Text">
+    <value />
+  </data>
+  <data name="lblAwayPlayStyle.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeOffWay.Text">
+    <value />
+  </data>
+  <data name="lblHomeOffWay.ToolTip">
+    <value />
+  </data>
+  <data name="Label14.Text">
+    <value>&lt;&lt; Napad &gt;&gt;</value>
+  </data>
+  <data name="Label14.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayOffWay.Text">
+    <value />
+  </data>
+  <data name="lblAwayOffWay.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeDefWay.Text">
+    <value />
+  </data>
+  <data name="lblHomeDefWay.ToolTip">
+    <value />
+  </data>
+  <data name="Label18.Text">
+    <value>&lt;&lt; Odbrana &gt;&gt;</value>
+  </data>
+  <data name="Label18.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayDefWay.Text">
+    <value />
+  </data>
+  <data name="lblAwayDefWay.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeFormPrep.Text">
+    <value />
+  </data>
+  <data name="lblHomeFormPrep.ToolTip">
+    <value />
+  </data>
+  <data name="lblFormPrep.Text">
+    <value>&lt;&lt; Pripremljena odbrana &gt;&gt;</value>
+  </data>
+  <data name="lblFormPrep.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayFormPrep.Text">
+    <value />
+  </data>
+  <data name="lblAwayFormPrep.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeAgg.Text">
+    <value />
+  </data>
+  <data name="lblHomeAgg.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>&lt;&lt; Agresivnost &gt;&gt;</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayAgg.Text">
+    <value />
+  </data>
+  <data name="lblAwayAgg.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeLongBall.Text">
+    <value />
+  </data>
+  <data name="lblHomeLongBall.ToolTip">
+    <value />
+  </data>
+  <data name="Label7.Text">
+    <value>&lt;&lt; Dugačke lopte &gt;&gt;</value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayLongBall.Text">
+    <value />
+  </data>
+  <data name="lblAwayLongBall.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomePress.Text">
+    <value />
+  </data>
+  <data name="lblHomePress.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>&lt;&lt; Presing &gt;&gt;</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayPress.Text">
+    <value />
+  </data>
+  <data name="lblAwayPress.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeOffside.Text">
+    <value />
+  </data>
+  <data name="lblHomeOffside.ToolTip">
+    <value />
+  </data>
+  <data name="Label13.Text">
+    <value>&lt;&lt; Ofsajd zamke &gt;&gt;</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayOffside.Text">
+    <value />
+  </data>
+  <data name="lblAwayOffside.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeTricks.Text">
+    <value />
+  </data>
+  <data name="lblHomeTricks.ToolTip">
+    <value />
+  </data>
+  <data name="Label16.Text">
+    <value>&lt;&lt; Varanje &gt;&gt;</value>
+  </data>
+  <data name="Label16.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayTricks.Text">
+    <value />
+  </data>
+  <data name="lblAwayTricks.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeWinMoney.Text">
+    <value />
+  </data>
+  <data name="lblHomeWinMoney.ToolTip">
+    <value />
+  </data>
+  <data name="Label9.Text">
+    <value>&lt;&lt; Pobednički bonus &gt;&gt;</value>
+  </data>
+  <data name="Label9.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayWinMoney.Text">
+    <value />
+  </data>
+  <data name="lblAwayWinMoney.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomePM.Text">
+    <value />
+  </data>
+  <data name="hplHomePM.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomePM.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomePM.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>&lt;&lt; Organizator igre &gt;&gt;</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayPM.Text">
+    <value />
+  </data>
+  <data name="hplAwayPM.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayPM.ImageUrl">
+    <value />
+  </data>
+  <data name="hplAwayPM.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplHomeMarked.Text">
+    <value />
+  </data>
+  <data name="hplHomeMarked.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomeMarked.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomeMarked.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label19.Text">
+    <value>&lt;&lt; Kritični igrač &gt;&gt;</value>
+  </data>
+  <data name="Label19.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayMarked.Text">
+    <value />
+  </data>
+  <data name="hplAwayMarked.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayMarked.ImageUrl">
+    <value />
+  </data>
+  <data name="hplAwayMarked.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplHomeLK.Text">
+    <value />
+  </data>
+  <data name="hplHomeLK.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomeLK.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomeLK.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label11.Text">
+    <value>&lt;&lt; Kapiteni &gt;&gt;</value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayLK.Text">
+    <value />
+  </data>
+  <data name="hplAwayLK.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayLK.ImageUrl">
+    <value />
+  </data>
+  <data name="hplAwayLK.NavigateUrl">
+    <value />
+  </data>
+  <data name="imgAwayShirt.ToolTip">
+    <value>Dres je na pranju </value>
+  </data>
+  <data name="imgAwayShirt.ImageUrl">
+    <value />
+  </data>
+  <data name="imgShortsAway.ToolTip">
+    <value />
+  </data>
+  <data name="imgShortsAway.ImageUrl">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>1</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value />
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".ToolTip">
+    <value>[Skill] och [Form]</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>Databound</value>
+  </data>
+  <data name=".Text">
+    <value>1</value>
+  </data>
+  <data name=".ToolTip">
+    <value />
+  </data>
+  <data name="Label27.Text">
+    <value>Vrednost tima</value>
+  </data>
+  <data name="Label27.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayDefence.Text">
+    <value>Odbrana</value>
+  </data>
+  <data name="lblAwayDefence.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayMidfield.Text">
+    <value>Sredina terena</value>
+  </data>
+  <data name="lblAwayMidfield.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayOffence.Text">
+    <value>Napad</value>
+  </data>
+  <data name="lblAwayOffence.ToolTip">
+    <value />
+  </data>
+  <data name="lblTightAway.Text">
+    <value>Vrednosti timskog rada</value>
+  </data>
+  <data name="lblTightAway.ToolTip">
+    <value />
+  </data>
+  <data name="Label20.Text">
+    <value>Celi tim</value>
+  </data>
+  <data name="Label20.ToolTip">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>Odbrana</value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="Label15.Text">
+    <value>Sredina terena</value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="Label17.Text">
+    <value>Napad</value>
+  </data>
+  <data name="Label17.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomeTeam.Text">
+    <value />
+  </data>
+  <data name="hplHomeTeam.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomeTeam.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomeTeam.NavigateUrl">
+    <value />
+  </data>
+  <data name="chbViewTactics.Text">
+    <value />
+  </data>
+  <data name="chbViewTactics.ToolTip">
+    <value />
+  </data>
+  <data name="lblHomeScore.Text">
+    <value>0</value>
+  </data>
+  <data name="lblHomeScore.ToolTip">
+    <value />
+  </data>
+  <data name="lblHTScore.Text">
+    <value>(0 - 0)</value>
+  </data>
+  <data name="lblHTScore.ToolTip">
+    <value />
+  </data>
+  <data name="lblAwayScore.Text">
+    <value>0</value>
+  </data>
+  <data name="lblAwayScore.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayTeam.Text">
+    <value />
+  </data>
+  <data name="hplAwayTeam.ToolTip">
+    <value />
+  </data>
+  <data name="hplAwayTeam.ImageUrl">
+    <value />
+  </data>
+  <data name="hplAwayTeam.NavigateUrl">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

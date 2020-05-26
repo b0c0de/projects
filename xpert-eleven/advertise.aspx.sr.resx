@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAdvertise.Text">
+    <value>Promoviši</value>
+  </data>
+  <data name="lblAdvertise.ToolTip">
+    <value />
+  </data>
+  <data name="Label14.Text">
+    <value>Xpert Eleven je igra na internetu u kojoj možeš da se takmičiš sa svojim prijateljima u umetnosti treniranja fudbala</value>
+  </data>
+  <data name="Label14.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Kao i u pravom životu, fudbalski tim zavisi od sponzora. Specifičnost oko sponzora u Xpert Eleven-u je u tome što sponzori/reklameri i njihove komercijalne poruke polako postaju deo igre. </value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="Label16.Text">
+    <value>U Xpert Eleven-u korisnici su deo reklama. Svakog meseca korisnici biraju glavnog sponzora svog tima, dok isto tako menadžeri imaju uzajamno delovanje sa sponzorskim aktivnostima. Bez sponzora, dosta toga što ovde postoji ne bi postojalo</value>
+  </data>
+  <data name="Label16.ToolTip">
+    <value />
+  </data>
+  <data name="Label2.Text">
+    <value>Tri vrste reklama su moguće:</value>
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink1.Text">
+    <value>Reklame glavnih sponzora</value>
+  </data>
+  <data name="Hyperlink1.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink1.ImageUrl">
+    <value />
+  </data>
+  <data name="Hyperlink1.NavigateUrl">
+    <value>#</value>
+  </data>
+  <data name="Label3.Text">
+    <value>Jednom mesečno svaki korisnika bira sebi sponzora za fudbalski tim. Sponzor snadbeva tim sa fiktivnim novcem koji tim može da koristi u treniranju i kupovini igrača.&lt;br&gt;&lt;br&gt; Izabrani sponzor se promoviše oznakama, banerima i tekstualnim linkovima za sledeći mesec.&lt;br&gt;&lt;br&gt; Reklama glavnog sponzora proizvodi odnos između reklamera i korisnika. &lt;br&gt;&lt;br&gt;Korisnici se mogu podeliti na pol, starost i poreklo.</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="Label17.Text">
+    <value>Cene su u prosečnoj ceni od 0.1 evra po izabranom glavnom sponzoru.</value>
+  </data>
+  <data name="Label17.ToolTip">
+    <value />
+  </data>
+  <data name="Label23.Text">
+    <value>Glavni sponzor</value>
+  </data>
+  <data name="Label23.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Aktivnosti sponzora</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.ImageUrl">
+    <value />
+  </data>
+  <data name="Label4.NavigateUrl">
+    <value>#</value>
+  </data>
+  <data name="Label5.Text">
+    <value>Menadžeri takođe imaju mogućnost da dobiju fiktivni novac kroz aktivnosti sponzora. &lt;br&gt;&lt;br&gt; Sponzorske aktivnosti su napravljene s time da korisnik jednom nedeljno ima mogućnost da izabere reklamera za koga je taj korisnik zainteresovan. Posle izbora reklamera, korisnik se spoji sa sponzorom kroz pitanja. &lt;br&gt;&lt;br&gt; Aktivnosti sponzora su bazirane u stilu ' Uči dok radiš '. &lt;br&gt;&lt;br&gt; Aktivnosti mogu biti tekstovi, slike, filmski ili web materijali. &lt;br&gt;&lt;br&gt; Korisnici se mogu podeliti na pol, starost i poreklo. </value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="Label15.Text">
+    <value>Cene su u proseku oko 0.1 evra po tačno odrađenoj aktivnosti. </value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink2.Text">
+    <value>Tradicionalno</value>
+  </data>
+  <data name="Hyperlink2.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink2.ImageUrl">
+    <value />
+  </data>
+  <data name="Hyperlink2.NavigateUrl">
+    <value>#</value>
+  </data>
+  <data name="Label6.Text">
+    <value>Takođe je moguće reklamirate se u više tradicionalnom smeru na Xpert Eleven-u. &lt;br&gt;&lt;br&gt; Tradicionalne reklame su postavljene na vrhu u predsoblju van aktuelne fudbalske lige. Desni okvir je uvek vidljiv.</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="Label2198.Text">
+    <value>Cene su u proseku od 1 evra </value>
+  </data>
+  <data name="Label2198.ToolTip">
+    <value />
+  </data>
+  <data name="Label18.Text">
+    <value>Okvir na vrhu</value>
+  </data>
+  <data name="Label18.ToolTip">
+    <value />
+  </data>
+  <data name="Label19.Text">
+    <value>Desni okvir</value>
+  </data>
+  <data name="Label19.ToolTip">
+    <value />
+  </data>
+  <data name="Label20.Text">
+    <value>Predsoblje</value>
+  </data>
+  <data name="Label20.ToolTip">
+    <value />
+  </data>
+  <data name="Label13.Text">
+    <value>Ispod možete naći informacije o našim korisnicima. Tu isto tako možete naći i demonstraciju reklame. Za bilo kakva druga pitanja javite nam se na &lt;A HREF="mailto:info@xperteleven.com"&gt;info@xperteleven.com&lt;/a&gt;</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink6.Text">
+    <value>Rasprostranjenost korisnika</value>
+  </data>
+  <data name="Hyperlink6.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink6.ImageUrl">
+    <value />
+  </data>
+  <data name="Hyperlink6.NavigateUrl">
+    <value>#</value>
+  </data>
+  <data name="Label25.Text">
+    <value>Članovi</value>
+  </data>
+  <data name="Label25.ToolTip">
+    <value />
+  </data>
+  <data name="Label35.Text">
+    <value>Starost</value>
+  </data>
+  <data name="Label35.ToolTip">
+    <value />
+  </data>
+  <data name="Label22.Text">
+    <value>Pol</value>
+  </data>
+  <data name="Label22.ToolTip">
+    <value />
+  </data>
+  <data name="lCountMembers.Text">
+    <value>183 000</value>
+  </data>
+  <data name="lCountMembers.ToolTip">
+    <value />
+  </data>
+  <data name="Label34.Text">
+    <value>Mlađi od 13 godina:</value>
+  </data>
+  <data name="Label34.ToolTip">
+    <value />
+  </data>
+  <data name="Label33.Text">
+    <value>3 %</value>
+  </data>
+  <data name="Label33.ToolTip">
+    <value />
+  </data>
+  <data name="Label2177.Text">
+    <value>Između 13 i 17 godina:</value>
+  </data>
+  <data name="Label2177.ToolTip">
+    <value />
+  </data>
+  <data name="Label24778.Text">
+    <value>30 %</value>
+  </data>
+  <data name="Label24778.ToolTip">
+    <value />
+  </data>
+  <data name="Label32.Text">
+    <value>Između 18 i 25 godina:</value>
+  </data>
+  <data name="Label32.ToolTip">
+    <value />
+  </data>
+  <data name="Label39.Text">
+    <value>42 %</value>
+  </data>
+  <data name="Label39.ToolTip">
+    <value />
+  </data>
+  <data name="Label36.Text">
+    <value>Između  26 i 35 godina:</value>
+  </data>
+  <data name="Label36.ToolTip">
+    <value />
+  </data>
+  <data name="Label40.Text">
+    <value>18 %</value>
+  </data>
+  <data name="Label40.ToolTip">
+    <value />
+  </data>
+  <data name="Label37.Text">
+    <value>Između 36 i 50 godina:</value>
+  </data>
+  <data name="Label37.ToolTip">
+    <value />
+  </data>
+  <data name="Label41.Text">
+    <value>5 %</value>
+  </data>
+  <data name="Label41.ToolTip">
+    <value />
+  </data>
+  <data name="Label38.Text">
+    <value>Preko 50:</value>
+  </data>
+  <data name="Label38.ToolTip">
+    <value />
+  </data>
+  <data name="Label42.Text">
+    <value>1 %</value>
+  </data>
+  <data name="Label42.ToolTip">
+    <value />
+  </data>
+  <data name="Label28.Text">
+    <value>Muški pol:</value>
+  </data>
+  <data name="Label28.ToolTip">
+    <value />
+  </data>
+  <data name="Label29.Text">
+    <value>96 %</value>
+  </data>
+  <data name="Label29.ToolTip">
+    <value />
+  </data>
+  <data name="Label30.Text">
+    <value>Ženski pol:</value>
+  </data>
+  <data name="Label30.ToolTip">
+    <value />
+  </data>
+  <data name="Label31.Text">
+    <value>4 %</value>
+  </data>
+  <data name="Label31.ToolTip">
+    <value />
+  </data>
+  <data name="Label26.Text">
+    <value>Poreklo</value>
+  </data>
+  <data name="Label26.ToolTip">
+    <value />
+  </data>
+  <data name="Label52.Text">
+    <value>Švedska:</value>
+  </data>
+  <data name="Label52.ToolTip">
+    <value />
+  </data>
+  <data name="Label51.Text">
+    <value>48 %</value>
+  </data>
+  <data name="Label51.ToolTip">
+    <value />
+  </data>
+  <data name="Label50.Text">
+    <value>Velika Britanija:</value>
+  </data>
+  <data name="Label50.ToolTip">
+    <value />
+  </data>
+  <data name="Label49.Text">
+    <value>25 %</value>
+  </data>
+  <data name="Label49.ToolTip">
+    <value />
+  </data>
+  <data name="Label48.Text">
+    <value>Rumunija:</value>
+  </data>
+  <data name="Label48.ToolTip">
+    <value />
+  </data>
+  <data name="Label47.Text">
+    <value>3 %</value>
+  </data>
+  <data name="Label47.ToolTip">
+    <value />
+  </data>
+  <data name="Label46.Text">
+    <value>Portugal:</value>
+  </data>
+  <data name="Label46.ToolTip">
+    <value />
+  </data>
+  <data name="Label45.Text">
+    <value>3 %</value>
+  </data>
+  <data name="Label45.ToolTip">
+    <value />
+  </data>
+  <data name="Label44.Text">
+    <value>Danska:</value>
+  </data>
+  <data name="Label44.ToolTip">
+    <value />
+  </data>
+  <data name="Label43.Text">
+    <value>2 %</value>
+  </data>
+  <data name="Label43.ToolTip">
+    <value />
+  </data>
+  <data name="Label27.Text">
+    <value>Finska:</value>
+  </data>
+  <data name="Label27.ToolTip">
+    <value />
+  </data>
+  <data name="Label24.Text">
+    <value>1 %</value>
+  </data>
+  <data name="Label24.ToolTip">
+    <value />
+  </data>
+  <data name="Label54.Text">
+    <value>Norveška:</value>
+  </data>
+  <data name="Label54.ToolTip">
+    <value />
+  </data>
+  <data name="Label57.Text">
+    <value>1 %</value>
+  </data>
+  <data name="Label57.ToolTip">
+    <value />
+  </data>
+  <data name="Label53.Text">
+    <value>Argentina:</value>
+  </data>
+  <data name="Label53.ToolTip">
+    <value />
+  </data>
+  <data name="Label58.Text">
+    <value>1 %</value>
+  </data>
+  <data name="Label58.ToolTip">
+    <value />
+  </data>
+  <data name="Label55.Text">
+    <value>Australija:</value>
+  </data>
+  <data name="Label55.ToolTip">
+    <value />
+  </data>
+  <data name="Label59.Text">
+    <value>1 %</value>
+  </data>
+  <data name="Label59.ToolTip">
+    <value />
+  </data>
+  <data name="Label56.Text">
+    <value>Sjedinjene Američke Države:</value>
+  </data>
+  <data name="Label56.ToolTip">
+    <value />
+  </data>
+  <data name="Label60.Text">
+    <value>1 %</value>
+  </data>
+  <data name="Label60.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink3.Text">
+    <value>Demonstracija reklame</value>
+  </data>
+  <data name="Hyperlink3.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink3.ImageUrl">
+    <value />
+  </data>
+  <data name="Hyperlink3.NavigateUrl">
+    <value>#</value>
+  </data>
+  <data name="Hyperlink4.Text">
+    <value>Verzija pretraživača (1.8 MB)</value>
+  </data>
+  <data name="Hyperlink4.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink4.ImageUrl">
+    <value />
+  </data>
+  <data name="Hyperlink4.NavigateUrl">
+    <value>http://www.bonovia.com/demo/demoDcr.htm</value>
+  </data>
+  <data name="Label10.Text">
+    <value>Ako odete na link koji je iznad moćićete da vidite demonstraciju reklame u vašem pretraživaču. Da bih mogli ovo da pogledate, morate da imate Macromedia Shockwave dodatak na vašem pretraživaču. Ako slučajno nemate taj dodatak, bićete upitani da ga snimite na vašem računaru a to snimanje bi trebalo automatski da krene.</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="Label9.Text">
+    <value>
+																									&lt;li&gt;
+																										Mala veličina fajla koja radi na Mac računarima.&lt;/li&gt;</value>
+  </data>
+  <data name="Label9.ToolTip">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>
+																									&lt;li&gt;
+																										Potreban je dodatak.&lt;/li&gt;</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink5.Text">
+    <value>Samostalna verzija (4.9 MB)</value>
+  </data>
+  <data name="Hyperlink5.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink5.ImageUrl">
+    <value />
+  </data>
+  <data name="Hyperlink5.NavigateUrl">
+    <value>http://www.bonovia.com/demo/X11-Demo.exe</value>
+  </data>
+  <data name="Label11.Text">
+    <value>Klikom na link iznad možete da snimite demonstraciju na vaš računar. Duplim klikom na snimljeni fajl ćete moći da pogledate demonstraciju na vašem računaru. </value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>
+																						&lt;li&gt;
+																							Dodatak nije potreban niti instalacija.&lt;/li&gt;</value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="Label7.Text">
+    <value>
+																						&lt;li&gt;
+																							Ne radi na Mac računarima.&lt;/li&gt;</value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>
