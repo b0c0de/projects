@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imgClubSign.ToolTip">
+    <value />
+  </data>
+  <data name="imgClubSign.ImageUrl">
+    <value />
+  </data>
+  <data name="lblFromStatic.Text">
+    <value>Pošiljalac</value>
+  </data>
+  <data name="lblFromStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lbFrom.Text">
+    <value />
+  </data>
+  <data name="lbFrom.ToolTip">
+    <value />
+  </data>
+  <data name="hplFrom.Text">
+    <value />
+  </data>
+  <data name="hplFrom.ToolTip">
+    <value />
+  </data>
+  <data name="hplFrom.ImageUrl">
+    <value />
+  </data>
+  <data name="hplFrom.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblToStatic.Text">
+    <value>Primalac</value>
+  </data>
+  <data name="lblToStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lbTo.Text">
+    <value />
+  </data>
+  <data name="lbTo.ToolTip">
+    <value />
+  </data>
+  <data name="hplTo.Text">
+    <value />
+  </data>
+  <data name="hplTo.ToolTip">
+    <value />
+  </data>
+  <data name="hplTo.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTo.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblDateStatic.Text">
+    <value>Datum</value>
+  </data>
+  <data name="lblDateStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lbDate.Text">
+    <value />
+  </data>
+  <data name="lbDate.ToolTip">
+    <value />
+  </data>
+  <data name="lblSubjectStatic.Text">
+    <value>Naslov</value>
+  </data>
+  <data name="lblSubjectStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lbSubject.Text">
+    <value />
+  </data>
+  <data name="lbSubject.ToolTip">
+    <value />
+  </data>
+  <data name="lbBody.Text">
+    <value />
+  </data>
+  <data name="lbBody.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>Pošiljalac</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="hlFromSpam.Text">
+    <value />
+  </data>
+  <data name="hlFromSpam.ToolTip">
+    <value />
+  </data>
+  <data name="hlFromSpam.ImageUrl">
+    <value />
+  </data>
+  <data name="hlFromSpam.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>Primalac</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="hlToSpam.Text">
+    <value />
+  </data>
+  <data name="hlToSpam.ToolTip">
+    <value />
+  </data>
+  <data name="hlToSpam.ImageUrl">
+    <value />
+  </data>
+  <data name="hlToSpam.NavigateUrl">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>Datum</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="lDateSpam.Text">
+    <value />
+  </data>
+  <data name="lDateSpam.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Predmet</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="lSubjectSpam.Text">
+    <value />
+  </data>
+  <data name="lSubjectSpam.ToolTip">
+    <value />
+  </data>
+  <data name="lBodySpam.Text">
+    <value />
+  </data>
+  <data name="lBodySpam.ToolTip">
+    <value />
+  </data>
+  <data name="hlViolater.Text">
+    <value />
+  </data>
+  <data name="hlViolater.ToolTip">
+    <value />
+  </data>
+  <data name="hlViolater.ImageUrl">
+    <value />
+  </data>
+  <data name="hlViolater.NavigateUrl">
+    <value />
+  </data>
+  <data name="hlForumThread.Text">
+    <value />
+  </data>
+  <data name="hlForumThread.ToolTip">
+    <value />
+  </data>
+  <data name="hlForumThread.ImageUrl">
+    <value />
+  </data>
+  <data name="hlForumThread.NavigateUrl">
+    <value />
+  </data>
+  <data name="btnSell.Text">
+    <value>Primi ponudu</value>
+  </data>
+  <data name="btnSell.ToolTip">
+    <value />
+  </data>
+  <data name="btnBargain.Text">
+    <value>Pogodba</value>
+  </data>
+  <data name="btnBargain.ToolTip">
+    <value />
+  </data>
+  <data name="btnFriendly.Text">
+    <value>Prihvati prijateljsku utakmicu</value>
+  </data>
+  <data name="btnFriendly.ToolTip">
+    <value />
+  </data>
+  <data name="btAnswer.Text">
+    <value>Odgovori</value>
+  </data>
+  <data name="btAnswer.ToolTip">
+    <value />
+  </data>
+  <data name="btnDelete.Text">
+    <value>Izbriši</value>
+  </data>
+  <data name="btnDelete.ToolTip">
+    <value />
+  </data>
+  <data name="btnToModerator.Text">
+    <value>Pošalji moderatoru</value>
+  </data>
+  <data name="btnToModerator.ToolTip">
+    <value />
+  </data>
+  <data name="btnToSupport.Text">
+    <value>Pošalji podršci</value>
+  </data>
+  <data name="btnToSupport.ToolTip">
+    <value />
+  </data>
+  <data name="btnToCrewSupport.Text">
+    <value>Pošalji glavnoj redakciji</value>
+  </data>
+  <data name="btnToCrewSupport.ToolTip">
+    <value />
+  </data>
+  <data name="bSpam.Text">
+    <value>Prijavi poštu</value>
+  </data>
+  <data name="bSpam.ToolTip">
+    <value>Odite ovde ako je pošta koju ste dobili vulgarna i ako pošta sadrži pozive za druge lige. </value>
+  </data>
+  <data name="btnArchive.Text">
+    <value>Arhiviraj</value>
+  </data>
+  <data name="btnArchive.ToolTip">
+    <value>Kliknite ovde ako hoćete da arhivirate ovo pismo</value>
+  </data>
+  <data name="lConfirm.Text">
+    <value />
+  </data>
+  <data name="lConfirm.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Predmet</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="tbReplySubject.ToolTip">
+    <value />
+  </data>
+  <data name="Label2.Text">
+    <value>Glavna poruka</value>
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="tbReplyBody.ToolTip">
+    <value />
+  </data>
+  <data name="lError.Text">
+    <value />
+  </data>
+  <data name="lError.ToolTip">
+    <value />
+  </data>
+  <data name="chbSave.Text">
+    <value>Sačuvaj u ' Poslatim porukama ' </value>
+  </data>
+  <data name="chbSave.ToolTip">
+    <value />
+  </data>
+  <data name="btReplySubmit.Text">
+    <value>Pošalji</value>
+  </data>
+  <data name="btReplySubmit.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

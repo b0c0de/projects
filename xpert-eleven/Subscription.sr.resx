@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSubscribe" xml:space="preserve">
+    <value>Da, hocu da probam VIP po [COST]:-</value>
+  </data>
+  <data name="cancelSubAlert" xml:space="preserve">
+    <value>Da li ste sigurni da želite da prekinete pretplatu?</value>
+  </data>
+  <data name="error3DSecure" xml:space="preserve">
+    <value>Postojao je problem sa Visa ili MasterCard glavnim serverom koji vrši transakcije za 3D Sigurne autentikacije. Molim Vas pokušajte ponovo kasnije.</value>
+  </data>
+  <data name="errorAborted" xml:space="preserve">
+    <value>Transakcija je prekinuta.</value>
+  </data>
+  <data name="errorCardReject" xml:space="preserve">
+    <value>Vaša kartica je odbijena</value>
+  </data>
+  <data name="errorContactPartner" xml:space="preserve">
+    <value>Nastala je greška prilikom kontakta sa našim partnerom za placanje. Molimo Vas sacekajte 10 minuta do sledeceg pokušaja.</value>
+  </data>
+  <data name="errorDeclinedPayment" xml:space="preserve">
+    <value>Vaša banka je odbila placanje, molim Vas kontaktirajte Vašu banku za više informacija.</value>
+  </data>
+  <data name="errorHeader" xml:space="preserve">
+    <value>Pojavila se greška tokom transakcije.</value>
+  </data>
+  <data name="errorNoContact" xml:space="preserve">
+    <value>Nismo uspeli da kontaktiramo Vašu banku da bi završili transakciju.</value>
+  </data>
+  <data name="errorNotEligable" xml:space="preserve">
+    <value>Vaša kartica nije pogodna za ovu vrstu kupovine, molim Vas kontaktirajte Vašu banku za više informacija.</value>
+  </data>
+  <data name="errorNoTransaction" xml:space="preserve">
+    <value>Transakcija nije obavljena.</value>
+  </data>
+  <data name="errorThirdParty" xml:space="preserve">
+    <value>Greška otvorenog koda.</value>
+  </data>
+  <data name="errorTransNumber" xml:space="preserve">
+    <value>Broj transakcije</value>
+  </data>
+  <data name="errorTryAgain" xml:space="preserve">
+    <value>Molimo probajte ponovo za 10 minuta.</value>
+  </data>
+  <data name="errorUnspecified" xml:space="preserve">
+    <value>Desila se greška prilikom validacije vaše kartice.</value>
+  </data>
+  <data name="lblAcceptAgreement" xml:space="preserve">
+    <value>Prihvatam pravila VIP pretplate</value>
+  </data>
+  <data name="lblAcceptAgreementError" xml:space="preserve">
+    <value>Morate prihvatiti pravila i uslove da bi se pretplatili</value>
+  </data>
+  <data name="lblActualVipStatus" xml:space="preserve">
+    <value>Trenutni VIP -status</value>
+  </data>
+  <data name="lblCheckout" xml:space="preserve">
+    <value>Idi na proveru</value>
+  </data>
+  <data name="lblCooperation" xml:space="preserve">
+    <value>U kooperaciji sa</value>
+  </data>
+  <data name="lblDisclaimer" xml:space="preserve">
+    <value>Ako niste ranije probali mesecnu pretplatu, sada je možete probati za samo [DISCOUNT_COST]. Ako ste vec probali ovu ponudu sada možete uzeti pretplatu po redovnoj ceni, od [REGULAR_COST] mesecno.</value>
+  </data>
+  <data name="lblDiscount" xml:space="preserve">
+    <value>Popust</value>
+  </data>
+  <data name="lblMoreInfo" xml:space="preserve">
+    <value>Kliknite ovde da pročitate više</value>
+  </data>
+  <data name="lblProduct" xml:space="preserve">
+    <value>Proizvod</value>
+  </data>
+  <data name="lblSubActiveText" xml:space="preserve">
+    <value>Trenutno imate aktiviranu mesecnu VIP pretplatu. Ovo znaci da ce se Vaš VIP automatski obnavljati svaki mesec i necete izgubiti VIP tim. Cena ce biti naplacena unapred i ne može se poništiti.</value>
+  </data>
+  <data name="lblSubActiveTo" xml:space="preserve">
+    <value>Vaš VIP važi do</value>
+  </data>
+  <data name="lblSubEnd" xml:space="preserve">
+    <value>Da li želite da otkažete pretplatu?</value>
+  </data>
+  <data name="lblSubEndClick" xml:space="preserve">
+    <value>Kliknite ovde da odjavite pretplatu</value>
+  </data>
+  <data name="lblSubExtend" xml:space="preserve">
+    <value>Vaš VIP je automatski obnovljen</value>
+  </data>
+  <data name="lblSubNotActiveText" xml:space="preserve">
+    <value>Imate aktiviran VIP ali ne kao pretplatnik. To znaci da se nece obnoviti automatski, pa ako zaboravite da ga produžite možete na primer izgubiti neke od Vaših VIP timova. Da li želite da se prebacite na mesecnu pretplatu? Ako još uvek niste probali dobicete ekstra mesec za samo [DISCOUNT_COST]. Pretplata po regularnoj ceni od [REGULAR_COST]/mesecno, ce poceti kada vam istekne trenutni VIP (plus ekstra mesec koji dobijete po nižoj ceni).</value>
+  </data>
+  <data name="lblSubNoVIPText" xml:space="preserve">
+    <value>Nemate aktiviranu VIP pretplatu. Ako još uvek niste probali VIP pretplatu, možete je probati jedan mesec po ceni od [DISCOUNT_COST]. Ako ste vec probali i želite opet VIP, koštace vas uobicajenih [REGULAR_COST] mesecno.</value>
+  </data>
+  <data name="lblSubOffer" xml:space="preserve">
+    <value>Ispod pogledajte ponudu za prelazak na mesecno placanje. Ponuda od [DISCOUNT_COST] važi samo za nove mesecne pretplatnike.</value>
+  </data>
+  <data name="lblSubStatusActivated" xml:space="preserve">
+    <value>Vaša VIP pretplata je sada aktivirana</value>
+  </data>
+  <data name="lblSubStatusActive" xml:space="preserve">
+    <value>Vaša VIP pretplata je aktivna</value>
+  </data>
+  <data name="lblSubStatusNotActive" xml:space="preserve">
+    <value>Imate VIP ali ne kao pretplatu</value>
+  </data>
+  <data name="lblSubStatusNoVIP" xml:space="preserve">
+    <value>Vaša VIP pretplata nije aktivna</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Ukupno</value>
+  </data>
+  <data name="lblTotalCost" xml:space="preserve">
+    <value>Ukupno yaduženje</value>
+  </data>
+  <data name="lblTransforSub" xml:space="preserve">
+    <value>Broj transakcije za pretplatu je</value>
+  </data>
+  <data name="lblTryVip" xml:space="preserve">
+    <value>Probajte jednomesecni VIP za [COST]</value>
+  </data>
+  <data name="lblVIPSubFurther" xml:space="preserve">
+    <value>VIP pretplata, mesecna, pocinje od [DATE]</value>
+  </data>
+  <data name="errorAutopayEndSub" xml:space="preserve">
+    <value>Otkažite pretplatu</value>
+  </data>
+  <data name="errorAutopayLoseTeam" xml:space="preserve">
+    <value>Izgubicete pristup timovima u VIP ligama.</value>
+  </data>
+  <data name="errorAutopayNewSub" xml:space="preserve">
+    <value>Nova pretplata</value>
+  </data>
+  <data name="errorAutopayNewSubAlert" xml:space="preserve">
+    <value>Vaša trenutna pretplata ce biti ukinuta i bicete zamoljeni da zapocnete novu pretplatu.</value>
+  </data>
+  <data name="errorAutopaySubTitle" xml:space="preserve">
+    <value>Nismo u mogucnosti da završimo transakciju za vaš VIP.</value>
+  </data>
+  <data name="errorAutopayText" xml:space="preserve">
+    <value>Pokušali smo sa naplatom [ERRORDATE]. Pokušacemo ponovo sledecih dana. Ako znate da placanje nece biti moguce, zbog npr isteka kartice ili blokade iste, molimo Vas da se pretplatite sa novom karticom ili otkažete vašu trenutnu pretplatu.</value>
+  </data>
+  <data name="errorAutopayTitle" xml:space="preserve">
+    <value>Placanje nije uspelo</value>
+  </data>
+  <data name="errorAutopayVIPEndDays" xml:space="preserve">
+    <value>Ako ne ispravite ovo, vaše VIP clanstvo istice za [DAYSLEFT] dana.</value>
+  </data>
+  <data name="errorAutopayVIPEndHours" xml:space="preserve">
+    <value>Ako ne ispravite ovo, vaše VIP clanstvo istice za [HOURSLEFT] sati.</value>
+  </data>
+    <data name="vipFeature1" xml:space="preserve">
+    <value>Više timova</value>
+  </data>
+    <data name="vipFeature9" xml:space="preserve">
+    <value>...i mnogo više</value>
+  </data>
+    <data name="vipFeature2" xml:space="preserve">
+    <value>Više statistike</value>
+  </data>
+    <data name="vipFeature3" xml:space="preserve">
+    <value>VIP lige</value>
+  </data>
+    <data name="vipFeature4" xml:space="preserve">
+    <value>Logo kluba</value>
+  </data>
+    <data name="vipFeature5" xml:space="preserve">
+    <value>Naruceni dresovi</value>
+  </data>
+    <data name="vipFeature6" xml:space="preserve">
+    <value>Direktni transferi</value>
+  </data>
+    <data name="vipFeature7" xml:space="preserve">
+    <value>Imena novih igraca</value>
+  </data>
+    <data name="vipFeature8" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+    <data name="sSelectHere" xml:space="preserve">
+    <value>Izaberi ovde</value>
+  </data>
+    <data name="sTryVip" xml:space="preserve">
+    <value>Probaj VIP sada!</value>
+  </data>
+    <data name="sTryVipHeader1" xml:space="preserve">
+    <value>PROBAJ VIP</value>
+  </data>
+    <data name="sTryVipHeader2" xml:space="preserve">
+    <value>1 MESEC</value>
+  </data>
+    <data name="sTryVipHeader3" xml:space="preserve">
+    <value>SAMO</value>
+  </data>
+    <data name="sTryVipHeader4" xml:space="preserve">
+    <value>€0,10</value>
+  </data>
+    <data name="sTryVipHeader5" xml:space="preserve">
+    <value>* POSLE TOGA SAMO €3,5 MESECNO</value>
+  </data>
+</root>

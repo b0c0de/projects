@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl02" xml:space="preserve">
+    <value>Koristite opadajuci meni kako bi odredili poziciju igracu. Imajte u vidu da igranje van pozicije moze da ugrozi igracevu igru. Ne zaboravite da sacuvate postavke, da izaberete 10 igraca u polju, golmana i 5 rezervi</value>
+  </data>
+  <data name="lbl101" xml:space="preserve">
+    <value>Lako mozete naci gde se postavlja taktika za sledeci mec u meniju.</value>
+  </data>
+  <data name="lbl101Header" xml:space="preserve">
+    <value>Izaberite svoj tim i namestite taktiku</value>
+  </data>
+  <data name="lbl102Header" xml:space="preserve">
+    <value>Izaberite svoj tim</value>
+  </data>
+  <data name="lbl111" xml:space="preserve">
+    <value>Na ovoj stranici se podešava taktika. Kapiten treba da je medu boljima u timu, pokretac napada treba da bude dobar vezni igrac. Možete markirati bilo kog igraca protivnickog tima, uglavnom pokretac napada.</value>
+  </data>
+  <data name="lbl111Header" xml:space="preserve">
+    <value>Namestite taktiku</value>
+  </data>
+  <data name="lbl121" xml:space="preserve">
+    <value>U rasporedu meceva možete videti vreme i dane odigravanja utakmica. Ako je utakmica odigrana od vašeg poslednjeg logovanja otvorice se prozor sa linkom ka utakmici gde možete odgledati ceo svoj mec. Uzbudljivo je i mi preporucujemo da ga pogledate (traje samo par minuta).</value>
+  </data>
+  <data name="lbl121Header" xml:space="preserve">
+    <value>Utakmica</value>
+  </data>
+  <data name="lbl141" xml:space="preserve">
+    <value>Pored toga što je zabavno i živo u ligama sa puno pres sadržaja, možete dobiti i veoma važan novac kao pres bonus. Da bi ga dobili morate napisati minimum jedan nedeljno sa 250 ili više karaktera i dobicete 200 000 ekona za svoj tim.</value>
+  </data>
+  <data name="lbl141Header" xml:space="preserve">
+    <value>Pres izdanje</value>
+  </data>
+  <data name="lbl151" xml:space="preserve">
+    <value>Možete naci sponzorske aktivnosti kada dodjete u tim. Možete da kliknete na Xpert logo i dodjete na stranicu tima. Svake nedelje možete obaviti sponzorske aktivnosti ovako. Vas tim ce dobiti 1 milion ekona za svaku sponzorsku aktivnost (ekon je valuta igrice).</value>
+  </data>
+  <data name="lbl151Header" xml:space="preserve">
+    <value>Aktivnost sponzora</value>
+  </data>
+  <data name="lbl161" xml:space="preserve">
+    <value>Transfer market je veoma bitan ako želite da unapredite svoj tim. Možete da proucite kako su uspešni timovi prodavali i kupovali igrace, ali pazite da ne potrošite isuviše novca prateci svoj "instinkt". Da bi to izbegli, savetujemo Vam da procenite igraca. Tako cete videti igracevu veštinu i specijalne kvalitete. Nije lako uspeti na transfer marketu, ali je veoma zabavno ako nadjete prave igrace. Preporucujemo da procitate pravila i saznate kako se licitira za igrace.</value>
+  </data>
+  <data name="lbl161Header" xml:space="preserve">
+    <value>Transferi</value>
+  </data>
+  <data name="lbl171" xml:space="preserve">
+    <value>Prodaja igraca je odlican nacin da se dode do novca. Teško je napraviti dobar bilans kratkorocnim planovima. Da bi prodal igraca, kliknite na ime igraca u sastavu. To Vas vodi do stranice samog igraca i opcijom desno, možete ga staviti na transfer listu.</value>
+  </data>
+  <data name="lbl171Header" xml:space="preserve">
+    <value>Prodaja igraca</value>
+  </data>
+  <data name="lbl181" xml:space="preserve">
+    <value>Imate i omladinsku akademiju u koju možete ulagati novac da bi dobili dobre talente. Talenti imaju od 16-20 godina i u zavisnosti od vašeg nedeljnog ulaganja, razliciti skilovi talenata ce biti u ponudi.</value>
+  </data>
+  <data name="lbl181Header" xml:space="preserve">
+    <value>Talenti</value>
+  </data>
+  <data name="lbl41" xml:space="preserve">
+    <value>Kliknite na link u meniju koji vidite gore da nadjete svoj tim</value>
+  </data>
+  <data name="lbl41Header" xml:space="preserve">
+    <value>Nadji svoj tim</value>
+  </data>
+  <data name="lbl42" xml:space="preserve">
+    <value>U kolonama možete videti broj dresa, poziciju, ime, godine, skil, formu, tendenciju forme, specijalne kvalitete i status igraca. Više crtica znaci veci skil ili bolja forma.</value>
+  </data>
+  <data name="lbl42Header" xml:space="preserve">
+    <value>Igrača</value>
+  </data>
+  <data name="lbl51" xml:space="preserve">
+    <value>Veština je prikazana kockicama. Vise kockica znaci veca veština igraca. Za vreme sezone, nema promene veštine. Nakon sezone dolazi do promene veštine. Ona ce porasti ako je razvojna vrednost bila preko 10 odnosno smanjiti ako je razvojna vrednost bila manja od 10</value>
+  </data>
+  <data name="lbl51Header" xml:space="preserve">
+    <value>Veština</value>
+  </data>
+  <data name="lbl52" xml:space="preserve">
+    <value>Forma je predstavljena uspravnom crticom. Vise crtica - veca forma. Maksimalna forma je 20 crtica. Prosecna forma ce uticati na promenu veštine na kraju sezone. Mozete davati treninge kako bi povecali trenutnu formu igracu.</value>
+  </data>
+  <data name="lbl52Header" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="lbl53" xml:space="preserve">
+    <value>Igrac mora da igra kako bi se razvio. Velika razvojna vrednost ce mnogo uticati na veštinu igraca. Najveca razvojna vrednost je 20. Razvojna vrednost se pokazuje ako predete kursorom preko imena igraca. Razvojna vrednost je parametar na koji uticu prosecna forma i odigrani mecevi igraca.</value>
+  </data>
+  <data name="lbl53Header" xml:space="preserve">
+    <value>Razvojna vrednost</value>
+  </data>
+  <data name="lbl61" xml:space="preserve">
+    <value>Igraci imaju i specijalne kvalitete. Predite kursorom preko slicice da bi videli šta taj specijalni kvalitet znaci.</value>
+  </data>
+  <data name="lbl61Header" xml:space="preserve">
+    <value>Specijalni kvaliteti tvojih igraca</value>
+  </data>
+  <data name="lbl81" xml:space="preserve">
+    <value>Iznad možete videti kada je vaša sledeca utakmica i protiv koga igrate. Naravno, vidite i ostale utakmice po rasporedu. Ako sezona još uvek nije pocela i nemate zakazanih prijateljskih utakmica pisace bez meceva.</value>
+  </data>
+  <data name="lbl81Header" xml:space="preserve">
+    <value>Sledeci mec</value>
+  </data>
+  <data name="lbl91" xml:space="preserve">
+    <value>Pre nego selektirate tim i postavite taktiku, analizirajte protivnika. Kliknite na sledecu utakmicu protivnika (zelena strelica) da bi videli tim. Možete videti i njegov igracki kadar ako kliknete kroz timski meni (crvena strelica).</value>
+  </data>
+  <data name="lbl91Header" xml:space="preserve">
+    <value>Opponents</value>
+  </data>
+  <data name="lblQuickTour1" xml:space="preserve">
+    <value>Saznajte kada je vaša sledeca utakmica</value>
+  </data>
+  <data name="lblQuickTour2" xml:space="preserve">
+    <value>Proucite snagu i slabosti vašeg sledeceg protivnika</value>
+  </data>
+  <data name="lblQuickTour3" xml:space="preserve">
+    <value>Izaberite svoj tim</value>
+  </data>
+  <data name="lblQuickTour4" xml:space="preserve">
+    <value>Namestite taktiku</value>
+  </data>
+  <data name="lblQuickTour5" xml:space="preserve">
+    <value>Gledajte utakmicu</value>
+  </data>
+  <data name="lblQuickTour6" xml:space="preserve">
+    <value>Analizirajte rezultat</value>
+  </data>
+  <data name="lblQuickTour7" xml:space="preserve">
+    <value>Trenirate, kupujete, otpuštate i prodajete igrace</value>
+  </data>
+  <data name="lblQuickTour8" xml:space="preserve">
+    <value>Prikupite novac za svoj tim</value>
+  </data>
+  <data name="lblQuickTour9" xml:space="preserve">
+    <value>Do everything to win tour league!</value>
+  </data>
+  <data name="lblQuickTourHeader" xml:space="preserve">
+    <value>Skracena verzija</value>
+  </data>
+  <data name="mainTourMenu1" xml:space="preserve">
+    <value>Uvod</value>
+  </data>
+  <data name="mainTourMenu2" xml:space="preserve">
+    <value>Igraci i tim</value>
+  </data>
+  <data name="mainTourMenu3" xml:space="preserve">
+    <value>Mec i taktike</value>
+  </data>
+  <data name="mainTourMenu4" xml:space="preserve">
+    <value>Finansije</value>
+  </data>
+  <data name="nextButton" xml:space="preserve">
+    <value>Sledeći</value>
+  </data>
+  <data name="p1_1Header" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="p1_1Subheader" xml:space="preserve">
+    <value>Kako igrati Xpert Eleven, brzi vodic</value>
+  </data>
+  <data name="p1_2Header" xml:space="preserve">
+    <value>Ovaj vodic je podeljen na 3 dela</value>
+  </data>
+  <data name="p1_2ListItem1" xml:space="preserve">
+    <value>Igraci i tim</value>
+  </data>
+  <data name="p1_2ListItem2" xml:space="preserve">
+    <value>Mec i taktike</value>
+  </data>
+  <data name="p1_2ListItem3" xml:space="preserve">
+    <value>Finansije</value>
+  </data>
+  <data name="page1" xml:space="preserve">
+    <value>Strana 1</value>
+  </data>
+  <data name="page2" xml:space="preserve">
+    <value>Strana 2</value>
+  </data>
+  <data name="page3" xml:space="preserve">
+    <value>Strana 3</value>
+  </data>
+  <data name="page4" xml:space="preserve">
+    <value>Strana 4</value>
+  </data>
+  <data name="page5" xml:space="preserve">
+    <value>Strana 5</value>
+  </data>
+  <data name="startAgainButton" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="tourHeader" xml:space="preserve">
+    <value>Kratak vodic</value>
+  </data>
+    <data name="doneButton" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+</root>

@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hplHomeTeam.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplHomeTeam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplHomeTeam.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplHomeTeam.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplAwayTeam.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplAwayTeam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplAwayTeam.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplAwayTeam.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOmgang.Text" xml:space="preserve">
+    <value>Omgång 3 i</value>
+  </data>
+  <data name="lblOmgang.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplDivision.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplDivision.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplDivision.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplDivision.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeason.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeason.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplLeague.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplLeague.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplLeague.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplLeague.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArena.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArena.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMatchDate.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMatchDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferee.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferee.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoNextGame.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoNextGame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save match orders</value>
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCount.Text" xml:space="preserve">
+    <value>&lt;b&gt;Number of players:&lt;/b&gt; [VALUE]</value>
+  </data>
+  <data name="lblCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbShowSpec.Text" xml:space="preserve">
+    <value>Show special qualities</value>
+  </data>
+  <data name="chbShowSpec.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearLineUp.ToolTip" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnClearLineUp.ImageUrl" xml:space="preserve">
+    <value>images/resetLineup.gif</value>
+  </data>
+  <data name=":0.Text" xml:space="preserve">
+    <value>Databound</value>
+  </data>
+  <data name="lblFormationStatic.Text" xml:space="preserve">
+    <value>Formation</value>
+  </data>
+  <data name="lblFormationStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormation.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReservStatic.Text" xml:space="preserve">
+    <value>Number of reserves</value>
+  </data>
+  <data name="lblResStatic.Text" xml:space="preserve">
+    <value>Number of reserves</value>
+  </data>
+  <data name="lblReservStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReserv.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReserv.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value> Average age in line-up</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Defence (GK+D):</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgAgeDef.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgAgeDef.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Offence (MF+F):</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgAgeOff.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgAgeOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value> Total line-up:</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgAgeTot.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgAgeTot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Stil igre:</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Strat. (napad):</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Strat. (odbrana ):</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormPrep.Text" xml:space="preserve">
+    <value>Odbrana protiv:</value>
+  </data>
+  <data name="lblFormPrep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Agresija:</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Kapiten:</value>
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Predvodioc:</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>Slobodni udarci:</value>
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Izvođač penala:</value>
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Čvrsto čuvan:</value>
+  </data>
+  <data name="Label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Pob. bonus:</value>
+  </data>
+  <data name="Label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverWinMoney.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblOverWinMoney.ToolTip" xml:space="preserve">
+    <value>Obećali ste pobednički bonus koji ne postoji!</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>Ostalo:</value>
+  </data>
+  <data name="Label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbInjurySub.Text" xml:space="preserve">
+    <value>Zameni lakse povredjene</value>
+  </data>
+  <data name="chbInjurySub.ToolTip" xml:space="preserve">
+    <value>Selektuje ovde ako želite da zamenite blago povređene igrače</value>
+  </data>
+  <data name="chbLongBall.Text" xml:space="preserve">
+    <value>Duge lopte</value>
+  </data>
+  <data name="chbLongBall.ToolTip" xml:space="preserve">
+    <value>Igranjem dugih lopti smanjujete važnost sredine terena</value>
+  </data>
+  <data name="chbPressure.Text" xml:space="preserve">
+    <value>Presing</value>
+  </data>
+  <data name="chbPressure.ToolTip" xml:space="preserve">
+    <value>Ako igrate sa pritiskom povećaćete vaš posed lopte i ojačati vašu sredinu. Isto tako ovo će napraviti vaše igrače umornim na krajevima poluvremena pogotovo na kraju meča.</value>
+  </data>
+  <data name="chbOffsideTrap.Text" xml:space="preserve">
+    <value>Ofsajd zamke</value>
+  </data>
+  <data name="chbOffsideTrap.ToolTip" xml:space="preserve">
+    <value>Da bi koristili ofsajd zamke morate imati veoma jaku odbranu. Ovo će dati vašem protivniku dosta šansi za prolaze pogotovo ako je sudija slab.</value>
+  </data>
+  <data name="chbCheat.Text" xml:space="preserve">
+    <value>Varanje</value>
+  </data>
+  <data name="chbCheat.ToolTip" xml:space="preserve">
+    <value>Varati znači kazati igračima da varaju u svim situacijama i da se ponašaju nesportski kako bi dobili prednost u posedu lopte. Ovo može dovesti do nepotrebne podele kartona i slobodnih udaraca pogotovo ako je sudija veoma dobro naučen i ako je težak.</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbDefault.Text" xml:space="preserve">
+    <value>Save as default</value>
+  </data>
+  <data name="chbDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoSavedLineUp.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoSavedLineUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlayStyleStatic.Text" xml:space="preserve">
+    <value>Stil igre:</value>
+  </data>
+  <data name="lblPlayStyleStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlayStyle.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlayStyle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOffStatic.Text" xml:space="preserve">
+    <value>Strat. (napad):</value>
+  </data>
+  <data name="lblOffStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOff.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDefStatic.Text" xml:space="preserve">
+    <value>Strat. (odbrana ):</value>
+  </data>
+  <data name="lblDefStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDef.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDef.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreparedStatic.Text" xml:space="preserve">
+    <value>Odbrana protiv:</value>
+  </data>
+  <data name="lblPreparedStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrepared.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrepared.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAggStatic.Text" xml:space="preserve">
+    <value>Agresija:</value>
+  </data>
+  <data name="lblAggStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgg.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCaptainStatic.Text" xml:space="preserve">
+    <value>Kapiten:</value>
+  </data>
+  <data name="lblCaptainStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCaptain.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCaptain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlaymakerStatic.Text" xml:space="preserve">
+    <value>Predvodioc:</value>
+  </data>
+  <data name="lblPlaymakerStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlaymaker.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlaymaker.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFreekickStatic.Text" xml:space="preserve">
+    <value>Slobodni udarci:</value>
+  </data>
+  <data name="lblFreekickStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFreekick.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFreekick.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPenStatic.Text" xml:space="preserve">
+    <value>Izvođač penala:</value>
+  </data>
+  <data name="lblPenStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPen.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMarkStatic.Text" xml:space="preserve">
+    <value>Čvrsto čuvan:</value>
+  </data>
+  <data name="lblMarkStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMark.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMark.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWinStatic.Text" xml:space="preserve">
+    <value>Pob. bonus:</value>
+  </data>
+  <data name="lblWinStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWin.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubStatic.Text" xml:space="preserve">
+    <value>Zameni lakse povredjene:</value>
+  </data>
+  <data name="lblSubStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSub.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSub.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLongStatic.Text" xml:space="preserve">
+    <value>Duge lopte:</value>
+  </data>
+  <data name="lblLongStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLong.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLong.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPressStatic.Text" xml:space="preserve">
+    <value>Presing:</value>
+  </data>
+  <data name="lblPressStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPress.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOffsideStatic.Text" xml:space="preserve">
+    <value>Ofsajd zamke:</value>
+  </data>
+  <data name="lblOffsideStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOffside.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOffside.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheatStatic.Text" xml:space="preserve">
+    <value>Varanje:</value>
+  </data>
+  <data name="lblCheatStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheat.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormatStatic.Text" xml:space="preserve">
+    <value> Formation:</value>
+  </data>
+  <data name="lblFormatStatic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormat.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplOpenLineUp.Text" xml:space="preserve">
+    <value>Više detalja</value>
+  </data>
+  <data name="hplOpenLineUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplOpenLineUp.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplOpenLineUp.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbNew.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbNew.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbCup.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbCup.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <assembly alias="System" name="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>Ostalo:</value>
+  </data>
+</root>

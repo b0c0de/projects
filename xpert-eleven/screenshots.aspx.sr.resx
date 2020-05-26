@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblTitle.Text">
+    <value>Izgledi</value>
+  </data>
+  <data name="lblTitle.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Na ovoj stranici možete dobiti viziju onoga što vas čeka unutra. Ovde su samo neki primeri svih funkcija. Na dnu ove stranice možete naći i demo naše igre.
+</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Tim</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>Na ovoj stranici vidite vaš tim sa velikim brojem linkova ka drugim stranicama koje se bave sa tim. Možete videti koliko novca imate u timu, koliko je jaka ekipa i prosečni oblik igrača.</value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamPage.Text">
+    <value>Tim</value>
+  </data>
+  <data name="hplTeamPage.ToolTip">
+    <value />
+  </data>
+  <data name="hplTeamPage.ImageUrl">
+    <value>graphics/Screenshots/tmb_team_sv2.jpg</value>
+  </data>
+  <data name="hplTeamPage.NavigateUrl">
+    <value>team.aspx?teamid=106073&amp;dh=0</value>
+  </data>
+  <data name="hplPlayers.Text">
+    <value>Sastav tima</value>
+  </data>
+  <data name="hplPlayers.ToolTip">
+    <value />
+  </data>
+  <data name="hplPlayers.ImageUrl">
+    <value>graphics/Screenshots/tmb_squad_sv2.jpg</value>
+  </data>
+  <data name="hplPlayers.NavigateUrl">
+    <value>players.aspx?TeamID=39608&amp;Boost=0&amp;dh=1</value>
+  </data>
+  <data name="Label2.Text">
+    <value>Igrači</value>
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="lblF1.Text">
+    <value>Ova stranica prikazuje pregled igrača u vašem timu. Možete videti igrače koji su izabrani za početne i u kojim pozicijama. Ako želite napraviti ikakve promene u tom izboru ovo je stranica gde ćete to učiniti.
+</value>
+  </data>
+  <data name="lblF1.ToolTip">
+    <value />
+  </data>
+  <data name="Label3.Text">
+    <value>Taktike</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>Ovo je stranica gde ćete izabrati taktiku za vaš tim koju ćete koristiti u narednoj utakmici. Ako mislite da ste našli pravu taktiku tu taktiku onda možete sačuvati kao podrazumevanu taktiku.</value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink1.Text">
+    <value>Taktike</value>
+  </data>
+  <data name="Hyperlink1.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink1.ImageUrl">
+    <value>graphics/Screenshots/tmb_tactics_sv2.jpg</value>
+  </data>
+  <data name="Hyperlink1.NavigateUrl">
+    <value>graphics/Screenshots/scr_tactics_en2.jpg</value>
+  </data>
+  <data name="Hyperlink2.Text">
+    <value>Tabela</value>
+  </data>
+  <data name="Hyperlink2.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink2.ImageUrl">
+    <value>graphics/Screenshots/tmb_standings_sv2.jpg</value>
+  </data>
+  <data name="Hyperlink2.NavigateUrl">
+    <value>standings.aspx?Lid=27963&amp;Sel=T&amp;Lnr=1&amp;dh=0</value>
+  </data>
+  <data name="Label7.Text">
+    <value>Tabela</value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>U tabeli možete videti kakav je poredak timova. Takođe možete pregledati stanje  samo na utakmicama na domaćem terenu ili samo na gostujućem terenu. Ako liga ima više divizija i zona možete izabrati pogled na stanje u bilo kojoj seriji u ligi.</value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="Label9.Text">
+    <value>Izveštaj sa meča</value>
+  </data>
+  <data name="Label9.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>Ako kliknete na rezultat određene utakmice možete videti izveštaj za tu istu utakmicu. Izveštaj uključuje sastav tima i informacije o najvažnijim događajima na utakmici. Postoje i neke statistike sa utakmice kao i informacije o tome kako su dobro timovi obavili posao tokom utakmice. Takođe možete kupiti taktički izveštaj sa ostalih utakmica i da pogledate koje taktike koristi svaki tim.</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink3.Text">
+    <value>Izveštaj sa meča</value>
+  </data>
+  <data name="Hyperlink3.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink3.ImageUrl">
+    <value>graphics/Screenshots/tmb_matchreport_sv2.jpg</value>
+  </data>
+  <data name="Hyperlink3.NavigateUrl">
+    <value>gameDetails.aspx?GameID=5648459&amp;dh=0</value>
+  </data>
+  <data name="Hyperlink4.Text">
+    <value>Najboljih 11</value>
+  </data>
+  <data name="Hyperlink4.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink4.ImageUrl">
+    <value>graphics/Screenshots/tmb_x11_en2.jpg</value>
+  </data>
+  <data name="Hyperlink4.NavigateUrl">
+    <value>graphics/Screenshots/scr_x11_en2.jpg</value>
+  </data>
+  <data name="Label11.Text">
+    <value>Najboljih 11</value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>Nakon svakog kola u ligi ili kupu igrači koji se pokažu najbolje u tom kolu će biti izabrani za tim kola tj. najboljih 11, a najbolji među njima bude kapiten tog kola. Isto tako se bira i menadžer kola. Najboljih 11 se bira posle svakog kola. </value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="Label13.Text">
+    <value>Statistika igrača</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="Label14.Text">
+    <value>Postoji mnogo različitih statističkih podataka o igračima. Ovde ćete pronaći najbolje golgetere, najbolje pomagače, igrače sa najviše bodova, igrače sa najviše kartona ( žutih i crvenih ) i tako dalje. Možete videti statistike za trenutnu sezonu ili za sve sezone od postanka lige. Za još više statistika možete postati VIP član i onda ćete imati pristup do još više statističkih podataka o igračima i na osnovu cele podele ili cele lige.</value>
+  </data>
+  <data name="Label14.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink5.Text">
+    <value>Statistika igrača</value>
+  </data>
+  <data name="Hyperlink5.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink5.ImageUrl">
+    <value>graphics/Screenshots/tmb_pstats_en2.jpg</value>
+  </data>
+  <data name="Hyperlink5.NavigateUrl">
+    <value>graphics/Screenshots/scr_pstats_en2.jpg</value>
+  </data>
+  <data name="Hyperlink9.Text">
+    <value>Transfer market</value>
+  </data>
+  <data name="Hyperlink9.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink9.ImageUrl">
+    <value>graphics/Screenshots/tmb_transfer_en2.jpg</value>
+  </data>
+  <data name="Hyperlink9.NavigateUrl">
+    <value>graphics/Screenshots/scr_transfer_en2.jpg</value>
+  </data>
+  <data name="Label23.Text">
+    <value>Transfer market</value>
+  </data>
+  <data name="Label23.ToolTip">
+    <value />
+  </data>
+  <data name="Label24.Text">
+    <value>Sve ekipe će dobiti ponude za kupovinu igrača od agenata. Igrači koji nisu kupljeni će se naći na otvorenom tržištu, gde će menadžer tima sa najvećom ponudom dobiti igrača. Transfer sistem u ovoj igri je regulisani sistem kako bi se sprečilo varanje.</value>
+  </data>
+  <data name="Label24.ToolTip">
+    <value />
+  </data>
+  <data name="Label25.Text">
+    <value>Xpert Liga Šampiona</value>
+  </data>
+  <data name="Label25.ToolTip">
+    <value />
+  </data>
+  <data name="Label26.Text">
+    <value>Postoji par Xpert liga u ovoj igrici. To su veće lige sa par divizija iz kojih se pravi oficijalno prvenstvo u Xpert Eleven-u. Timovi koji pobede u glavnoj diviziji Xpert Liga i u kupu te iste lige se kvalifikuju za ligu šampiona u kojoj se onda ti isti timovi bore za naslov pobednika Lige Šampiona čiji osvajač dobija osim trofeja i mesto u Kući Slavnih. 16 šampiona se kvalifikuje za Ligu Šampiona i onda bivaju postavljeni u 4 grupe po 4 tima. Najbolja 2 tima iz svake grupe se kvalifikuju za četvrt-finale i onda posle pobednici igraju u polufinalu a posle toga pobednici igraju finale koje će doneti odluku ko je Xpert. </value>
+  </data>
+  <data name="Label26.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink10.Text">
+    <value>Xpert Liga Šampiona</value>
+  </data>
+  <data name="Hyperlink10.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink10.ImageUrl">
+    <value>graphics/Screenshots/tmb_x11cl_en2.jpg</value>
+  </data>
+  <data name="Hyperlink10.NavigateUrl">
+    <value>standings.aspx?Lid=111&amp;Lnr=4</value>
+  </data>
+  <data name="Hyperlink6.Text">
+    <value>Soba za press konferencije</value>
+  </data>
+  <data name="Hyperlink6.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink6.ImageUrl">
+    <value>graphics/Screenshots/tmb_press_en2.jpg</value>
+  </data>
+  <data name="Hyperlink6.NavigateUrl">
+    <value>leagueNews.aspx?Lid=31452&amp;Lnr=1&amp;dh=</value>
+  </data>
+  <data name="Label17.Text">
+    <value>Soba za press konferencije</value>
+  </data>
+  <data name="Label17.ToolTip">
+    <value />
+  </data>
+  <data name="Label18.Text">
+    <value>U sobi za press konferencije vi možete napisati vašu press konferenciju a isto tako možete pročitati ostale press konferencije u vašoj ligi od ostalih timova. Možete izabrati da čitate vesti iz samo vaše divizije ili drugih. Takođe možete da vidite ako postoji neki oficijalni press koji je napisan od administratora lige. Ako napišete dobru press konferenciju, možete dobiti i bonus. </value>
+  </data>
+  <data name="Label18.ToolTip">
+    <value />
+  </data>
+  <data name="Label21.Text">
+    <value>Xpert kladionica</value>
+  </data>
+  <data name="Label21.ToolTip">
+    <value />
+  </data>
+  <data name="Label22.Text">
+    <value>U svakom kolu u ligi neki mečevi biće izabrani za anketu gde vi možete da pogodite rezultat u tim mečevima. Svako ko želi da učestvuje u anketi daje statični iznos i člani ili članovi koji dobiju najviše pogođenih rezultata dobijaju iznos novca. Ovo može biti dobar način dobijanja para a takođe može i da uzrokuje i gubljenju para. Možete pogledati statistike pobednika anketa za trenutnu sezonu ili za sve sezone. </value>
+  </data>
+  <data name="Label22.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink8.Text">
+    <value>Xpert kladionica</value>
+  </data>
+  <data name="Hyperlink8.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink8.ImageUrl">
+    <value>graphics/Screenshots/tmb_xbets_en2.jpg</value>
+  </data>
+  <data name="Hyperlink8.NavigateUrl">
+    <value>graphics/Screenshots/scr_xbets_en2.jpg</value>
+  </data>
+  <data name="Hyperlink7.Text">
+    <value>Statistika tima</value>
+  </data>
+  <data name="Hyperlink7.ToolTip">
+    <value />
+  </data>
+  <data name="Hyperlink7.ImageUrl">
+    <value>graphics/Screenshots/tmb_tstats_en2.jpg</value>
+  </data>
+  <data name="Hyperlink7.NavigateUrl">
+    <value>graphics/Screenshots/scr_tstats_en2.jpg</value>
+  </data>
+  <data name="Label19.Text">
+    <value>Statistika tima</value>
+  </data>
+  <data name="Label19.ToolTip">
+    <value />
+  </data>
+  <data name="Label20.Text">
+    <value>Ako postanete VIP član, dobićete pristup dosta većim specifičnim karakteristika. Jedna od tih karakteristika je statistika svih timova u ligi. Možete izabrati da pogledate statistike za samo jednu seriju, za jednu diviziju, ili za celu ligu. </value>
+  </data>
+  <data name="Label20.ToolTip">
+    <value />
+  </data>
+  <data name="Label15.Text">
+    <value>Utakmica</value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="Label16.Text">
+    <value>Ako želite zanimljiviji način pregleda utakmice, onda ćete morati da odete na deo pod nazivom ' Utakmica ' i tu ćete moći da gledate utakmicu uživo iz minuta u minut. Aktivnosti su postavljenje za vas u tekstu ali je veoma interesantno gledati te utakmice. Ako ste VIP član možete isto tako pogledati i ostale mečeve koji se igraju u vašoj diviziji. Ako želite demonstraciju utakmica, možete otići na sliku sa desne strane. Moraćete da instalirate shockwave player na vašem računaru da bi mogli da vidite te utakmice. </value>
+  </data>
+  <data name="Label16.ToolTip">
+    <value />
+  </data>
+  <data name="HyperLink11.Text">
+    <value>Utakmica</value>
+  </data>
+  <data name="HyperLink11.ToolTip">
+    <value />
+  </data>
+  <data name="HyperLink11.ImageUrl">
+    <value>graphics/Screenshots/screenGameThumb.gif</value>
+  </data>
+  <data name="HyperLink11.NavigateUrl">
+    <value>Otvoriće vam se novi prozor</value>
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

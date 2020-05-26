@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblTitle.Text">
+    <value>Napravite svoj tim</value>
+  </data>
+  <data name="lblTitle.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Sada morate da napravite svoj tim u ligi</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="Label6.Text">
+    <value>Ukucajte ime tima koje želite za vaš tim kao i ime domaćeg terena gde će vaš tim igrati domaće utakmice i gde će gledaoci da dođu da vas gledaju. </value>
+  </data>
+  <data name="Label6.ToolTip">
+    <value />
+  </data>
+  <data name="Label7.Text">
+    <value>Posle ovoga izaberite koju nacionalnost igrača želite u svom timu. </value>
+  </data>
+  <data name="Label7.ToolTip">
+    <value />
+  </data>
+  <data name="Label8.Text">
+    <value>Onda izaberite boju dresova i šorceva za vaš tim. </value>
+  </data>
+  <data name="Label8.ToolTip">
+    <value />
+  </data>
+  <data name="Label9.Text">
+    <value>OBAVEŠTENJE! Ne vraćajte se nazad od ovog trena&lt;br&gt;Morate da napravite tim u ligi sada ili nećete moći da napravite svoju ligu</value>
+  </data>
+  <data name="Label9.ToolTip">
+    <value />
+  </data>
+  <data name="Label10.Text">
+    <value>Broj lige</value>
+  </data>
+  <data name="Label10.ToolTip">
+    <value />
+  </data>
+  <data name="txt_LeagueID.Text">
+    <value />
+  </data>
+  <data name="txt_LeagueID.ToolTip">
+    <value />
+  </data>
+  <data name="Label11.Text">
+    <value>Ime lige</value>
+  </data>
+  <data name="Label11.ToolTip">
+    <value />
+  </data>
+  <data name="txt_LeagueName.Text">
+    <value />
+  </data>
+  <data name="txt_LeagueName.ToolTip">
+    <value />
+  </data>
+  <data name="Label12.Text">
+    <value>Ime tima</value>
+  </data>
+  <data name="Label12.ToolTip">
+    <value />
+  </data>
+  <data name="txt_teamName.ToolTip">
+    <value />
+  </data>
+  <data name="Label16.Text">
+    <value>Ime domaćeg terena</value>
+  </data>
+  <data name="Label16.ToolTip">
+    <value />
+  </data>
+  <data name="txt_Arena.ToolTip">
+    <value />
+  </data>
+  <data name="lblNationStatic.Text">
+    <value>Imena igrača</value>
+  </data>
+  <data name="lblNationStatic.ToolTip">
+    <value />
+  </data>
+  <data name="chbMale.Text">
+    <value />
+  </data>
+  <data name="chbMale.ToolTip">
+    <value />
+  </data>
+  <data name="Label13.Text">
+    <value>Sada izaberite kombinaciju za dres i šorc</value>
+  </data>
+  <data name="Label13.ToolTip">
+    <value />
+  </data>
+  <data name="Label15.Text">
+    <value>Dres</value>
+  </data>
+  <data name="Label15.ToolTip">
+    <value />
+  </data>
+  <data name="Label3.Text">
+    <value>Boja</value>
+  </data>
+  <data name="Label3.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirt.ToolTip">
+    <value />
+  </data>
+  <data name="imgShirt.ImageUrl">
+    <value />
+  </data>
+  <data name="Label14.Text">
+    <value>Šorc</value>
+  </data>
+  <data name="Label14.ToolTip">
+    <value />
+  </data>
+  <data name="Label5.Text">
+    <value>Prva boja</value>
+  </data>
+  <data name="Label5.ToolTip">
+    <value />
+  </data>
+  <data name="Label4.Text">
+    <value>Druga boja</value>
+  </data>
+  <data name="Label4.ToolTip">
+    <value />
+  </data>
+  <data name="lblModelStatic.Text">
+    <value>Šare</value>
+  </data>
+  <data name="lblModelStatic.ToolTip">
+    <value />
+  </data>
+  <data name="imgShorts.ToolTip">
+    <value />
+  </data>
+  <data name="imgShorts.ImageUrl">
+    <value />
+  </data>
+  <data name="btnRegTeam.Text">
+    <value>Registrujte tim i uđite u ligu!</value>
+  </data>
+  <data name="btnRegTeam.ToolTip">
+    <value />
+  </data>
+  <data name="lblErrorM.Text">
+    <value />
+  </data>
+  <data name="lblErrorM.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>

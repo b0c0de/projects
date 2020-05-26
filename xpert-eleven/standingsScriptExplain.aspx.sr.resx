@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label51.Text">
+    <value>DCDCDC</value>
+  </data>
+  <data name="Label67.Text">
+    <value>Div</value>
+  </data>
+  <data name="ddFS:9.Text">
+    <value>15</value>
+  </data>
+  <data name="Label4.Text">
+    <value>HC</value>
+  </data>
+  <data name="lLeagueNr.Text">
+    <value>Divizija</value>
+  </data>
+  <data name="Label71.Text">
+    <value>1</value>
+  </data>
+  <data name="ddCP:9.Text">
+    <value>9</value>
+  </data>
+  <data name="Label62.Text">
+    <value>Pokaži razliku</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="Label11.Text">
+    <value>Popunjavanje mesta</value>
+  </data>
+  <data name="Label53.Text">
+    <value>Imate mogućnost proširenja izgleda tabele dodavanjem nekih opcionih nizova ( naglašeni iznos je postavljen ako se ne postavi nikakva postavka za taj niz ):</value>
+  </data>
+  <data name="Label59.Text">
+    <value>Pokaži poene</value>
+  </data>
+  <data name="Label6.Text">
+    <value>IC</value>
+  </data>
+  <data name="Label31.Text">
+    <value>FFFFFF</value>
+  </data>
+  <data name="btGenerateScript.Text">
+    <value>Generiši skriptu</value>
+  </data>
+  <data name="Label56.Text">
+    <value>MDC</value>
+  </data>
+  <data name="Label22.Text">
+    <value>Razmak </value>
+  </data>
+  <data name="ddCP:8.Text">
+    <value>8</value>
+  </data>
+  <data name="ddCP:15.Text">
+    <value>15</value>
+  </data>
+  <data name="Label63.Text">
+    <value>1</value>
+  </data>
+  <data name="Label89.Text">
+    <value>000000</value>
+  </data>
+  <data name="Label18.Text">
+    <value>Ime fonta</value>
+  </data>
+  <data name="ddCP:2.Text">
+    <value>2</value>
+  </data>
+  <data name="Label13.Text">
+    <value>Niz</value>
+  </data>
+  <data name="ddFS:3.Text">
+    <value>9</value>
+  </data>
+  <data name="ddLang:0.Text">
+    <value>Engleski</value>
+  </data>
+  <data name="Label76.Text">
+    <value>Prijatni naslov</value>
+  </data>
+  <data name="Label66.Text">
+    <value>1</value>
+  </data>
+  <data name="Label12.Text">
+    <value>FS</value>
+  </data>
+  <data name="Label48.Text">
+    <value>MUC</value>
+  </data>
+  <data name="Label68.Text">
+    <value>1</value>
+  </data>
+  <data name="Label15.Text">
+    <value>Boja fonta za članak</value>
+  </data>
+  <data name="ddCP:19.Text">
+    <value>19</value>
+  </data>
+  <data name="Label23.Text">
+    <value>Boja okvira</value>
+  </data>
+  <data name="Label29.Text">
+    <value>FFFFFF</value>
+  </data>
+  <data name="Label47.Text">
+    <value>Boja fonta za šansu za pomeranje</value>
+  </data>
+  <data name="Label77.Text">
+    <value>0</value>
+  </data>
+  <data name="ddFS:10.Text">
+    <value>16</value>
+  </data>
+  <data name="Label35.Text">
+    <value>verdana</value>
+  </data>
+  <data name="ddCP:14.Text">
+    <value>14</value>
+  </data>
+  <data name="Label52.Text">
+    <value>DCDCDC</value>
+  </data>
+  <data name="Label26.Text">
+    <value>Početna valuta</value>
+  </data>
+  <data name="Label3.Text">
+    <value>CP</value>
+  </data>
+  <data name="Label74.Text">
+    <value>1</value>
+  </data>
+  <data name="Label58.Text">
+    <value>SPO</value>
+  </data>
+  <data name="Label28.Text">
+    <value>2</value>
+  </data>
+  <data name="Label17.Text">
+    <value>Boja članka</value>
+  </data>
+  <data name="Label69.Text">
+    <value>UH</value>
+  </data>
+  <data name="ddFS:7.Text">
+    <value>13</value>
+  </data>
+  <data name="ddCS:19.Text">
+    <value>19</value>
+  </data>
+  <data name="ddCP:12.Text">
+    <value>12</value>
+  </data>
+  <data name="ddFS:12.Text">
+    <value>18</value>
+  </data>
+  <data name="ddCS:17.Text">
+    <value>17</value>
+  </data>
+  <data name="ddCS:6.Text">
+    <value>6</value>
+  </data>
+  <data name="Label72.Text">
+    <value>HFC</value>
+  </data>
+  <data name="Label75.Text">
+    <value>UFH</value>
+  </data>
+  <data name="ddCS:14.Text">
+    <value>14</value>
+  </data>
+  <data name="Label27.Text">
+    <value>2</value>
+  </data>
+  <data name="Label8.Text">
+    <value>FN</value>
+  </data>
+  <data name="Label49.Text">
+    <value>E6E6FA</value>
+  </data>
+  <data name="ddFS:14.Text">
+    <value>20</value>
+  </data>
+  <data name="Label73.Text">
+    <value>Pokaži naslov</value>
+  </data>
+  <data name="ddCP:5.Text">
+    <value>5</value>
+  </data>
+  <data name="ddCP:10.Text">
+    <value>10</value>
+  </data>
+  <data name="Label32.Text">
+    <value>F5F5F5</value>
+  </data>
+  <data name="ddCS:9.Text">
+    <value>9</value>
+  </data>
+  <data name="Label7.Text">
+    <value>IFC</value>
+  </data>
+  <data name="ddCS:7.Text">
+    <value>7</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Swedish</value>
+  </data>
+  <data name="Label33.Text">
+    <value>000000</value>
+  </data>
+  <data name="Label44.Text">
+    <value>Pokaži poraze</value>
+  </data>
+  <data name="Label54.Text">
+    <value>1</value>
+  </data>
+  <data name="ddCP:20.Text">
+    <value>20</value>
+  </data>
+  <data name="ddCS:13.Text">
+    <value>13</value>
+  </data>
+  <data name="ddCS:2.Text">
+    <value>2</value>
+  </data>
+  <data name="Label16.Text">
+    <value>Boja fonta za naslov</value>
+  </data>
+  <data name="ddLang:1.Text">
+    <value>Švedski</value>
+  </data>
+  <data name="ddCP:17.Text">
+    <value>17</value>
+  </data>
+  <data name="ddCS:10.Text">
+    <value>10</value>
+  </data>
+  <data name="ddCP:4.Text">
+    <value>4</value>
+  </data>
+  <data name="Label30.Text">
+    <value>003366</value>
+  </data>
+  <data name="ddCS:8.Text">
+    <value>8</value>
+  </data>
+  <data name="ddFS:1.Text">
+    <value>7</value>
+  </data>
+  <data name="Label79.Text">
+    <value>SNR</value>
+  </data>
+  <data name="Label46.Text">
+    <value>MUCC</value>
+  </data>
+  <data name="ddCP:1.Text">
+    <value>1</value>
+  </data>
+  <data name="Label25.Text">
+    <value>Spoljašnja tabela lige</value>
+  </data>
+  <data name="Label36.Text">
+    <value>Ime tima kao link</value>
+  </data>
+  <data name="ddFS:2.Text">
+    <value>8</value>
+  </data>
+  <data name="Label86.Text">
+    <value>000000</value>
+  </data>
+  <data name="Label19.Text">
+    <value>Veličina fonta</value>
+  </data>
+  <data name="ddCS:3.Text">
+    <value>3</value>
+  </data>
+  <data name="ddFN:1.Text">
+    <value>Verdana</value>
+  </data>
+  <data name="Label84.Text">
+    <value>Boja fonta za naziv postavljača</value>
+  </data>
+  <data name="Label37.Text">
+    <value>SWO</value>
+  </data>
+  <data name="Label80.Text">
+    <value>Pokaži zadnje kolo</value>
+  </data>
+  <data name="Label40.Text">
+    <value>SEV</value>
+  </data>
+  <data name="ddCS:20.Text">
+    <value>20</value>
+  </data>
+  <data name="Label50.Text">
+    <value>Pokaži valutu</value>
+  </data>
+  <data name="ddFN:0.Text">
+    <value>Arial</value>
+  </data>
+  <data name="ddFS:4.Text">
+    <value>10</value>
+  </data>
+  <data name="Label5.Text">
+    <value>HFC</value>
+  </data>
+  <data name="ddCP:13.Text">
+    <value>13</value>
+  </data>
+  <data name="Label1.Text">
+    <value>Omogućeni nizovi</value>
+  </data>
+  <data name="ddCP:0.Text">
+    <value>0</value>
+  </data>
+  <data name="Label34.Text">
+    <value>8</value>
+  </data>
+  <data name="Label81.Text">
+    <value>Pokaži sledeće kolo</value>
+  </data>
+  <data name="ddFS:5.Text">
+    <value>11</value>
+  </data>
+  <data name="ddCS:15.Text">
+    <value>15</value>
+  </data>
+  <data name="ddCS:4.Text">
+    <value>4</value>
+  </data>
+  <data name="Label10.Text">
+    <value>Komentar</value>
+  </data>
+  <data name="Label42.Text">
+    <value>Pokaži nerešene</value>
+  </data>
+  <data name="Label9.Text">
+    <value>Imate mogućnost da pokažete zadnje kolo, tabelu lige kao i sledeće kolo na spoljašnjoj strani na internetu. Koristite skriptu ispod i postavite je u html, php ili aspx stranici (bilo koji tip stranice će raditi)</value>
+  </data>
+  <data name="ddFS:6.Text">
+    <value>12</value>
+  </data>
+  <data name="ddCP:11.Text">
+    <value>11</value>
+  </data>
+  <data name="ddCS:16.Text">
+    <value>16</value>
+  </data>
+  <data name="lDefaultLang.Text">
+    <value>EN</value>
+  </data>
+  <data name="Label60.Text">
+    <value>1</value>
+  </data>
+  <data name="ddCP:7.Text">
+    <value>7</value>
+  </data>
+  <data name="Label39.Text">
+    <value>0</value>
+  </data>
+  <data name="lInfo.Text">
+    <value>U skripti Lid predstavlja ID lige u ovom slučaju [LEAGUEID]. Div je oznaka u kojoj ćete staviti koju diviziju želite da pokažete. Ukoliko postavite broj 1, to će biti glavna divizija. Ove dve stvari su neophodne da bi skripta radila. &lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="Label45.Text">
+    <value>0</value>
+  </data>
+  <data name="ddCS:5.Text">
+    <value>5</value>
+  </data>
+  <data name="Label85.Text">
+    <value>PBFC</value>
+  </data>
+  <data name="TAH.Text">
+    <value>TAH</value>
+  </data>
+  <data name="ddFN:2.Text">
+    <value>Tahoma</value>
+  </data>
+  <data name="ddCS:11.Text">
+    <value>11</value>
+  </data>
+  <data name="ddCS:0.Text">
+    <value>0</value>
+  </data>
+  <data name="Label14.Text">
+    <value>Boja naslova</value>
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="ddCS:18.Text">
+    <value>18</value>
+  </data>
+  <data name="Label61.Text">
+    <value>SDI</value>
+  </data>
+  <data name="ddCP:6.Text">
+    <value>6</value>
+  </data>
+  <data name="Label70.Text">
+    <value>Podvuci linkove</value>
+  </data>
+  <data name="ddFS:11.Text">
+    <value>17</value>
+  </data>
+  <data name="ddCP:16.Text">
+    <value>16</value>
+  </data>
+  <data name="Label88.Text">
+    <value>LNRHFC</value>
+  </data>
+  <data name="Label87.Text">
+    <value>Boja fonta za naslov za prošlo i sledeće kolo</value>
+  </data>
+  <data name="Label55.Text">
+    <value>Boja za pomeranje na više</value>
+  </data>
+  <data name="ddCP:3.Text">
+    <value>3</value>
+  </data>
+  <data name="Label65.Text">
+    <value>Pokaži kolo</value>
+  </data>
+  <data name="ddCS:12.Text">
+    <value>12</value>
+  </data>
+  <data name="Label21.Text">
+    <value>BC</value>
+  </data>
+  <data name="Label64.Text">
+    <value>SRO</value>
+  </data>
+  <data name="Label41.Text">
+    <value>0</value>
+  </data>
+  <data name="ddFS:13.Text">
+    <value>19</value>
+  </data>
+  <data name="ddCS:1.Text">
+    <value>1</value>
+  </data>
+  <data name="Label78.Text">
+    <value>SLR</value>
+  </data>
+  <data name="Label24.Text">
+    <value>Jezik</value>
+  </data>
+  <data name="Label20.Text">
+    <value>Lang</value>
+  </data>
+  <data name="ddCP:18.Text">
+    <value>18</value>
+  </data>
+  <data name="lDefaultScript.Text">
+    <value>Aktivna skripta za ovu ligu je:&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="Label57.Text">
+    <value>Boja za pomeranje na niže</value>
+  </data>
+  <data name="Label83.Text">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text">
+    <value>CS</value>
+  </data>
+  <data name="ddFS:0.Text">
+    <value>6</value>
+  </data>
+  <data name="Label43.Text">
+    <value>SLO</value>
+  </data>
+  <data name="Label38.Text">
+    <value>Pokaži pobede</value>
+  </data>
+  <data name="Label82.Text">
+    <value>0</value>
+  </data>
+  <data name="ddFS:8.Text">
+    <value>14</value>
+  </data>
+</root>
