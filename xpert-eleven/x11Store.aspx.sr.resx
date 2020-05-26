@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>Opcije za plaćanje</value>
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Kreditne kartice</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Narudžba će biti isporučena odmah posle kupovine</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image13.ToolTip" xml:space="preserve">
+    <value>Diners Club</value>
+  </data>
+  <data name="Image13.ImageUrl" xml:space="preserve">
+    <value>images/dinersLogo.gif</value>
+  </data>
+  <data name="Image10.ToolTip" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Image10.ImageUrl" xml:space="preserve">
+    <value>images/visaLogo.gif</value>
+  </data>
+  <data name="Image61.ToolTip" xml:space="preserve">
+    <value>Mastercard</value>
+  </data>
+  <data name="Image61.ImageUrl" xml:space="preserve">
+    <value>images/mcLogo.gif</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value> Wallie karte</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Wallie karta je siguran način pretplate koji je veoma lak i siguran na Internetu. Možete dati uplate bez davanja ličnih ili finansijskih informacija. Narudžba će odmah biti izrađena posle uplate.  &lt;a href="http://www.wallie.com/" target="_blank"&gt;Mesto za kupovinu Wallie kartica&gt;&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image2.ToolTip" xml:space="preserve">
+    <value>Wallie karta</value>
+  </data>
+  <data name="Image2.ImageUrl" xml:space="preserve">
+    <value>images/wallieLogo.gif</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>PayPal daje različite mogućnosti uplate. Ne treba vam ni jedan nalog za PayPal ako odlučite da platite koristeći PayPal karticu. Narudžba će biti odrađena u roku od 12 sati. </value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image5.ToolTip" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="Image5.ImageUrl" xml:space="preserve">
+    <value>images/ppLogo.gif</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Bankgiro</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Ova narudžba će biti urađena u roku od jednog do tri radnih dana. Ova opcija je samo moguće ako živite u Švedskoj. </value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image4.ToolTip" xml:space="preserve">
+    <value>Bankgiro (samo u Švedskoj)</value>
+  </data>
+  <data name="Image4.ImageUrl" xml:space="preserve">
+    <value>images/bgLogo.gif</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Kupovina preko telefona</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Ova VIP metoda će biti aktivirana odmah. Ova opcija je moguća samo ako živite u Švedskoj. &lt;a href="viatelInfo.aspx"&gt;Pratite ove instrukcije kad kupujete preko telefona.&lt;/a&gt;</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image3.ToolTip" xml:space="preserve">
+    <value>Kupovina preko telefona (samo u Švedskoj)</value>
+  </data>
+  <data name="Image3.ImageUrl" xml:space="preserve">
+    <value>images/viatelLogo.gif</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Izaberite proizvod(e)</value>
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value> VIP članstvo</value>
+  </data>
+  <data name="Label34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Kao VIP član, možete dobiti dodatne funkcije u igri kao naprimer dosta više statistike, nagledanje funkcija i ostale funkcije za vaš interes. Pročitajte više o tome &lt;a href="vip.aspx"&gt;ovde&lt;/a&gt;.</value>
+  </data>
+  <data name="Label26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>Izaberite dužinu članstva</value>
+  </data>
+  <data name="Label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dpdVIP:0.Text" xml:space="preserve">
+    <value>Izaberite dužinu VIP članstva</value>
+  </data>
+  <data name="dpdVIP:1.Text" xml:space="preserve">
+    <value>3 meseca za 60 SEK</value>
+  </data>
+  <data name="dpdVIP:2.Text" xml:space="preserve">
+    <value>6 meseca za 105 SEK</value>
+  </data>
+  <data name="dpdVIP:3.Text" xml:space="preserve">
+    <value>12 meseci za 180 SEK</value>
+  </data>
+  <data name="lblUser.Text" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="lblUser.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUserID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuyVIP.Text" xml:space="preserve">
+    <value>Kupi</value>
+  </data>
+  <data name="btnBuyVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVIPError.Text" xml:space="preserve">
+    <value>Korisničko ime je nepoznato</value>
+  </data>
+  <data name="lblVIPError.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPrebuyVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreBuy.Text" xml:space="preserve">
+    <value>Otkupljeno VIP članstvo za ligu</value>
+  </data>
+  <data name="lblPreBuy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreBuyInfo.Text" xml:space="preserve">
+    <value>Unapred kupljeni VIP paketi za vašu ligu se mogu podariti pobedniku lige, kupa  ili nekog drugog trofeja. Na stranici za informacije u vezi lige ćete moći da vidite ako liga ima neke unapred kupljene VIP pakete. &lt;br&gt;&lt;br&gt; Unapred kupljeni VIP paketi se mogu dati samo članovima vaše lige i da te nagrade ne računaju vas. Svaki VIP paket koji se kupi se mora predati u roku od 9 meseci ili će u protivnom paket biti nedostupan. </value>
+  </data>
+  <data name="lblPreBuyInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value>Izaberite dužinu</value>
+  </data>
+  <data name="lblPeriod.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dpdPreBuyPeriod:0.Text" xml:space="preserve">
+    <value>Izaberite dužinu VIP članstva</value>
+  </data>
+  <data name="dpdPreBuyPeriod:1.Text" xml:space="preserve">
+    <value>3 meseca za 60 SEK</value>
+  </data>
+  <data name="dpdPreBuyPeriod:2.Text" xml:space="preserve">
+    <value>6 meseca za 105 SEK</value>
+  </data>
+  <data name="dpdPreBuyPeriod:3.Text" xml:space="preserve">
+    <value>12 meseci za 180 SEK</value>
+  </data>
+  <data name="lblLeague.Text" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="lblLeague.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPreBuy.Text" xml:space="preserve">
+    <value>Kupi</value>
+  </data>
+  <data name="btnPreBuy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeagueVIPError.Text" xml:space="preserve">
+    <value>Nemate ligu !</value>
+  </data>
+  <data name="lblLeagueVIPError.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplXmasVIP.Text" xml:space="preserve">
+    <value>Božićna čestitka</value>
+  </data>
+  <data name="hplXmasVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXmasVIP.Text" xml:space="preserve">
+    <value>Božićni VIP</value>
+  </data>
+  <data name="lblXmasVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXmasVIPInfo.Text" xml:space="preserve">
+    <value>Dajte vašem prijatelju VIP status kao poklon za Božić. VIP će biti aktiviran u vreme koje vi želite. Pročijate više o VIP članstvu &lt;a href="vip.aspx"&gt;ovde&lt;/a&gt;. Kliknite na sliku sa leve strane kako bi mogli da vidite Xpert Božićnu razglednicu koju možete odštampati i postaviti u paket koji ćete dati kao poklon. Ova razglednica će biti poslata u poštansko sanduče vašeg prijatelja kada VIP bude aktiviran.</value>
+  </data>
+  <data name="lblXmasVIPInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Izaberite dužinu</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dpdXmasVIP:0.Text" xml:space="preserve">
+    <value>Izaberite dužinu VIP članstva</value>
+  </data>
+  <data name="dpdXmasVIP:1.Text" xml:space="preserve">
+    <value>3 meseca za 60 SEK</value>
+  </data>
+  <data name="dpdXmasVIP:2.Text" xml:space="preserve">
+    <value>6 meseci za 105 SEK</value>
+  </data>
+  <data name="dpdXmasVIP:3.Text" xml:space="preserve">
+    <value>12 meseci za 180 SEK</value>
+  </data>
+  <data name="lblDeliverDate.Text" xml:space="preserve">
+    <value>Vreme za aktiviranje</value>
+  </data>
+  <data name="lblDeliverDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dpdDeliverDate:0.Text" xml:space="preserve">
+    <value>2009-12-23</value>
+  </data>
+  <data name="dpdDeliverDate:1.Text" xml:space="preserve">
+    <value>2009-12-24</value>
+  </data>
+  <data name="dpdDeliverDate:2.Text" xml:space="preserve">
+    <value>2009-12-25</value>
+  </data>
+  <data name="dpdDeliverDate:3.Text" xml:space="preserve">
+    <value>2009-12-26</value>
+  </data>
+  <data name="dpdDeliverDate:4.Text" xml:space="preserve">
+    <value>2009-12-27</value>
+  </data>
+  <data name="dpdDeliverTime:0.Text" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="lblXmasVIPRec.Text" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="lblXmasVIPRec.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtXmasVIPRec.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuyXmasVIP.Text" xml:space="preserve">
+    <value>Kupi</value>
+  </data>
+  <data name="btnBuyXmasVIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXmasVIPError.Text" xml:space="preserve">
+    <value>Korisničko ime je nepoznato!</value>
+  </data>
+  <data name="lblXmasVIPError.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplBDayImg.Text" xml:space="preserve">
+    <value>Rođendanska kartica</value>
+  </data>
+  <data name="hplBDayImg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBDay.Text" xml:space="preserve">
+    <value>Predaj VIP</value>
+  </data>
+  <data name="lblBDay.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBDayInfo.Text" xml:space="preserve">
+    <value>Daj prijatelju VIP status. VIP će biti aktiviran u trenutku vremena koje ste izabrali. Pročitajte više o VIP &lt;a href="vip.aspx"&gt;
+ovde &lt;/a&gt;. </value>
+  </data>
+  <data name="lblBDayInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBDayPeriod.Text" xml:space="preserve">
+    <value>Izaberite period</value>
+  </data>
+  <data name="lblBDayPeriod.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dpdBDayPeriod:0.Text" xml:space="preserve">
+    <value>Izaberite dužinu VIP članstva</value>
+  </data>
+  <data name="dpdBDayPeriod:1.Text" xml:space="preserve">
+    <value>3 meseca za 60 SEK</value>
+  </data>
+  <data name="dpdBDayPeriod:2.Text" xml:space="preserve">
+    <value>6 meseci za 105 SEK</value>
+  </data>
+  <data name="dpdBDayPeriod:3.Text" xml:space="preserve">
+    <value>12 meseci za 180 SEK</value>
+  </data>
+  <data name="lblBDayActTime.Text" xml:space="preserve">
+    <value>Vreme aktivacije</value>
+  </data>
+  <data name="lblBDayActTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dpdBDayTime:0.Text" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="lblBDayUserID.Text" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="lblBDayUserID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBDayUserID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBDayBuy.Text" xml:space="preserve">
+    <value>Kupi</value>
+  </data>
+  <data name="btnBDayBuy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBDayUserUnknown.Text" xml:space="preserve">
+    <value>Korisničko ime je nepoznato!</value>
+  </data>
+  <data name="lblBDayUserUnknown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Hyperlink1.Text" xml:space="preserve">
+    <value>Rođendanska razglednica</value>
+  </data>
+  <data name="Hyperlink1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplExtShop.Text" xml:space="preserve">
+    <value>Za više proizvoda kliknite ovde</value>
+  </data>
+  <data name="hplExtShop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplExtShop.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hplExtShop.NavigateUrl" xml:space="preserve">
+    <value>http://www.spreadshirt.net/shop.php?sid=180942</value>
+  </data>
+  <data name="lTerms.Text" xml:space="preserve">
+    <value>Uslovi</value>
+  </data>
+  <data name="lTerms.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>Opšte odredbe u vezi kupovine VIP članstava (digitalnih usluga) i proizvoda / roba na www.xperteleven.com mogu se naći &lt;a href="privacy.aspx?p=3"&gt;ovde&lt;/a&gt;.</value>
+  </data>
+  <data name="Label35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name=":0.Text" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name=":1.Text" xml:space="preserve">
+    <value>3 meseca za 60 SEK</value>
+  </data>
+  <data name=":2.Text" xml:space="preserve">
+    <value>6 meseci za 105 SEK</value>
+  </data>
+  <data name=":3.Text" xml:space="preserve">
+    <value>12 meseci za 180 SEK</value>
+  </data>
+  <data name=":4.Text" xml:space="preserve">
+    <value>2009-12-27</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <assembly alias="System" name="System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPreBuyInfo2.Text" xml:space="preserve">
+    <value>Takodje mozete kupiti VIP nagrade u paketima.Mozete odabrati jedan od sledecih paketa: &lt;br&gt;&lt;br&gt;Paket A: 1x3 meseca i 3x1 mesec&lt;br&gt;&lt;br&gt;Paket B: 2x3 meseca&lt;br&gt;&lt;br&gt;Paket C: 2x3 meseca i 6x1 mesec&lt;br&gt;&lt;br&gt;Paket D: 3x3 meseca i 3x1 mesec&lt;br&gt;&lt;br&gt;Paket E: 1x6 meseci, 1x3 meseca i 3x1 mesec&lt;br&gt;&lt;br&gt;Paket F: 6x1 mesec&lt;br&gt;&lt;br&gt;Paket G: 3x1 mesec&lt;br&gt;&lt;br&gt;</value>
+  </data>
+</root>

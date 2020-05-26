@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ad.title" xml:space="preserve">
+    <value>Sponzori</value>
+  </data>
+  <data name="Admin.title" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Advertise.title" xml:space="preserve">
+    <value>Advertise</value>
+  </data>
+  <data name="Article.title" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ArticleLink.title" xml:space="preserve">
+    <value>Newslink</value>
+  </data>
+  <data name="BlockUser.title" xml:space="preserve">
+    <value>Block user</value>
+  </data>
+  <data name="Community.title" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="ContactUs.title" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="CreateLeague.title" xml:space="preserve">
+    <value>Napravi ligu</value>
+  </data>
+  <data name="Cup.title" xml:space="preserve">
+    <value>Kup</value>
+  </data>
+  <data name="Dirty.title" xml:space="preserve">
+    <value>Dirty trix</value>
+  </data>
+  <data name="EditArticle.title" xml:space="preserve">
+    <value>Edit article</value>
+  </data>
+  <data name="EditPlayer.title" xml:space="preserve">
+    <value>Edit player</value>
+  </data>
+  <data name="FAQ.title" xml:space="preserve">
+    <value>F.A.Q</value>
+  </data>
+  <data name="FavTeams.title" xml:space="preserve">
+    <value>Omiljeni timovi</value>
+  </data>
+  <data name="ForgotPass.title" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="Forum.title" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="Frends.title" xml:space="preserve">
+    <value>Prijatelji</value>
+  </data>
+  <data name="Games.title" xml:space="preserve">
+    <value>Utakmice</value>
+  </data>
+  <data name="GonePlayers.title" xml:space="preserve">
+    <value>Otp. igraci</value>
+  </data>
+  <data name="Guestbook.title" xml:space="preserve">
+    <value>Upis gostiju</value>
+  </data>
+  <data name="HallOfFame.title" xml:space="preserve">
+    <value>Kuca slavnih</value>
+  </data>
+  <data name="Help.title" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="HelpUs.title" xml:space="preserve">
+    <value>Pomozite</value>
+  </data>
+  <data name="Home.title" xml:space="preserve">
+    <value>Pocetak</value>
+  </data>
+  <data name="Information.title" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LastGame.title" xml:space="preserve">
+    <value>Poslednji sastav</value>
+  </data>
+  <data name="LeagueChat.title" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="LeagueInfo.title" xml:space="preserve">
+    <value>Info lige</value>
+  </data>
+  <data name="LeagueNews.title" xml:space="preserve">
+    <value>Novine</value>
+  </data>
+  <data name="Leagues.title" xml:space="preserve">
+    <value>Leagues</value>
+  </data>
+  <data name="Lobby.title" xml:space="preserve">
+    <value>Lobby</value>
+  </data>
+  <data name="LogOut.title" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="MailBox.title" xml:space="preserve">
+    <value>Posta</value>
+  </data>
+  <data name="MatchResult.title" xml:space="preserve">
+    <value>Matchresult</value>
+  </data>
+  <data name="MessageBox.title" xml:space="preserve">
+    <value>Post. sanduce</value>
+  </data>
+  <data name="MyPage.title" xml:space="preserve">
+    <value>Stranica</value>
+  </data>
+  <data name="NewArticle.title" xml:space="preserve">
+    <value>New article</value>
+  </data>
+  <data name="NewLeagueNews.title" xml:space="preserve">
+    <value>Nova vest</value>
+  </data>
+  <data name="NewPlayer.title" xml:space="preserve">
+    <value>New player</value>
+  </data>
+  <data name="NewPoll.title" xml:space="preserve">
+    <value>New poll</value>
+  </data>
+  <data name="NewResult.title" xml:space="preserve">
+    <value>New game</value>
+  </data>
+  <data name="NewUser.title" xml:space="preserve">
+    <value>New member</value>
+  </data>
+  <data name="NextGame.title" xml:space="preserve">
+    <value>Sledeci mec/Taktike</value>
+  </data>
+  <data name="NextGames.title" xml:space="preserve">
+    <value>Predstojece utakmice</value>
+  </data>
+  <data name="Page.title" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="PlayedGames.title" xml:space="preserve">
+    <value>Prethodne utakmice</value>
+  </data>
+  <data name="Player.title" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="PlayerBids.title" xml:space="preserve">
+    <value>Ponude za igraca</value>
+  </data>
+  <data name="PlayerStat.title" xml:space="preserve">
+    <value>Stat. igraca</value>
+  </data>
+  <data name="PlayerStatics.title" xml:space="preserve">
+    <value>Stat. igraca</value>
+  </data>
+  <data name="PlayGround.title" xml:space="preserve">
+    <value>X11 kladionica</value>
+  </data>
+  <data name="Poll.title" xml:space="preserve">
+    <value>Poll</value>
+  </data>
+  <data name="Privacy.title" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="Profile.title" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Properties.title" xml:space="preserve">
+    <value>Podesavanja</value>
+  </data>
+  <data name="Register.title" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Resource.title" xml:space="preserve">
+    <value>Izvori</value>
+  </data>
+  <data name="Rules.title" xml:space="preserve">
+    <value>Pravila</value>
+  </data>
+  <data name="Screenshots.title" xml:space="preserve">
+    <value>Screenshots</value>
+  </data>
+  <data name="Search.title" xml:space="preserve">
+    <value>Trazi</value>
+  </data>
+  <data name="ShowArticle.title" xml:space="preserve">
+    <value>Show article</value>
+  </data>
+  <data name="ShowPoll.title" xml:space="preserve">
+    <value>Show poll</value>
+  </data>
+  <data name="ShowResult.title" xml:space="preserve">
+    <value>Show results</value>
+  </data>
+  <data name="ShowUser.title" xml:space="preserve">
+    <value>Show member</value>
+  </data>
+  <data name="Staff.title" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="Team.title" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="TeamEconomy.title" xml:space="preserve">
+    <value>Finansijski izvestaj</value>
+  </data>
+  <data name="TeamHistory.title" xml:space="preserve">
+    <value>Istorija kluba</value>
+  </data>
+  <data name="TeamPlayers.title" xml:space="preserve">
+    <value>Sastav tima</value>
+  </data>
+  <data name="TeamProperties.title" xml:space="preserve">
+    <value>Podesavanja tima</value>
+  </data>
+  <data name="Training.title" xml:space="preserve">
+    <value>Treniranje</value>
+  </data>
+  <data name="TrainingReport.title" xml:space="preserve">
+    <value>Izvestaj treninga</value>
+  </data>
+  <data name="TransferMarket.title" xml:space="preserve">
+    <value>Transferi</value>
+  </data>
+  <data name="Transfers.title" xml:space="preserve">
+    <value>Kupljeni igraci </value>
+  </data>
+  <data name="User.title" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="VacantTeams.title" xml:space="preserve">
+    <value>Trazi posao</value>
+  </data>
+  <data name="XpertDairy.title" xml:space="preserve">
+    <value>Xpert Daily</value>
+  </data>
+  <data name="XpertShop.title" xml:space="preserve">
+    <value>Prodavnica</value>
+  </data>
+  <data name="LeagueMenu.title" xml:space="preserve">
+    <value>League menu</value>
+  </data>
+  <data name="TeamMenu.title" xml:space="preserve">
+    <value>Team menu</value>
+  </data>
+  <data name="Members.title" xml:space="preserve">
+    <value>Clanovi</value>
+  </data>
+  <data name="ClubStat.title" xml:space="preserve">
+    <value>Club stat</value>
+  </data>
+  <data name="XpertLeagues.title" xml:space="preserve">
+    <value>Xpert lige</value>
+  </data>
+  <data name="MyNotes.title" xml:space="preserve">
+    <value>Moje beleske</value>
+  </data>
+  <data name="MyTeams.title" xml:space="preserve">
+    <value>Moji timovi</value>
+  </data>
+  <data name="League.title" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="ClubStats.title" xml:space="preserve">
+    <value>Stat. kluba</value>
+  </data>
+  <data name="SearchUsers.title" xml:space="preserve">
+    <value>Menadžera</value>
+  </data>
+  <data name="SearchLeagues.title" xml:space="preserve">
+    <value>Ligu</value>
+  </data>
+  <data name="SearchTeams.title" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="Misc.title" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="PublicRelations.title" xml:space="preserve">
+    <value>Odnosi</value>
+  </data>
+  <data name="Results.title" xml:space="preserve">
+    <value>Rezultati</value>
+  </data>
+  <data name="TheClub.title" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="TheMatches.title" xml:space="preserve">
+    <value>Utakmice</value>
+  </data>
+  <data name="ThePlayers.title" xml:space="preserve">
+    <value>Igraci</value>
+  </data>
+  <data name="TheGame.title" xml:space="preserve">
+    <value>Igra</value>
+  </data>
+  <data name="GetStarted.title" xml:space="preserve">
+    <value>Pocnite</value>
+  </data>
+  <data name="Clubgroups.title" xml:space="preserve">
+    <value>Grupe klubova</value>
+  </data>
+  <data name="OwnPage.title" xml:space="preserve">
+    <value>Moje stranice</value>
+  </data>
+  <data name="Start.title" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="News.title" xml:space="preserve">
+    <value>Vesti</value>
+  </data>
+  <data name="Teams.title" xml:space="preserve">
+    <value>Klubovi</value>
+  </data>
+  <data name="MyClubgroups.title" xml:space="preserve">
+    <value>Moji klubovi</value>
+  </data>
+  <data name="Recruitment.title" xml:space="preserve">
+    <value>Regrutovanje</value>
+  </data>
+  <data name="Statistics.title" xml:space="preserve">
+    <value>Statistika</value>
+  </data>
+  <data name="Talents.title" xml:space="preserve">
+    <value>Omladinska akademija</value>
+  </data>
+  <data name="TOM.title" xml:space="preserve">
+    <value>Tim meseca</value>
+  </data>
+  <data name="Subscription.title" xml:space="preserve">
+    <value>Pretplata</value>
+  </data>
+  <data name="ChangeReports.title" xml:space="preserve">
+    <value>Izveštaji promena</value>
+  </data>
+    <data name="Blog.title" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="Greatest11.title" xml:space="preserve">
+    <value>Greatest 11</value>
+  </data>
+</root>

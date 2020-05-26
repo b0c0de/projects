@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Ako zelite da jos vise uzivate u Xpert Eleven-u i doprinesete daljem razvoju igre mozete postati VIP clan.Nudimo Vam VIP paket,pun dodatnih mogucnosti i opcija,koje vase timove nece uciniti uspesnijima,ali ce poboljstai vase iskustvo igranja i uciniti Xpert Eleven jos zabavnijim.</value>
+  </data>
+  <data name="Label39.Text" xml:space="preserve">
+    <value>Sledeće stvari su uključene u VIP članstvu</value>
+  </data>
+  <data name="HyperLink9.Text" xml:space="preserve">
+    <value>(proširi sve)</value>
+  </data>
+  <data name="HyperLink9.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Grb kluba</value>
+  </data>
+  <data name="Label4.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Možete postaviti grb vašeg kluba za sve vaše timove. Grb će biti postavljen na našem serveru kroz vašu stranicu za preuređivanje tima. Slika mora biti ili JPG ili GIF i ne može preći 15kb u veličini. Maksimalna visina slike je 150px i dužina 125px. Grb kluba će biti prikazan na timskoj stranici gde je prikazan i glavni sponzor sa svojim grbom. </value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>Uvek puna kvota za timove</value>
+  </data>
+  <data name="Label24.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>Kao VIP član, uvek ćete imati punu kvotu za timove bez obzira koliko ste dugo član na ovom sajtu ili koliko vam je veliki Xpert nivo. To znači da vam je dozvoljeno da imate tim u jednog Xpert ligi, 3 privatne lige i 2 lično osnovane lige. </value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>  Xpert Eleven na WAP</value>
+  </data>
+  <data name="Label3.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Kada postanete VIP član dobićete mogućnost prijavljivanja na Xpert Eleven pomoću mobilnog telefona. Možete proveriti rezultate utakmica, da izaberete svoj tim, da izaberete svoje taktike, itd. Ova opcija može biti korisna ukoliko iz bilo kog razloga nemate računar kada imate neki veoma važan meč. Adresa na internetu za ovu mogućnost je wap.xperteleven.com.&lt;br&gt;&lt;br&gt; Možete proveriti da li ova opcija radi time što ćete se prijaviti kao ' gost ( guest ) ' sa istom šifrom ( guest ). Ako ovo radi onda ćete moći da koristite ovo kad postanete VIP član.</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Ručno izrađene majice</value>
+  </data>
+  <data name="Label7.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Kao VIP član, možete napraviti svoje lične dresove i postaviti ih na našem serveru. Ovo može da se odradi na stranici za podešavanja. Ako ne želite ili ne znate kako da napravite svoje majice, možete izabrati jednu od već napravljenih majica od strane drugih članova. Te majice možete pronaći preko linka koji se nalazi na stranici za podešavanja tima. </value>
+  </data>
+  <data name="Image1.ImageUrl" xml:space="preserve">
+    <value>graphics/shirtbanner.gif</value>
+  </data>
+  <data name="hplShirts.Text" xml:space="preserve">
+    <value>Pogledaj majice koje su omogućene sada</value>
+  </data>
+  <data name="hplShirts.NavigateUrl" xml:space="preserve">
+    <value>shirts.aspx?Pub=1</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Dodatne statistike igrača</value>
+  </data>
+  <data name="Label9.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Kao VIP dobićete mogućnost da pogledate više statističkih informacija o igračima. Tu ćete moći da vidite koji su igrači postigli najviše golova, imali najviše poena, asistencija, itd. Ova statistika nije samo za vašu zonu nego i za diviziju kao i za ligu. Možete isto tako da vidite i statistiku za različite pozicije u timu. Naprimer, možete videti koji je odbrambeni igrač postigao najviše golova itd. Dodatni podatci isto tako pokazuju i najveštijeg igrača kao i igrača koji je pokazao najbolje u timu.</value>
+  </data>
+  <data name="hplTestVipStats.Text" xml:space="preserve">
+    <value>Proverite stranu za dodatnu statistiku</value>
+  </data>
+  <data name="hplTestVipStats.NavigateUrl" xml:space="preserve">
+    <value>vipStats.aspx?Lid=1&amp;Sel=P&amp;Lnr=0&amp;dh=2</value>
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>Statistike kluba</value>
+  </data>
+  <data name="Label30.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>Kao VIP član možete dobiti statistiku igrača iz vašeg tima kao i ostalih timova u ligi. Možete isto tako videti statistiku timskih najboljih postavki kao ceo tim ili za poseban deo tima. Isto tako postoje statistike kao što su mečevi sa najviše golova, najveće pobede i najveći porazi. &lt;br&gt;&lt;br&gt;Isto tako možete pogledati pregled timskih utakmica i pogledati pregled statistika u vezi pogodaka vašeg tima kao i primljenih golova kao i takođe u kom vremenu u utakmicu vaš tim daje golove i u kojim prima. Isto tako možete videti koji je omiljeni protivnik kao i najgori protivnik vašeg tima. </value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>Statistika kupa</value>
+  </data>
+  <data name="Label32.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>Kao VIP član imate dostup statistikama kup turnira ako vaša liga ima kup. Tu ćete moći da vidite koji igrači su postigli najviše golova, asistencija i ostale statistike u kup mečevima. Možete videti statistiku za trenutno kup takmičenje ili za sve sezone. </value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>Statistika tima</value>
+  </data>
+  <data name="Label34.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>Kao VIP član imaćete pristup statistikama timova u ligi. Na primer:&lt;br&gt;Koji je tim najbolji ili najgori na papiru po kvalitetu igrača? &lt;br&gt;Koji tim je najbogatiji tj. najsiromašniji ( bez pogleda na pravu sumu novca koju tim poseduje )&lt;br&gt;Koji tim ima najjaču tj. najslabiju formu ?&lt;br&gt;Koji tim ima najveći tj. najmanji prosek godina u sastavu ?&lt;br&gt;Koji tim je odigrao najbolju utakmicu što se tiče specifičnog meča ili u proseku, za tim kao celinu ili samo za jedan deo tima (odbrana, sredina, napad), kada tim igra kući ili sa strane</value>
+  </data>
+  <data name="hplTestVipTeamStats.Text" xml:space="preserve">
+    <value>Proveri timsku statistiku</value>
+  </data>
+  <data name="hplTestVipTeamStats.NavigateUrl" xml:space="preserve">
+    <value>vipStatsTeam.aspx?Lid=1&amp;Sel=E&amp;Lnr=0&amp;Desc=1&amp;dh=2</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>VIP lige sa dodatnim danom za odigravanje kup mečeva</value>
+  </data>
+  <data name="Label13.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Ako su svi igrači u ligi VIP članovi možete da napravite kup turnir iako liga ima dve utakmice u nedelji. Takođe, možete dobiti i dodatni dan za prijateljske utakmice. Ako je liga samo za VIP članove, onda će samo VIP članovi moći da se učlane u tu ligu.</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>  Više omiljenih timova i više mogućnosti za praćenje omiljenih timova.</value>
+  </data>
+  <data name="Label17.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value> Kao VIP član, možete imati do 50 omiljenih timova umesto 3. Dobićete informacije o bilo kojoj press konferenciji koju je taj tim napisao, bilo kojem novom igraču kojeg je tim kupio ili prodao. Ovo je veoma korisno ako imate tim u Xpert ligi ili nekoj većoj ligi gde je veoma teško pratiti ono što se dešava sa vašim omiljenim timovima ili menadžerima koje želite da pratite bolje.</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>Analiza forme</value>
+  </data>
+  <data name="Label20.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>Ova stvar vam omogućuje da lakše pratite promenu forme u vašim igračima uz pomoć grafičkog prikaza trenutne forme. Grafički prikaz pokazuje igračevih zadnjih 6 promena forme. Crvena linija pokazuje kako se igračeva forma menja dok horizontalna zlatna linija pokazuje igračev prosek za trenutnu sezonu.</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>Grb lige</value>
+  </data>
+  <data name="Label22.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>Ako ste VIP član i ako ste administrator lige možete da postavite grb lige. Grb će biti prikazan na stranici informacija za ligu, na stranici gde je tabela lige kao i na prezentaciji lige kada neko traži vašu ligu. Grb lige ne sme da pređe preko 400 px u širini i 80 px u dužini kao i 15KB u veličini.</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Beleške</value>
+  </data>
+  <data name="Label2.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="lblF1.Text" xml:space="preserve">
+    <value>Kao VIP član bićete u prilici da vidite mali simbol koji predstavlja malu belešku na dnu stranice pored dresa tima. Ako odete na tu belešku, mali prozor će se otvoriti i tu ćete moći da napravite i sačuvate bilo kakve beleške. Možete sačuvati vaše beleške o vašem timu ili neke beleške uopšte. Ovo je veoma upotrebljivo ako ste administrator lige ali isto tako može biti veoma korisno i ako vodite tim.</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Dodatne opcije u " Utakmici "</value>
+  </data>
+  <data name="Label26.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>
+      Kao VIP clan imate pristup dodatnim opcijama u " Utakmici "&lt;br&gt;&lt;br&gt;
+      -Trenutno stanje na tabeli&lt;br&gt;
+      Sa ovim mozete da proverite trenutno stanje na tabeli u vasoj zoni.&lt;br&gt;&lt;br&gt;
+      -Pregled taktika&lt;br&gt;
+      Ova opcija ce vam dati priliku da pogledate taktike vaseg protivnika kao i vase taktike.&lt;br&gt;&lt;br&gt;
+      -Pregled ostalih meceva&lt;br&gt;
+      Ovo ce vam dati priliku da pogledate ostale meceve koji se igraju u tom momentu u ligi. Ako je ovo ligaska utakmica, mocicete da pratite utakmice koje se igraju u vasoj zoni. Mozete da pratite ukupno sest meceva u isto vreme koje vi sami mozete da izaberete. Ovo je veoma dobra stvar ako zelite da pratite meceve vasih prijatelja kluba. Ukoliko igrate kup utakmicu, mocicete da gledate ostale meceve koji se igraju u toj rundi. Ako vasi prijatelji kluba igraju u kupu, njihove utakmice ce se prikazati prve.&lt;br&gt;&lt;br&gt;
+      -Graficki prikaz poseda lopte&lt;br&gt;
+      Ova opcija ce vam dati mogucnost grafickog prikaza poseda lopte tokom utakmice.&lt;br&gt;&lt;br&gt;
+      Trenutno stanje na tabeli, pregled ostalih meceva i graficki prikaz poseda lopte se azurira automatski tokom utakmice.
+    </value>
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>Ako gledate kup utakmicu u ' Utakmici ', tekst TV će pokazati ostale mečeve u trenutnoj rundi. Ako su vaši omiljeni timovi i dalje u kupu, ti timovi će biti prikazani pre svih ali isto tako imate mogućnost da pratite i ostale mečeve. Kao dodatak za tekst TV možete pogledati i taktički izveštaj ako ste menadžer jednog od tih timova koji su odigrali meč.</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>Pregled sastava ostalih timova i ocenu svih igrača koji su igrali</value>
+  </data>
+  <data name="Label28.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>Svi mogu da vide njihov sastav sa ocenama svakog igrača koji je igrao. Kao VIP član imate dostup svim timovima u ligi. Možete otići na ' zadnji sastav ' u timskom meniju.</value>
+  </data>
+  <data name="Label46.Text" xml:space="preserve">
+    <value>Ankete u diskusijama</value>
+  </data>
+  <data name="Label46.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label45.Text" xml:space="preserve">
+    <value>Kao VIP član imate mogućnost da napravite ankete u diskusijama. Anketa će biti postavljena u vrhu teme. Anketa možete imati do osam ponuđenih opcija.</value>
+  </data>
+  <data name="Label48.Text" xml:space="preserve">
+    <value>Poređenje timova.</value>
+  </data>
+  <data name="Label48.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label47.Text" xml:space="preserve">
+    <value>Ako ste VIP član imate pristup možete usporediti dva tima. U utakmicama kao i u anketama moćićete da vidite lupu (&lt;a href="compareTeam.aspx?ATeamID=3258&amp;BTeamID=13096"&gt;&lt;img src="graphics/mag_glass.gif" border="0"&gt;&lt;/a&gt;) pored rezultata svakog meča. Takođe ćete moći da nađete link za poređenje tima sa ostalim timovima u meniju tima i sa stranice gde su izlistani vaši omiljeni timovi. Odlaskom na lupu možete videti poređenje između dva tima ili između tima kojeg gledate i vašeg tima u ligi. Možete videti mečeve odigrane između dva tima kao i kratak sadržaj statistike tih mečeva.</value>
+  </data>
+  <data name="Hyperlink1.Text" xml:space="preserve">
+    <value>Isprobaj poređenje timova</value>
+  </data>
+  <data name="Hyperlink1.NavigateUrl" xml:space="preserve">
+    <value>compareTeam.aspx?ATeamID=3258&amp;BTeamID=13096&amp;dh=1</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>Proširene opcije pretrage</value>
+  </data>
+  <data name="Label50.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>Opcije za pretragu za menadžere su povećena sa VIP članstvom. VIP menadžeri mogu isto tako da rangiraju rezultate pretrage posle ranga menadžera.</value>
+  </data>
+  <data name="Hyperlink2.Text" xml:space="preserve">
+    <value>Dozvole za pisanje u knjizi gostiju</value>
+  </data>
+  <data name="Hyperlink2.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Svi menadžeri imaju knjigu gostiju ali samo VIP menadžeri imaju dozvolu da pišu u knjigama gostiju.</value>
+  </data>
+  <data name="Hyperlink3.Text" xml:space="preserve">
+    <value>Bez limita za broj kontakta</value>
+  </data>
+  <data name="Hyperlink3.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Vip menadžeri imaju beskonačan broj kontakta u profilu dok regularni menadžeri imaju mogućnost za samo 5 osoba</value>
+  </data>
+  <data name="Hyperlink4.Text" xml:space="preserve">
+    <value>Direktni transferi</value>
+  </data>
+  <data name="Hyperlink4.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label36.Text" xml:space="preserve">
+    <value>Direktni transferi su mogući samo VIP članovima. Direktni transfer je transfer sistem gde jedan menadžer kupi direktno od menadžera u drugom klubu u toj ligi bez ikakvog učestvovanja od strane menadžera. Svaka liga odlučuje da li želi da direktni transferi postoje ili ne. Mogućnost direktnih transfera ne postoji u Xpert ligama. </value>
+  </data>
+  <data name="Hyperlink5.Text" xml:space="preserve">
+    <value> Tabela za zadnjih 5 utakmica</value>
+  </data>
+  <data name="Hyperlink5.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>VIP član ima mogućnost da vidi opciju ' Zadnjih 5 ' uz već postavljene opcije ' Ukupno ', ' Domaći ',  ' Gosti ' na stranici gde se nalazi tabela lige. Ova opcija je bazirana na zadnjih 5 utakmica u ligi. Da bi ovo bilo moguće i da bi mogli da vidite opciju ' Zadnjih 5 ', minimum 6 kola treba da se odigra u ligi u trenutnoj sezoni pošto u ostalim slučajevima ta opcija nema nikakvu funkciju. </value>
+  </data>
+  <data name="Hyperlink6454.Text" xml:space="preserve">
+    <value> Avatar </value>
+  </data>
+  <data name="Hyperlink6454.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label528989.Text" xml:space="preserve">
+    <value>VIP član ima mogućnost postavljanja avatara. Avatar je mala slika koja predstavlja profil VIP člana. Avatar je prikazan na različitim stranama u igri. Moguće je postaviti slike koje su u .gif ili .jpg formatu. Slika ne sme da pređe 10kb u veličini dok maksimalna dužina i širina slike ne smeju da pređu 80px.</value>
+  </data>
+  <data name="Hyperlink6.Text" xml:space="preserve">
+    <value>Šema lige</value>
+  </data>
+  <data name="Hyperlink6.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>VIP članovi imaju mogućnost postavljanja šeme lige za svaku zonu u ligi. Šema lige pokazuje timske pozicije izabranih timova u zoni tokom sezone. Možete izabrate koje šeme želite da budu prikazane u dijagramu. Možete izabrati od jednog do osam timova.</value>
+  </data>
+  <data name="Hyperlink7.Text" xml:space="preserve">
+    <value>Grafički prikaz klupske istorije</value>
+  </data>
+  <data name="Hyperlink7.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Ako ste VIP član imate mogućnost da vidite klupske zasluge postavljenje u grafičkom izgledu. Šema će biti pregledljiva ako je klub igrao u takmičarskim mečevima najmanje 2 sezone. Ako je ligaška sezona u toku, trenutna pozicija kluba u ligi će biti prikazana u šemi sa tačkastom svetlo plavom linijom. </value>
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>Ako ste VIP član sada imate priliku da pogledate i grafički prikaz klupskih zasluga i u kup utakmicama. Šema će biti vidljiva ako klub bude učestvovao u kup takmičenju najmanje dve sezone.</value>
+  </data>
+  <data name="Hyperlink8.Text" xml:space="preserve">
+    <value>Lista pregleda na transfer marketu</value>
+  </data>
+  <data name="Hyperlink8.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label55.Text" xml:space="preserve">
+    <value>VIP članovi imaju mogućnost da sačuvaju pretragu na transfer marketu kao listu pregleda. Lista pregleda će biti dostupna u periodu od tri nedelje i tokom te tri nedelje lista će čekirati za VIP člana ukoliko postoji neki igrač koji se slaže sa kriterijumima pretrage i ako se neki igrač nađe, VIP član će dobiti pismo u vezi toga. </value>
+  </data>
+  <data name="Hyperlink10.Text" xml:space="preserve">
+    <value>Dinamički izveštaj promena</value>
+  </data>
+  <data name="Hyperlink10.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label56.Text" xml:space="preserve">
+    <value>VIP članovi mogu, kada pregledaju izveštaj promena, da odluče ako žele da vide kompletan izveštaj promena ili ako žele da pogleda izveštaj promena kod svakog igrača posebno.</value>
+  </data>
+  <data name="Hyperlink11.Text" xml:space="preserve">
+    <value>Promena imena igrača</value>
+  </data>
+  <data name="Hyperlink11.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>VIP članovi imaju mogućnost da promene imena igrača jednom u svom timu koji nije igrao u ni jednom drugom klubu i ako je administrator lige dozvolio promenu imena. Ovo je dostupno samo u privatnim ligama. </value>
+  </data>
+  <data name="Hyperlink12.Text" xml:space="preserve">
+    <value>Potpis u forumima</value>
+  </data>
+  <data name="Hyperlink12.NavigateUrl" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Label38.Text" xml:space="preserve">
+    <value>Kao VIP član imate mogućnost ličnog potpisa na diskusijama. </value>
+  </data>
+  <data name="Label37.Text" xml:space="preserve">
+    <value>Cene i opcije za plaćanje</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>Možete kupiti VIP pakete u &lt;a href="x11store.aspx?lang=[LANG]"&gt;Xpert Shop&lt;/a&gt;-u. VIP članstvo je moguće u različita vremenka perioda sa sledećim cenama: 
+
+&lt;br&gt;&lt;br&gt;1 mesec košta &lt;b&gt;3,5 EUR&lt;/b&gt;&lt;br&gt;3 meseca &lt;b&gt;8 EUR&lt;/b&gt;
+&lt;br&gt;6 meseca &lt;b&gt;14 EUR&lt;/b&gt;
+&lt;br&gt;12 meseci&lt;b&gt;24 EUR&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Ako ste već VIP član, vaš kupljeni vremenski period će biti dodat na vaš trenutni broj dana.
+</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Samo kao obaveštenje da VIP cene mogu da variraju u zavisnosti od metode plaćanja.</value>
+  </data>
+  <data name="Label306.Text" xml:space="preserve">
+    <value>Metode plaćanja</value>
+  </data>
+  <data name="Image2.ToolTip" xml:space="preserve">
+    <value>Mastercard</value>
+  </data>
+  <data name="Image2.ImageUrl" xml:space="preserve">
+    <value>images/mcLogo.gif</value>
+  </data>
+  <data name="Image11.ToolTip" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Image11.ImageUrl" xml:space="preserve">
+    <value>images/visaLogo.gif</value>
+  </data>
+  <data name="Image12.ToolTip" xml:space="preserve">
+    <value>Diners Club</value>
+  </data>
+  <data name="Image12.ImageUrl" xml:space="preserve">
+    <value>images/dinersLogo.gif</value>
+  </data>
+  <data name="iBankgiro.ToolTip" xml:space="preserve">
+    <value>Bankgiro (samo u Švedskoj)</value>
+  </data>
+  <data name="iBankgiro.ImageUrl" xml:space="preserve">
+    <value>images/bgLogo.gif</value>
+  </data>
+  <data name="Image3.ToolTip" xml:space="preserve">
+    <value>Viatel (samo u Švedskoj)</value>
+  </data>
+  <data name="Image3.ImageUrl" xml:space="preserve">
+    <value>images/viatelLogo.gif</value>
+  </data>
+  <data name="iPayPal.ToolTip" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="iPayPal.ImageUrl" xml:space="preserve">
+    <value>images/ppLogo.gif</value>
+  </data>
+  <data name="Image4.ToolTip" xml:space="preserve">
+    <value>Wallie karta</value>
+  </data>
+  <data name="Image4.ImageUrl" xml:space="preserve">
+    <value>images/wallieLogo2.gif</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Informacije u vezi svake opcije plaćanje možete naći u  &lt;a href="x11store.aspx?lang=[LANG]"&gt;Xpert Shop&lt;/a&gt;-u.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <assembly alias="System" name="System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hyperlink13.Text" xml:space="preserve">
+    <value> Odigrane utakmice u tabeli</value>
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value> VIP clanovi mogu sa lakocom videti kako su se njihove odiarne utakmice zavrsile u tekucoj sezoni,kako kod kuce tako i na strani.Crrvena strelica na dole predstavlja poraz,zelena strelica na gore predstavlja pobedu,a crna lopta neresen ishod.Ova opcija vam daje pregled vasih odigranih meceva i takodje vam ukazeuje na meceve koji predstoje.</value>
+  </data>
+  <data name="Hyperlink14.Text" xml:space="preserve">
+    <value>Napravljene meni ikone</value>
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>VIP clanovi imaju mogucnost da promene ikone na meniju unutar lige. Ikone rade kao skraceni put do omiljenih stranica na Xpert Eleven-u. VIP clanovi imaju veliki broj ikona/skracenica koje mogu da izaberu.</value>
+  </data>
+</root>

@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLeagueNameBig.Text">
+    <value />
+  </data>
+  <data name="lblLeagueNameBig.ToolTip">
+    <value />
+  </data>
+  <data name="imgLogo.ToolTip">
+    <value />
+  </data>
+  <data name="imgLogo.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomePage.Text">
+    <value>Glavna stranica lige</value>
+  </data>
+  <data name="hplHomePage.ToolTip">
+    <value />
+  </data>
+  <data name="hplHomePage.ImageUrl">
+    <value />
+  </data>
+  <data name="hplHomePage.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblLeagueID.Text">
+    <value>ID lige:</value>
+  </data>
+  <data name="lblLeagueID.ToolTip">
+    <value />
+  </data>
+  <data name="txt_SearchedLeagueID.Text">
+    <value />
+  </data>
+  <data name="txt_SearchedLeagueID.ToolTip">
+    <value />
+  </data>
+  <data name="lblLeagueNameStatic.Text">
+    <value>Ime lige:</value>
+  </data>
+  <data name="lblLeagueNameStatic.ToolTip">
+    <value />
+  </data>
+  <data name="txt_leaguename.Text">
+    <value />
+  </data>
+  <data name="txt_leaguename.ToolTip">
+    <value />
+  </data>
+  <data name="lblTopDivision.Text">
+    <value>Ime najbolje lige:</value>
+  </data>
+  <data name="lblTopDivision.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopDivision.Text">
+    <value />
+  </data>
+  <data name="hplTopDivision.ToolTip">
+    <value />
+  </data>
+  <data name="hplTopDivision.ImageUrl">
+    <value />
+  </data>
+  <data name="hplTopDivision.NavigateUrl">
+    <value />
+  </data>
+  <data name="lblLeagueBoss.Text">
+    <value>Administrator lige:</value>
+  </data>
+  <data name="lblLeagueBoss.ToolTip">
+    <value />
+  </data>
+  <data name="hplLeagueBoss.Text">
+    <value />
+  </data>
+  <data name="hplLeagueBoss.ToolTip">
+    <value />
+  </data>
+  <data name="hplLeagueBoss.ImageUrl">
+    <value />
+  </data>
+  <data name="hplLeagueBoss.NavigateUrl">
+    <value />
+  </data>
+  <data name="hplBossMail.Text">
+    <value>Stupite u kontakt sa administratorom</value>
+  </data>
+  <data name="hplBossMail.ToolTip">
+    <value />
+  </data>
+  <data name="hplBossMail.ImageUrl">
+    <value>images/mailFixed.gif</value>
+  </data>
+  <data name="hplBossMail.NavigateUrl">
+    <value>mail.aspx?mailbox=newMail&amp;global=1</value>
+  </data>
+  <data name="lblRankStatic.Text">
+    <value>Procena lige:</value>
+  </data>
+  <data name="lblRankStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblRank.Text">
+    <value />
+  </data>
+  <data name="lblRank.ToolTip">
+    <value />
+  </data>
+  <data name="lblRankingStatic.Text">
+    <value>Rangiranje:</value>
+  </data>
+  <data name="lblRankingStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblRanking.Text">
+    <value />
+  </data>
+  <data name="lblRanking.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAgeStatic.Text">
+    <value>Prosek godina:</value>
+  </data>
+  <data name="lblAvgAgeStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblAvgAge.Text">
+    <value />
+  </data>
+  <data name="lblAvgAge.ToolTip">
+    <value />
+  </data>
+  <data name="lblCreatedStatic.Text">
+    <value>Dan postanka:</value>
+  </data>
+  <data name="lblCreatedStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblCreated.Text">
+    <value />
+  </data>
+  <data name="lblCreated.ToolTip">
+    <value />
+  </data>
+  <data name="lblSeasonstartStatic.Text">
+    <value>Dan početka sezone:</value>
+  </data>
+  <data name="lblSeasonstartStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblSeasonStart.Text">
+    <value />
+  </data>
+  <data name="lblSeasonStart.ToolTip">
+    <value />
+  </data>
+  <data name="lblSeasonEndStatic.Text">
+    <value>Dan kraja sezone:</value>
+  </data>
+  <data name="lblSeasonEndStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblSeasonEnd.Text">
+    <value />
+  </data>
+  <data name="lblSeasonEnd.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoActiveTeams.Text">
+    <value>Broj aktivnih timova:</value>
+  </data>
+  <data name="lblNoActiveTeams.ToolTip">
+    <value />
+  </data>
+  <data name="txtNoActiveTeams.Text">
+    <value />
+  </data>
+  <data name="txtNoActiveTeams.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoTeams.Text">
+    <value>Ukupan broj timova:</value>
+  </data>
+  <data name="lblNoTeams.ToolTip">
+    <value />
+  </data>
+  <data name="txtNoTeams.Text">
+    <value />
+  </data>
+  <data name="txtNoTeams.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoVIPStatic.Text">
+    <value>Broj VIP timova:</value>
+  </data>
+  <data name="lblNoVIPStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoVIP.Text">
+    <value />
+  </data>
+  <data name="lblNoVIP.ToolTip">
+    <value />
+  </data>
+  <data name="lblLeagueType.Text">
+    <value>Vrsta lige:</value>
+  </data>
+  <data name="lblLeagueType.ToolTip">
+    <value />
+  </data>
+  <data name="txtLeagueType.Text">
+    <value />
+  </data>
+  <data name="txtLeagueType.ToolTip">
+    <value />
+  </data>
+  <data name="lblStatusStatic.Text">
+    <value>Status:</value>
+  </data>
+  <data name="lblStatusStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblStatus.Text">
+    <value />
+  </data>
+  <data name="lblStatus.ToolTip">
+    <value />
+  </data>
+  <data name="lblDirtyStatic.Text">
+    <value>Priljavi trikovi:</value>
+  </data>
+  <data name="lblDirtyStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblDirty.Text">
+    <value />
+  </data>
+  <data name="lblDirty.ToolTip">
+    <value />
+  </data>
+  <data name="lblDirectTransferStatic.Text">
+    <value>Direktni transferi:</value>
+  </data>
+  <data name="lblDirectTransferStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblDirectTransfer.Text">
+    <value />
+  </data>
+  <data name="lblDirectTransfer.ToolTip">
+    <value />
+  </data>
+  <data name="lblNameChangesStatic.Text">
+    <value>Promena imena:</value>
+  </data>
+  <data name="lblNameChangesStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblNameChanges.Text">
+    <value />
+  </data>
+  <data name="lblNameChanges.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoDivsStatic.Text">
+    <value>Broj divizija:</value>
+  </data>
+  <data name="lblNoDivsStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblNoDivs.Text">
+    <value />
+  </data>
+  <data name="lblNoDivs.ToolTip">
+    <value />
+  </data>
+  <data name="lblGameDaysStatic.Text">
+    <value>Dani za igranje:</value>
+  </data>
+  <data name="lblGameDaysStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblGameDays.Text">
+    <value />
+  </data>
+  <data name="lblGameDays.ToolTip">
+    <value />
+  </data>
+  <data name="lblGameTimeOfDayStatic.Text">
+    <value>Vreme odigravanja:</value>
+  </data>
+  <data name="lblGameTimeOfDayStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblGameTimeOfDay.Text">
+    <value />
+  </data>
+  <data name="lblGameTimeOfDay.ToolTip">
+    <value />
+  </data>
+  <data name="lblPreBoughtStatic.Text">
+    <value>Otkupljeno VIP članstvo:</value>
+  </data>
+  <data name="lblPreBoughtStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblPreBought.Text">
+    <value />
+  </data>
+  <data name="lblPreBought.ToolTip">
+    <value />
+  </data>
+  <data name="lblSetPreBought.Text">
+    <value>VIP nagrade:</value>
+  </data>
+  <data name="lblSetPreBought.ToolTip">
+    <value />
+  </data>
+  <data name="lblDemographyStatic.Text">
+    <value>Demografija lige:</value>
+  </data>
+  <data name="lblDemographyStatic.ToolTip">
+    <value />
+  </data>
+  <data name="lblDemography.Text">
+    <value />
+  </data>
+  <data name="lblDemography.ToolTip">
+    <value />
+  </data>
+  <data name="lblLeagueInfo.Text">
+    <value />
+  </data>
+  <data name="lblLeagueInfo.ToolTip">
+    <value />
+  </data>
+  <data name="btn_registerTeam.Text">
+    <value>Apliciraj za tim u ovoj ligi</value>
+  </data>
+  <data name="btn_registerTeam.ToolTip">
+    <value />
+  </data>
+  <data name="btnReJoin.Text">
+    <value>Vrati se u ligu</value>
+  </data>
+  <data name="btnReJoin.ToolTip">
+    <value />
+  </data>
+  <data name="Label1.Text">
+    <value>Slobodni timovi</value>
+  </data>
+  <data name="Label1.ToolTip">
+    <value />
+  </data>
+  <data name="Label2.Text">
+    <value>&lt;br&gt;&lt;b&gt;
+																							Obaveštenje!&lt;/b&gt; Ako želite više informacije u vezi nekog od timova, možete da kliknete da ime tima!</value>
+  </data>
+  <data name="Label2.ToolTip">
+    <value />
+  </data>
+  <data name="lblInfo.Text">
+    <value />
+  </data>
+  <data name="lblInfo.ToolTip">
+    <value />
+  </data>
+  <data name="lbl_ErrMess.Text">
+    <value />
+  </data>
+  <data name="lbl_ErrMess.ToolTip">
+    <value />
+  </data>
+  <data name="Localizer1.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="Localizer1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+</root>
