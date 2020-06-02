@@ -1,0 +1,28 @@
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+<h1> Wikipedia Viewer </h1>
+
+<div class="col-md-12">
+  <div class="container-fluid">
+    
+    <div class="row text-center" id="searchbar"> 
+      <form action="/search" id="search_form">
+  <input id="search_box" type="text" placeholder=" Search for..."  value="">
+          <button id="searchButton" type="button" type="submit">Search</button>
+          <button id="randomButton" type="button">Show Random Article</button>
+       
+</form>
+     </div>
+    
+    <div id="searchResults">
+    </div>
+    
+   <div class="container-fluid">
+     
+<iframe src="" id="randomResults" class="randomResults" scrolling="yes" frameborder="0">
+Random article
+</iframe>
+
+    </div>
+  </div>
+</div>
