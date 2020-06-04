@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>
+        Exercise Tracker by BoCode</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body class ="text-center">
+         <h1>Exercise tracker</h1>
+          <form action="/api/exercise/new-user" method="post">
+            <h3>Create a New User</h3>
+            <input id="uname" type="text" name="username" placeholder="username">
+            <input type="submit" value="Register new user">
+          </form>
+          <form action="/api/exercise/add" method="post">
+            <h3>Add exercises</h3>
+            <input id="uid" type="text" name="userId" placeholder="userId*">
+            <input id="desc" type="text" name="description" placeholder="description*">
+            <input id="dur" type="text" name="duration" placeholder="duration* (mins.)">
+            <input id="dat" type="text" name="date" placeholder="date (yyyy-mm-dd)">
+            <input type="submit" value="Submit your exercise">
+        </form>
+        <center>
+        <p>
+          To get your exercise log, in your browser type the following address<br>
+          <code>https://bocode-exercise-tracker.glitch.me/api/exercise/log?{userid}</code><br>
+        </p>
+          <p>
+            Additionally, you can also expend your search by typing the date range, which is optional<br><br><br>              
+       To get user's exercise log, type following:<br>
+            <code>https://bocode-exercise-tracker.glitch.me/api/exercise/log?{userId}[&amp;from][&amp;to][&amp;limit]</code></p>
+          
+          <h2>
+            Required documents: 
+          </h2>
+          <p>
+            <h4>
+              <font color="red">userId</font>
+            </h4>
+          </p>
+          
+          <h2>
+              Optional documents: 
+          </h2>
+     <p>
+       <h4>
+          <font color="yellow">Date range (from, to)</font>
+      </h4>     (Date should be in format yyyy-mm-dd) 
+     </p>
+  <p>
+    <h4>
+      <font color="yellow">Limit</font>
+  </h4> (Number)
+  </p>   
+  
+  </center>
+   </body>
+
+</html>
