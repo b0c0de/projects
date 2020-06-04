@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>File Metadata Microservice by BoCode</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+
+      <div class="container">
+        <h2>API Project: File Metadata Microservice</h2>        
+        
+        <h3>Usage:</h3>
+        <p>
+          Upload a file 
+        </p>
+        <p>
+          After uploading  file, you will receive information about the uploaded file in the following format<br>
+          <strong><font color="blue">{"name":"name of the file", "type":"type of file uploaded","size": size of the file in bytes}</font></strong>
+        </p>
+      <p>Example of the output:
+          <strong>
+          <code>{"name":"boss.png","type":"image/png","size":46085}</code></strong></p>
+        <div class="view">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <input id="inputfield" type="file" name="upfile">
+            <input id="button" type="submit" value="Upload">
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Coded by <a href="https://github.com/BoCode84" target="_blank">BoCode</a> for  
+          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+        </p>
+      </div>
+   </body>
+
+
+</html>
