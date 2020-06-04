@@ -4,8 +4,6 @@
 
 ### Usage:
 
-Upload a file
-
 After uploading file, you will receive information about the uploaded file in the following format  
 **<font color="blue">{"name":"name of the file", "type":"type of file uploaded","size": size of the file in bytes}</font>**
 
