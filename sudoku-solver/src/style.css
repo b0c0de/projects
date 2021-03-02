@@ -42,13 +42,13 @@ button, h1 {
 }
 
 .sudoku-container .sudoku-input-error {
-	background: #ffc9d7;
+	background: #A91515;
 }
 .sudoku-container.valid-matrix {
-	border: 5px solid #7edb37;
+	border: 5px solid #E72525;
 }
 
 
 .sudoku-section-one {
-	background: #ccc;
+	background: #E72525;
 }
