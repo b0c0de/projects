@@ -1,7 +1,7 @@
 {
   "name": "fcc-learn-npm-package-json",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^2.6.4",
     "express": "^4.17.1",
     "mongodb": "^3.5.8"
   },
