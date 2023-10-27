@@ -1,4 +1,4 @@
-#Java Script Exercise 
+Java Script Exercise 
 
 Your task is to write a new function that should be named combine and have the following characteristics:
 
