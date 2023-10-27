@@ -5,4 +5,13 @@
 
 //console.log("Hello"+"world");
 //console.log(userMessage);
-console.log (10 === 10);
+//console.log (10 === 10);
+function greet () {
+  console.log('Hello');
+}
+
+greet();
+greet();
+greet();
+greet();
+greet();
