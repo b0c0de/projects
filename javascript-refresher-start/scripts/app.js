@@ -1,7 +1,8 @@
 //console.log (util.apiKey);
 //console.log(content);
 
-let userMessage = "Hello World!!!";
+//let userMessage = "Hello World!!!";
 
-console.log(userMessage);
-console.log(userMessage);
+//console.log("Hello"+"world");
+//console.log(userMessage);
+console.log (10 === 10);
