@@ -50,3 +50,6 @@
 
 const hobbies = ["Sports", "cooking", "Reading"];
 console.log(hobbies[]);
+
+hobbies.push("Working");
+console.long(hobbies);
