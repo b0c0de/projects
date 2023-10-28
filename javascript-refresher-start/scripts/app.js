@@ -58,4 +58,4 @@ const index = hobbies.findIndex((item) => item === "Sports");
 
 console.log(index);
 
-hobbies.map((item) => );
+hobbies.map((item) => item + "!");
