@@ -53,3 +53,7 @@ console.log(hobbies[]);
 
 hobbies.push("Working");
 console.long(hobbies);
+
+hobbies.findIndex((item) => {
+  return item === 'Sports';
+}) 
