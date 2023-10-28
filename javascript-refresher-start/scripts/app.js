@@ -17,6 +17,7 @@
 
 //const greeting2 = createGreetng ("Manuel", "Hello, what's up?");
 //console.log(greeting2);
-export default () => {
+export default (userName, message) => {
   console.log('Hello');
+  return userName + message;
 }
