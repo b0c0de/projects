@@ -44,6 +44,6 @@
   //}
 //}
 
-const user1 = new User("Manuel", 35);
-console.log(user1);
-user1.greet();
+//const user1 = new User("Manuel", 35);
+//console.log(user1);
+//user1.greet();
