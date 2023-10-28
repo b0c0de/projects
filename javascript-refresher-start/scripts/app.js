@@ -57,3 +57,5 @@ console.long(hobbies);
 const index = hobbies.findIndex((item) => item === "Sports");
 
 console.log(index);
+
+hobbies.map((item) => );
