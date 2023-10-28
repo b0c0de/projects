@@ -54,8 +54,6 @@ console.log(hobbies[]);
 hobbies.push("Working");
 console.long(hobbies);
 
-const index = hobbies.findIndex((item) => {
-  return item === 'Sports';
-}) 
+const index = hobbies.findIndex((item) => item === "Sports");
 
 console.log(index);
