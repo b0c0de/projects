@@ -17,6 +17,6 @@
 
 //const greeting2 = createGreetng ("Manuel", "Hello, what's up?");
 //console.log(greeting2);
-export default function () {
+export default () => {
   console.log('Hello');
 }
