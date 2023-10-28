@@ -27,8 +27,9 @@ const user = {
   age: 34
   greet () {
     console.log("Hello!");
+    console.log(this.age);
   }
-}
+};
 
 console.log(user.name);
 user.greet();
