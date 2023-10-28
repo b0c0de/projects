@@ -48,5 +48,5 @@
 //console.log(user1);
 //user1.greet();
 
-const hobbie = ["Sports", "cooking", "Reading"]
+const hobbies = ["Sports", "cooking", "Reading"];
 console.log(hobbies[]);
