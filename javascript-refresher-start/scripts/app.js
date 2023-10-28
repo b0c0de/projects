@@ -15,6 +15,13 @@
 //const greeting1 = createGreeting ("Max");
 //console.log(greeting1);
 
+const user = {
+  name: 'Max',
+  age: 34
+}
+
+console.log(user.name);
+
 //const greeting2 = createGreetng ("Manuel", "Hello, what's up?");
 //console.log(greeting2);
 //export default (userName, message) => {
