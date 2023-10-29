@@ -74,7 +74,15 @@
   //age: 34
 //} ;
 
-console.log(username);
-console.log(age);
+//console.log(username);
+//console.log(age);
 //const name = user.name; 
 //const age = user.age;
+
+const hobbies = ["Sports", "Cooking"]; 
+const user = {
+  name: "Max", 
+  age: 34
+}; 
+
+const newHobbies = ["Reading"]
