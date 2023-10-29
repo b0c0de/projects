@@ -87,4 +87,5 @@ const user = {
 
 const newHobbies = ["Reading"]
 
-const mergedHobbies = [...hobbies];
+const mergedHobbies = [...hobbies, ...newHobbies];
+console.log(mergedHobbies);
