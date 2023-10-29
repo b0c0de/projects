@@ -48,15 +48,21 @@
 //console.log(user1);
 //user1.greet();
 
-const hobbies = ["Sports", "cooking", "Reading"];
-console.log(hobbies[]);
+//const hobbies = ["Sports", "cooking", "Reading"];
+//console.log(hobbies[]);
 
-hobbies.push("Working");
-console.long(hobbies);
+//hobbies.push("Working");
+//console.long(hobbies);
 
-const index = hobbies.findIndex((item) => item === "Sports");
+//const index = hobbies.findIndex((item) => item === "Sports");
 
-console.log(index);
+//console.log(index);
 
-const editedHobbies.map((item) => ({text: item}));
-console.log(editedHobbies);
+//const editedHobbies.map((item) => ({text: item}));
+//console.log(editedHobbies);
+
+const userNameData = ["Max", "Schwarzmuller"];
+
+const firstName = userNameData [0];
+const lastName = userNameData [1];
+
