@@ -79,20 +79,20 @@
 //const name = user.name; 
 //const age = user.age;
 
-const hobbies = ["Sports", "Cooking"]; 
-const user = {
-  name: "Max", 
-  age: 34
-}; 
+//const hobbies = ["Sports", "Cooking"]; 
+//const user = {
+ // name: "Max", 
+ // age: 34
+//}; 
 
-const newHobbies = ["Reading"]
+//const newHobbies = ["Reading"]
 
-const mergedHobbies = [...hobbies, ...newHobbies];
-console.log(mergedHobbies);
+//const mergedHobbies = [...hobbies, ...newHobbies];
+//console.log(mergedHobbies);
 
-const extendedUser = {
-  isAdmin: true, 
-  ...user
-}
+//const extendedUser = {
+  //isAdmin: true, 
+  //...user
+//}
 
-console.log(extendedUser);
+//console.log(extendedUser);
