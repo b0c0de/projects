@@ -61,8 +61,8 @@
 //const editedHobbies.map((item) => ({text: item}));
 //console.log(editedHobbies);
 
-const userNameData = ["Max", "Schwarzmuller"];
+const [firstName, lastName] = ["Max", "Schwarzmuller"];
 
-const firstName = userNameData [0];
-const lastName = userNameData [1];
+//const firstName = userNameData [0];
+//const lastName = userNameData [1];
 
