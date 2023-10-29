@@ -94,3 +94,5 @@ const extendedUser = {
   isAdmin: true, 
   ...user
 }
+
+console.log(extendedUser);
