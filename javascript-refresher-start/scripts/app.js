@@ -69,10 +69,12 @@
 //console.log(firstName);
 //console.log(lastName);
 
-const {name, age} = {
-  name: "Max",
-  age: 34
-} ;
+//const {name: userName, age} = {
+ // name: "Max",
+  //age: 34
+//} ;
 
+console.log(username);
+console.log(age);
 //const name = user.name; 
 //const age = user.age;
