@@ -89,3 +89,8 @@ const newHobbies = ["Reading"]
 
 const mergedHobbies = [...hobbies, ...newHobbies];
 console.log(mergedHobbies);
+
+const extendedUser = {
+  isAdmin: true, 
+  ...user
+}
