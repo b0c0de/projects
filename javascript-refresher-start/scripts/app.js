@@ -86,3 +86,5 @@ const user = {
 }; 
 
 const newHobbies = ["Reading"]
+
+const mergedHobbies = [...hobbies];
