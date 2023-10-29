@@ -69,10 +69,10 @@
 //console.log(firstName);
 //console.log(lastName);
 
-const user = {
+const {name, age} = {
   name: "Max",
   age: 34
 } ;
 
-const name = user.name; 
-const age = user.age;
+//const name = user.name; 
+//const age = user.age;
