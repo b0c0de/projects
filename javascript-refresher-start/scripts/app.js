@@ -96,6 +96,10 @@
 //}
 
 //console.log(extendedUser);
+
+const password = prompt('Your password');
+
+
 if (10 === 10) {
   //.... 
 } else if (5 === 5) {
