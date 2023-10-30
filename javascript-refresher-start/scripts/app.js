@@ -96,3 +96,12 @@
 //}
 
 //console.log(extendedUser);
+if (10 === 10) {
+  //.... 
+} else if (5 === 5) {
+  //...
+} else if (2 === 2) {
+  //...
+} else {
+
+}
