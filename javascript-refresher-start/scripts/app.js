@@ -100,12 +100,12 @@
 const password = prompt('Your password');
 
 
-if (10 === 10) {
-  //.... 
-} else if (5 === 5) {
-  //...
+if (password === "Hello") {
+  console.log("Hello works");
+} else if (password === "hello") {
+  console.log("hello works");
 } else if (2 === 2) {
-  //...
+  console.log("Access not granted");
 } else {
 
 }
