@@ -109,3 +109,6 @@ if (password === "Hello") {
 } else {
 
 }
+
+const hobbies = ["Sports", "Cooking"];
+for (const ) {}
