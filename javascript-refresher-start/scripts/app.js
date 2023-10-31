@@ -126,4 +126,4 @@ cons handleTimeout2 = () => {
   console.log("Timed out ... again!");
 };  
 
-setTimeout(handleTimeout);
+setTimeout(handleTimeout, 2000);
