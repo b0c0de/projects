@@ -125,4 +125,5 @@ function handleTimeout() {
 cons handleTimeout2 = () => {
   console.log("Timed out ... again!");
 };  
-setTimeout();
+
+setTimeout(handleTimeout);
