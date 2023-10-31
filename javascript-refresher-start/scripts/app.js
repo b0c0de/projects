@@ -116,5 +116,11 @@
 //  console.log(hobby);
 //}
 
-const list = document.querySelector ("ul");
-list.remove();
+//const list = document.querySelector ("ul");
+//list.remove();
+
+function handleTimeout() {
+  console.log("Timed out");
+}
+cons handleTimeout2 = () => {};  
+setTimeout();
