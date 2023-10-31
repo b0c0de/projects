@@ -127,3 +127,10 @@ cons handleTimeout2 = () => {
 };  
 
 setTimeout(handleTimeout, 2000);
+
+
+function greeter (greetFn) {
+  greetFn();
+}
+
+greeter (() => console.log("Hi"));
