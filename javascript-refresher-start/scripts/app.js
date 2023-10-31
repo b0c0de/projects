@@ -142,4 +142,4 @@ function init() {
   greet();
 }
 
-greet(); 
+init(); 
